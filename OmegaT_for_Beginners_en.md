@@ -1,10 +1,13 @@
 # OmegaT for CAT Beginners
 
+[![hackmd-github-sync-badge](https://hackmd.io/j9iNkDmYTTufabqW1wmxaw/badge)](https://hackmd.io/j9iNkDmYTTufabqW1wmxaw)
+
+
 by Susan Welsh & Marc Prior
 
 ---
 
-![](https://i.imgur.com/VFBSriw.png)
+![cover](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/title.png)
 Translation and modification by Hiroshi Miura
 
 ---
