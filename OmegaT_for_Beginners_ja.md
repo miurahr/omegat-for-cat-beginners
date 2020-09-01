@@ -1,12 +1,15 @@
 # CATビギナーのためのOmegaT入門
 
+[![hackmd-github-sync-badge](https://hackmd.io/xL4ee8XjRrmuvRYzBhl08Q/badge)](https://hackmd.io/xL4ee8XjRrmuvRYzBhl08Q)
+
+
 by Susan Welsh & Marc Prior
 
 Translation and modification by Hiroshi Miura
 
 ---
 
-![](https://i.imgur.com/VFBSriw.png)
+![cover](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/title.png)
 Translation and modification by Hiroshi Miura
 
 ---
