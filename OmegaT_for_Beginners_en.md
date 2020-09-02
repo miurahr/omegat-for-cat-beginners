@@ -430,8 +430,14 @@ the main program, also described in the User’s Manual., but there are “worka
 
 # The OmegaT user group
 
-OmegaT has a friendly and helpful user group. Once you have joined, you can post questions there regarding OmegaT. 
-The group can be found at groups.yahoo.com/group/omegat.
-The group is hosted by Yahoo! OmT has moderated membership, i.e., your membership first has to be approved. 
-This is in order to prevent spammers accessing the group. To join, simply “Sign In” using your e-mail. 
+OmegaT has a friendly, helpful, and multilingual user group. Once you have joined, you can post questions there regarding OmegaT,
+which is a [recommended support channel](https://sourceforge.net/projects/omegat/lists/omegat-users).
+
+This is in order to prevent spammers accessing the group. To join, simply “Sign Up” using your e-mail. 
 You will be required to send a short message from which the moderator can tell that you are a genuine user and not a spammer.
+
+OmegaT is also present on several SNSs.
+
+- [Facebook](https://www.facebook.com/OmegaTOfficial)
+- [Twitter](https://twitter.com/OmegaTOfficial)
+- [Telegram](https://telegram.me/joinchat/IswSVw9XMwz0J-w9aoz5iA)
