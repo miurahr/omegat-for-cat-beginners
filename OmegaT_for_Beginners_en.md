@@ -13,7 +13,7 @@ by Susan Welsh, Marc Prior and Hiroshi Miura
 
 ## Copyright
 
-Copyright (c) 2014 Susan Welsh & Mark Prior
+Copyright (c) 2014 Susan Welsh & Mark Prior  \
 Copyright (c) 2020 Hiroshi Miura
 
 Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License,
@@ -181,7 +181,7 @@ You can close this window.
 
 
 Find your project in your file manager: it is a folder with the name of the project, containing the sub-folders
-***/dictionary,/glossary,/omegat,/source, /target***, and ***/tm***, and ***/glossary***.
+***/dictionary, /glossary, /omegat, /source, /target***, and ***/tm***.
 They are all empty. You will put your document to be translated into the ***/source*** folder; 
 the ***/target*** folder will be filled with your translated text; the ***/omegat***  folder need not concern you now; 
 the ***/tm*** and ***/glossary*** files will remain empty unless and until you create a .tmx file and a glossary and
@@ -210,8 +210,13 @@ as a new user, being unable to see the forest for the trees. Consult the User’
 
 ## Project 1: A simple MS Word file
 
-Launch Open Office Writer and create a new text document. Then use File > Open to Choose open any short MS Word document (.docx format) document in the source language. It should include at least some formatting, such as title, subheads, font changes. (For the purposes of this tutorial, you may use .docx files according to this procedure, although in fact .docx files do not require the mediation of Open Office Writer. See User‘s Manual when you are ready for the fine points.)File > Save As, name the file, and close it in .odt format. Click and drag the newly created .odt file to the /source folder of your My Project-1 folder, which you created in Step **5**.
+Launch LibreOffice Writer and create a new text document. Then use File > Open to Choose open any short MS Word document (.docx format) document in the source language. It should include at least some formatting, such as title, subheads, font changes. (For the purposes of this tutorial, you may use .docx files according to this procedure, although in fact .docx files do not require the mediation of LibreOffice Writer. See User‘s Manual when you are ready for the fine points.) [File] > [Save As], name the file, and close it in .odt format. Click and drag the newly created .odt file to the ***/source*** folder of your ***My Project-1*** folder, which you created in Step **5**.
+
+You can [find an example odt file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/demo.odt) at Github repository of the tutorial for your convenience.
+
 Launch OmegaT and click Project > Open. Navigate to My Project-1 (it will have the OmegaT icon beside it). Double-click on the file. The Project Files dialog will display your source document. Close the dialog box. Your translation file is now displayed in the Editing pane, and you can begin translating. (Note that this screenshot refers to OmegaT 1.6.0 in the blue bar at the top. Owing to the pace at which OmegaT is being developed, the appearance of the screenshots and possibly some other information may have changed slightly.) 
+
+![Edit pane with ODT file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/edit-pane-odt-file.png)
 
 The basic idea is that the text is presented to you one segment at a time. A segment normally corresponds to one sentence. You type your translation into the field provided, confirm by hitting Enter, and so on. OmegaT is an “inline” translation memory application, meaning that you see only one copy of the text; segments which have already been translated appear as such, otherwise the untranslated source text is displayed. Only in the case of the “active” segment, which is highlighted, are both source text and translation displayed.
 By default, the source text is pasted into the target text segment for you. This is convenient with heavily tagged (formatted) text, since it is easier to retain the tags undamaged by simply replacing the text between them. With less heavily tagged text, you can delete the content of the target text field and simply type in the translation, or you can instruct OmegaT to leave it blank by default (refer to the User’s Manual for details).
@@ -250,14 +255,14 @@ An advantage probably common to all translation memory applications is that they
 
 ### Validating tags, creating target documents
 
-After you have checked and saved ing your translation, newer versions of OmegaT will check automatically that you have not damaged any tags during the translation process, or you can do it manually yourself: Tools > Validate Tags. Note: Damaged or missing tags in XML file formats, such as OpenOffice.org, are likely to result in the output file failing to open at all.
+After you have checked and saved ing your translation, newer versions of OmegaT will check automatically that you have not damaged any tags during the translation process, or you can do it manually yourself: Tools > Validate Tags. Note: Damaged or missing tags in XML file formats, such as LibreOffice, are likely to result in the output file failing to open at all.
 Create the target documents by selecting Project > Create Translated Documents. The translated documents are automatically generated in their original format in the /target folder. If your project consists of multiple source files, possibly in multiple sub-folders and with accompanying graphics files, etc., as is the case with the examples in our second, HTML, project, the entire structure of the files in /source is reproduced in /target.
 
 ### Final checking, correction, and delivery
 
-If you prefer to check your translation on paper, print out the target document. Don’t, however, make corrections in the Open Office Writer or MS Word file: find the relevant segments in OmegaT (using the text search function, to be discussed below, Step 6.B.4) and make them there.
+If you prefer to check your translation on paper, print out the target document. Don’t, however, make corrections in the LibreOffice Writer or MS Word file: find the relevant segments in OmegaT (using the text search function, to be discussed below, Step 6.B.4) and make them there.
 After revising the text and making any corrections, create the translated documents again and close the project.
-You are now ready to deliver the job. If the client requires MS Office format, simply save the target file in OpenOffice.org in the relevant MS format (.doc, etc.)
+You are now ready to deliver the job. If the client requires MS Office format, simply save the target file in LibreOffice in the relevant MS format (.doc, etc.)
 
 ## Project 2: An HTML document
 
@@ -425,8 +430,14 @@ the main program, also described in the User’s Manual., but there are “worka
 
 # The OmegaT user group
 
-OmegaT has a friendly and helpful user group. Once you have joined, you can post questions there regarding OmegaT. 
-The group can be found at groups.yahoo.com/group/omegat.
-The group is hosted by Yahoo! OmT has moderated membership, i.e., your membership first has to be approved. 
-This is in order to prevent spammers accessing the group. To join, simply “Sign In” using your e-mail. 
+OmegaT has a friendly, helpful, and multilingual user group. Once you have joined, you can post questions there regarding OmegaT,
+which is a [recommended support channel](https://sourceforge.net/projects/omegat/lists/omegat-users).
+
+This is in order to prevent spammers accessing the group. To join, simply “Sign Up” using your e-mail. 
 You will be required to send a short message from which the moderator can tell that you are a genuine user and not a spammer.
+
+OmegaT is also present on several SNSs.
+
+- [Facebook](https://www.facebook.com/OmegaTOfficial)
+- [Twitter](https://twitter.com/OmegaTOfficial)
+- [Telegram](https://telegram.me/joinchat/IswSVw9XMwz0J-w9aoz5iA)
