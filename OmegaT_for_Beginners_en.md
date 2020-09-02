@@ -24,9 +24,10 @@ entitled "GNU Free Document License".
 Cover illustration is from www.freeclipartnow.com, in the public domain.
 
 Last update: August 2020  \
-Refer to OmegaT version: 5.3.0
+Refer to OmegaT version: 5.4.0
 
-Screenshots from OmegaT version 5.3.0
+Screenshots from OmegaT version 5.4.0 on Windows 10 Enterprise(Build 19041)
+
 Please note that owing to the pace at which OmegaT is being developed, the appearance of the screenshots and possibly
 some other information may have changed slightly.
 
@@ -97,6 +98,8 @@ until they are arranged approximately as shown below.
 The Editing pane displays the “Instant Start” tutorial in English.
 The User’s Manual can be called up with the “Help” menu item or F1. 
 
+![Instant Starting tutorial screen capture](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/instant-start-tutorial.png)
+
 If the Editing pane is empty, the language of your Windows installation is probably not English and OmegaT
 does not have an Instant Start tutorial in your language. In this case, call up the OmegaT documentation
 by selecting Help > User’s Manual, or by pressing F1.
@@ -124,6 +127,16 @@ You will see that the dictionary or dictionaries appear listed in the “spellch
 Make sure the language variant of your dictionary matches the language variant of your target language,
 or the spellchecker will not work properly (e.g., British English or American English).
 
+![Spellchecker setup screen capture](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/spellchecker-setup.png)  \
+***a)*** Spellchecker setup screen
+
+![Spellchecker dictionary installer screen capture](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/spellchecker-dictionary-installer.png)  \
+***b)*** Spellchecker dictionary installer screen
+
+![Spellchecker setup dictionary installed screen capture](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/spellchecker-dictionary-installed.png)  \
+***c)*** Spellchecker setup screen indicate dictionary installed
+
+
 
 # Creating a project
 
@@ -139,6 +152,10 @@ For purposes of this tutorial, let’s call it ***My Project-1***.
 
 The “Create New Project” dialog appears. 
 Select the desired source and target languages by clicking on the arrows to the right of these fields. 
+
+![Create new project dialog window](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/start-new-project-1.png)
+
+
 
 Click on “Segmentation” to call up the Segmentation Setup dialog. OmegaT is supplied with a number
 of very basic segmentation patterns. Pick the one for the language of your source text (e.g., Italian, “IT.*”),
@@ -159,6 +176,9 @@ the project folders (directories).*** You have now created an empty project.
 The Project Files window is displayed, which is empty since your project does not yet contain any files.
 (Do not use the “Import Source Files” function during this exercise; you can experiment with it later, on your own.)
 You can close this window.
+
+![Browse project folder by File Explorer](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/file-manager-browse-project-folder.png)
+
 
 Find your project in your file manager: it is a folder with the name of the project, containing the sub-folders
 ***/dictionary,/glossary,/omegat,/source, /target***, and ***/tm***, and ***/glossary***.
