@@ -10,8 +10,8 @@ There are versions in various languages.
 
 Language |  Read view | Collaborate edits
 ---------|------------|--------------------
-[English Edition source](OmegaT-for-Beginners_en.md) | [read](https://hackmd.io/@miurahr/Byx_z0smw) | [![hackmd-github-sync-badge](https://hackmd.io/j9iNkDmYTTufabqW1wmxaw/badge)](https://hackmd.io/j9iNkDmYTTufabqW1wmxaw)
-[日本語 Edition source](OmegaT-for-Beginners_ja.md) | [read](https://hackmd.io/@miurahr/rJU6Pl5mw) | [![hackmd-github-sync-badge](https://hackmd.io/xL4ee8XjRrmuvRYzBhl08Q/badge)](https://hackmd.io/xL4ee8XjRrmuvRYzBhl08Q)
+[English Edition source](OmegaT_for_Beginners_en.md) | [read](https://hackmd.io/@miurahr/Byx_z0smw) | [![hackmd-github-sync-badge](https://hackmd.io/j9iNkDmYTTufabqW1wmxaw/badge)](https://hackmd.io/j9iNkDmYTTufabqW1wmxaw)
+[日本語 Edition source](OmegaT_for_Beginners_ja.md) | [read](https://hackmd.io/@miurahr/rJU6Pl5mw) | [![hackmd-github-sync-badge](https://hackmd.io/xL4ee8XjRrmuvRYzBhl08Q/badge)](https://hackmd.io/xL4ee8XjRrmuvRYzBhl08Q)
 
 ## License
 
