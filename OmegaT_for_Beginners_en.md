@@ -33,14 +33,14 @@ Please note that owing to the pace at which OmegaT is being developed, the appea
 some other information may have changed slightly.
 
        
-## Introduction
+# Introduction
 
-#### Intended readership
+## Intended readership
 
 This document is intended for translators who are not experienced with Computer Assisted Translation (CAT) tools,
 and discusses only the basics. Another useful source of information is ***www.omegat.org/en/documentation.php***.
 
-#### What is a CAT tool and why are they useful?
+## What is a CAT tool and why are they useful?
 
 A CAT tool, as the term is generally used by translators, refers to a software program
 that creates a “translation memory” (TM) of a translated document, which can then be used to facilitate
@@ -63,7 +63,7 @@ See the following for more information on CAT tools, including on the many varie
 http://en.wikipedia.org/wiki/Computer-assisted_translation
 
 
-## Downloading OmegaT
+# Downloading OmegaT
 
 Download OmegaT (the OmegaT site tells you the various options; “beta” versions are stable,
 but may have a bug or two and do not have up-to-date documentation).
@@ -76,7 +76,7 @@ a Windows operating system. If you are using another system, and run into proble
 at Yahoo can help you (see Step 8).
 
 
-## Installing OmegaT
+# Installing OmegaT
 
 When/after downloading the zip file, place it in a suitable folder, e.g., for Windows,  C:\Program Files.
 Unpack (extract, unzip) the zip archive.
@@ -84,7 +84,7 @@ After downloading OmegaT (Windows version), launch the .exe file and follow the 
 which should be self-explanatory.
 
 
-## The OmegaT user interface
+# The OmegaT user interface
 
 After launching OmegaT, the main OmegaT window should appear with three main panes: the Editing pane,
 the Fuzzy Matches pane, and the Glossary pane; and five optional panes: Machine Translation,
@@ -124,7 +124,7 @@ Make sure the language variant of your dictionary matches the language variant o
 or the spellchecker will not work properly (e.g., British English or American English).
 
 
-## Creating a project
+# Creating a project
 
 Most CAT tools use the term “project” to refer to a collection of folders and files associated with a translation.
 A “project” is usually synonymous with a translation job.
@@ -168,7 +168,7 @@ put them into those respective folders; the ***/dictionary*** folder is where yo
 if you wish, in the appropriate format (see User’s Manual)..
 
 
-## Translating
+# Translating
 
 We provide here two projects for self-training. 
 
@@ -187,7 +187,8 @@ of translation memory software. References to OmegaT’s more advanced or obscur
 been omitted or kept to a minimum, since a description of them would almost certainly lead to you,
 as a new user, being unable to see the forest for the trees. Consult the User’s Manual for further information.
 
-### Project 1: A simple MS Word file
+## Project 1: A simple MS Word file
+
 Launch Open Office Writer and create a new text document. Then use File > Open to Choose open any short MS Word document (.docx format) document in the source language. It should include at least some formatting, such as title, subheads, font changes. (For the purposes of this tutorial, you may use .docx files according to this procedure, although in fact .docx files do not require the mediation of Open Office Writer. See User‘s Manual when you are ready for the fine points.)File > Save As, name the file, and close it in .odt format. Click and drag the newly created .odt file to the /source folder of your My Project-1 folder, which you created in Step **5**.
 Launch OmegaT and click Project > Open. Navigate to My Project-1 (it will have the OmegaT icon beside it). Double-click on the file. The Project Files dialog will display your source document. Close the dialog box. Your translation file is now displayed in the Editing pane, and you can begin translating. (Note that this screenshot refers to OmegaT 1.6.0 in the blue bar at the top. Owing to the pace at which OmegaT is being developed, the appearance of the screenshots and possibly some other information may have changed slightly.) 
 
@@ -195,51 +196,51 @@ The basic idea is that the text is presented to you one segment at a time. A seg
 By default, the source text is pasted into the target text segment for you. This is convenient with heavily tagged (formatted) text, since it is easier to retain the tags undamaged by simply replacing the text between them. With less heavily tagged text, you can delete the content of the target text field and simply type in the translation, or you can instruct OmegaT to leave it blank by default (refer to the User’s Manual for details).
 
 
-#### Handling tags
+### Handling tags
 
 Handling tags takes some practice. The general principle is that you translate the text between tags and leave the tags untouched. For example, this text in English:
 
-	Look at **that**!
+> Look at ***that***!
 	
 might appear like this in OmegaT:
 
-	Look at <a0>that</a0>!
+> Look at <a0>that</a0>!
 
 and be translated like this in OmegaT into German:
 
-	Schau dir <a0>das</a0> an!
+> Schau dir <a0>das</a0> an!
 
 which then appears like this in the final text:
 
-	Schau dir **das** an!
+> Schau dir **das** an!
 
 In this case, <a0> and </a0> are the opening and closing tags for bold text respectively. “<a0>“ and “</a0>“ do not necessarily indicate the beginning and end of bold text, however; if the word “that” were in italics in the source text rather than bold, the tags would be the same. Only by looking at the source text can you ascertain the actual function of the tags in a particular case.
 
-The current Microsoft Office file formats (.docx, .xlsx, .pptx) can generate a large number of unnecessary tags, making translation cumbersome. One solution to this problem is Codezapper (http://asap-traduction.com/CodeZapper), which can eliminate these, while keeping the tags you actually need; or you can use the Remove Tags feature of OmegaT itself to remove all tags. See the User’s Manual (F1).
+The current Microsoft Office file formats (.docx, .xlsx, .pptx) can generate a large number of unnecessary tags, making translation cumbersome. One solution to this problem is [Codezapper](http://asap-traduction.com/CodeZapper), which can eliminate these, while keeping the tags you actually need; or you can use the Remove Tags feature of OmegaT itself to remove all tags. See the User’s Manual (F1).
 
 Until you are familiar with tag handling, it is best to retain all the tags and to keep them in the same order if at all possible. OmegaT does allow you to delete tags and to change their order, but only if certain rules are carefully followed. Otherwise, you may risk corrupting your final document and preventing it from being opened. For details of the tag handling rules, refer to the User’s Manual.
 
 
-### Checking your translation
+## Checking your translation
 
 Eventually, you will reach the end of the file you are translating. If your project contains more than one file for translation, confirming the last segment in the first file will take you to the topmost segment in the second file.
 An advantage probably common to all translation memory applications is that they simplify checking: once you have completed the first draft of your translation, you can “walk” through it with the source and target versions of each sentence displayed next to each other. In the case of OmegaT, the source is displayed above the target text of the active segment, facilitating comparison:
 
 
-#### Validating tags, creating target documents
+### Validating tags, creating target documents
 
 After you have checked and saved ing your translation, newer versions of OmegaT will check automatically that you have not damaged any tags during the translation process, or you can do it manually yourself: Tools > Validate Tags. Note: Damaged or missing tags in XML file formats, such as OpenOffice.org, are likely to result in the output file failing to open at all.
 Create the target documents by selecting Project > Create Translated Documents. The translated documents are automatically generated in their original format in the /target folder. If your project consists of multiple source files, possibly in multiple sub-folders and with accompanying graphics files, etc., as is the case with the examples in our second, HTML, project, the entire structure of the files in /source is reproduced in /target.
 
-#### Final checking, correction, and delivery
+### Final checking, correction, and delivery
 
 If you prefer to check your translation on paper, print out the target document. Don’t, however, make corrections in the Open Office Writer or MS Word file: find the relevant segments in OmegaT (using the text search function, to be discussed below, Step 6.B.4) and make them there.
 After revising the text and making any corrections, create the translated documents again and close the project.
 You are now ready to deliver the job. If the client requires MS Office format, simply save the target file in OpenOffice.org in the relevant MS format (.doc, etc.)
 
-### Project 2: An HTML document
+## Project 2: An HTML document
 
-####  Downloading the supplementary materials
+###  Downloading the supplementary materials
 
 Launch OmegaT and create a new project. Let’s call it My Project-2. Set it up just as you did with My Project-1. The procedures described in Project 1, Steps 6.A.1-6.A.4, all apply here too, for HTML files.
 
@@ -333,7 +334,7 @@ The windows in the above screenshot have been reduced in size in order to show t
 - When you are finished and ready to check your work, you can open the translated files in __/target__ in your browser and read through them, and/or print them out for checking. If you prefer to read through the finished text on the screen, i.e., in your browser, toggle between the browser and OmegaT. When you find errors in the text in the browser window, make the corresponding changes within OmegaT. 
 
 
-#### Translation memory (fuzzy match function)
+### Translation memory (fuzzy match function)
 
 Eventually, you will encounter fuzzy matches. Normally, it may be some time before you encounter 
 useful fuzzy matches, but the “legacy” translation memory file has been provided for you 
@@ -360,7 +361,7 @@ With heavily tagged text, you are likely to find that OmegaT yields numerous spu
 in which only the tags are identical, and which are not therefore useful.
 
 
-#### The glossary function
+### The glossary function
                
 Before beginning translating, you placed a glossary file in the ***/glossary*** folder.
 Glossary files are simply plain-text files containing two or three columns of terms delimited by tabs.
@@ -385,7 +386,7 @@ consult the User‘s Manual and the users' group on Yahoo.The more recent versio
 incorporate a “tokenizer” function, which allows the system to recognize inflected forms of a word.
 
 
-#### The text search (find) function
+### The text search (find) function
 
 Ctrl+F calls up a search dialog with which you can search for any term throughout the project,
 i.e., within the source text and the legacy translation memory files, source segments,
@@ -401,11 +402,10 @@ Note that there is no an automatic “global replace” function available as a 
 the main program, also described in the User’s Manual., but there are “workarounds” that can be used.
 
 
-## The OmegaT user group
+# The OmegaT user group
 
 OmegaT has a friendly and helpful user group. Once you have joined, you can post questions there regarding OmegaT. 
 The group can be found at groups.yahoo.com/group/omegat.
 The group is hosted by Yahoo! OmT has moderated membership, i.e., your membership first has to be approved. 
 This is in order to prevent spammers accessing the group. To join, simply “Sign In” using your e-mail. 
 You will be required to send a short message from which the moderator can tell that you are a genuine user and not a spammer.
-
