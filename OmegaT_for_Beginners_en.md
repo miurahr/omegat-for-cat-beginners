@@ -2,13 +2,12 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/j9iNkDmYTTufabqW1wmxaw/badge)](https://hackmd.io/j9iNkDmYTTufabqW1wmxaw)
 
+###### tags: `OmegaT`, `Translation`, `Tutorial`
 
-by Susan Welsh & Marc Prior
-
----
 
 ![cover](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/title.png)
-Translation and modification by Hiroshi Miura
+
+by Susan Welsh, Marc Prior and Hiroshi Miura
 
 ---
 
@@ -18,14 +17,13 @@ Copyright (c) 2014 Susan Welsh & Mark Prior
 Copyright (c) 2020 Hiroshi Miura
 
 Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License,
-Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections,
+Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections,
 no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section
-entitled "GNU Free Document License."
+entitled "GNU Free Document License".
 
 Cover illustration is from www.freeclipartnow.com, in the public domain.
 
-Last update and translated: August 2020  \
-Original written: March 2014  \
+Last update: August 2020  \
 Refer to OmegaT version: 5.3.0
 
 Screenshots from OmegaT version 5.3.0
@@ -38,7 +36,8 @@ some other information may have changed slightly.
 ## Intended readership
 
 This document is intended for translators who are not experienced with Computer Assisted Translation (CAT) tools,
-and discusses only the basics. Another useful source of information is ***www.omegat.org/en/documentation.php***.
+and discusses only the basics.
+Another useful source of information is ***[OmegaT website - Documentation](omegat.org/en/documentation.php)***.
 
 ## What is a CAT tool and why are they useful?
 
@@ -51,16 +50,18 @@ This aspect makes it especially useful for repetitive material. Also:
 
 - A search function scans previously translated material (either in a document in the present project, or in a translation memory from a previous project), so that the user can see how a word or phrase was previously translated. 
 
-- A segmentation function displays one “segment” of source text at a time (usually a sentence), and the translation is done with the target text on the screen directly below the source text. This is very useful for 1) making sure you don’t skip text; 2) checking your work; and 3) putting both source and target text in a font and size that are comfortable for you. 
-CAT tools allow for greater consistency of translation, including when more than one translator is working on a job. Finally, CAT tools reproduce the formatting of the source document. CAT tools range in price from free (OmegaT) to $2,500 or more. OmegaT is an excellent place to start, as the price is right, it is relatively easy to learn, and it runs on MAC and under Linux, as well as Windows.
+- A segmentation function displays one “segment” of source text at a time (usually a sentence), and the translation is done with the target text on the screen directly below the source text. This is very useful for 1) making sure you don’t skip text; 2) checking your work; and 3) putting both source and target text in a font and size that are comfortable for you.
+
+CAT tools allow for greater consistency of translation, including when more than one translator is working on a job.
+Finally, CAT tools reproduce the formatting of the source document. CAT tools range in price from free (OmegaT)
+to $2,500 or more. OmegaT is an excellent place to start, as the price is right, it is relatively easy to learn,
+and it runs on MAC and under Linux, as well as Windows.
 
 OmegaT supports the current Microsoft Office file formats (.docx, .xlsx, .pptx). It does not support
 the older Microsoft Office file formats (.doc, .xls, .ppt); these must first be converted,
 e.g., to the current Microsoft Office file formats. 
 
-See the following for more information on CAT tools, including on the many varieties available:
-
-http://en.wikipedia.org/wiki/Computer-assisted_translation
+See the following for more information on CAT tools, including on the many varieties available: [Wikipedia - Computer-assisted Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation)
 
 
 # Downloading OmegaT
@@ -115,7 +116,7 @@ Then from the OmegaT menu, click Options > Spell checking. Click Choose and navi
 folder (screenshot, ***a***, below). 
 
 Click “Install new dictionary” and you will be given a list of many possible dictionaries (***b***).
-(If nothing happens, select a different repository – see www.omegat.org/en/howtos/spelling.html.)
+(If nothing happens, select a different repository – see [OmegaT Howto - Spellchecking](https://omegat.org/en/howtos/spelling.html))
 Click on the one or ones you want and click Install again, then close the box. Selecting a dictionary
 and “Install” causes the relevant dictionary to be downloaded from the Internet to the folder
 which you specified in **a**). Of course, you must be connected to the Internet for this function to work.
