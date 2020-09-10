@@ -1,0 +1,3493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+
+<tmx version="1.4">
+   <header
+      creationtool="TMX Merger"
+      creationtoolversion="1.1"
+      segtype="paragraph"
+      adminlang="EN-US"
+      srclang="EN-US"
+   >
+   </header>
+   <body>
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>HTML parser got into unknown state on line {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>HTML-sintaksoanalizilo eniris nekonatan staton en linio {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Failed to load specified project.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fiaskis ŝargi indikitan projekton.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>problem encountered loading project status file</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>estiĝis problemo dum ŝargo de projektostata dosieron</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Configuration</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Agordoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Illegal HTML entity (&amp;---;):</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Misa HTML-ento (&amp;---;):</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Escaped decimal char contains malformed data (&amp;#{0};)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dekuma speciala simbolo enhavas malĝustan datumon (&amp;#{0};)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Size</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Grando</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select Glossary Directory</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu glosardosierujo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Bad tag on line {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malĝusta etikedkomenco</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Edit</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Redakto</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unexpected NULL on line {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neatendita NULL</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Save translation memory</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Konservu tradukmemoron</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>omegat.project.&lt;/i0&gt; When the project is created, OmegaT automatically creates this file and places it in this directory. To open a project in OmegaT, you must open its &lt;i1&gt;omegat.project&lt;/i1&gt; file.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>omegat.project.&lt;/i0&gt; Kiam projekto estas kreata, OmegaT aŭtomate kreas ĉi-tiun dosieron kaj metas ĝin en ĉi-tiun ujon. Pro malfermi projekton en OmegaT, malfermu ĝian dosieron &lt;i1&gt;omegat.project&lt;/i1&gt;.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unexpected character (6) </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neatendita simbolo (6) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Failed to compile project files.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fiaskis kompili projektodosierojn.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Loading file:</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ŝargo de dosiero:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>ERROR</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>ERARO</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Back</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Reen</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Show mnemonics</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Montru mnemo-simbolojn</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Confused by false start of comment tag</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Sintaksoanalizilo en senelirejo pro malĝusta komenco de komentoetikedo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Keyword search</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Serĉu laŭ ŝlosilvortoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Found XML based HTML file - using HTMLX parser</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Trovita HTML-dosiero surbase XML — oni uzos HTMLX-sintaksoanalizilon</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Error saving project file</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eraro dum savo de projektodosiero</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg> attributes.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg> atributoj.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Can't build TM file</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Maleblas krei tradukmemoran dosieron</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>attributes.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg> atributoj.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Loading glossary</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ŝargo de glosaro</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Redo Last Action</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Refaru</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Next Untranslated Segment</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Sekva netradukita segmento</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Translation Memory root:</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosierujo por tradukmemoraj dosieroj:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Show file List</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Vidigu dosierliston</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Create new project</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kreu novan projekton</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Close</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fermu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Error creating project</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eraro dum projektokreo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Encountered illegal \\u sequence</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Trovita malĝusta vico de \\u</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>You cannot &lt;b0&gt;add&lt;/b0&gt; any formatting to the text you are translating. The formatting of a formatted file (at present, StarOffice/OpenOffice.org and HTML are the supported formats), is retained, and you have a limited degree of control over it. (Refer to &lt;a1&gt;Tags&lt;/a1&gt; for details.) To add formatting, insert a marker such as &quot;##&quot; and format the text in another application such as OpenOffice.org after compiling.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Maleblas &lt;b0&gt;aldoni&lt;/b0&gt; iun formaton al la trradukata teksto. Formatado en kunformata dosiero (nun StarOffice/OpenOffice.org kaj HTML estas subtenataj formatoj) estas konservata, kaj you have a limited degree of control over it. (Refer to &lt;a1&gt;Tags&lt;/a1&gt; for details.) To add formatting, insert a marker such as &quot;##&quot; and format the text in another application such as OpenOffice.org after compiling.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>can't access glossary directory</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>maleblas atingi dosierujon kun glosardosiero</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&lt;auto&gt;</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&lt;aŭte&gt;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>OmegaT supports the usual mouse operations, cursor keys and cursor key shortcuts, and shortcuts for mark, cut and paste operations. These are likely to vary between operating systems.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>OmegaT subtenas kutimajn permusajn operaciojn, sagoklavojn kaj sagoklavajn tujaĵojn por marki, tondi kaj alglui. Verŝajne, ili malsamas en malsamaj operaciumoj.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>{0} fuzzy matche(s) and {1} glossary term(s)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>{0} malstrikta(j) kongruaĵo(j) kaj {1} glosartermino(j)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Mourning and sorrow&lt;p&gt;404 not with us now&lt;p&gt;Lost to paradise</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Tutmonda angoro&lt;p&gt;Paĝo forpasis&lt;p&gt;En edenon</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Project files and directories</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Projektaj dosieroj kaj dosierujoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Quit</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eliru</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Bad tag start on line {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malĝusta etikedkomenco</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Cancel</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Nuligu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Internal error (problems recovering file mappings from preference file)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Interna eraro (problemoj kun ricevo de dosieraj respondecoj el agordodosiero)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Font</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Tiparo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Open</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malfermu projekton</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>User Manual</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Uzula manlibro</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Non-translated files transferred from &lt;i0&gt;/source&lt;/i0&gt; at compilation</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Netradukitaj dosieroj estas transdonataj el &lt;i0&gt;/source&lt;/i0&gt;, kiam projekto estas kompilata.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Bad tag start</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malĝusta etikedkomenco</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Arrays must not be null</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Aroj ne devas esti NUL</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Escaped character never terminated</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malkompleta eskapsigno</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>WARNING: Unable to locate source language text in segment {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>AVERTO: Maleblas trovi fontotekston en segmento {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Text Files</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Tekstodosieroj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Another dialog is called up, this time indicating the directories for the project. As you can see from the dialog, OmegaT is proposing to create a new directory with the name you selected (e.g. &lt;i0&gt;ABC&lt;/i0&gt;), and below that a further five subdirectories. You can modify the locations of these default directories, but for the sake of the example, confirm the defaults. (The project files and directories are explained in detail &lt;a1&gt;here&lt;/a1&gt;.)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Vidiĝos alia dialogujo kun aro de la projektaj dosierujoj. En ĉi-tiu dialogujo OmegaT proponas krei novan dosierujon kun la nomo, elektita per la uzanto (ekz., &lt;i0&gt;ABC&lt;/i0&gt;), kaj kvin subdosierujoj. Eblas ŝanĝi lokon de tiuj defaŭlataj dosierujoj, sed por la ekzemplo konfirmu la defaŭltaĵojn. (Detalaĵoj pri projektaj dosieroj kaj dosierujoj troviĝas &lt;a1&gt;ĉi-tie&lt;/a1&gt;).</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unexpected character (7) </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neatendita simbolo (7) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>An OmegaT project comprises the following files and directories:</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>OmegaT-projekto enhavas sekvajn dosierojn kaj dosierujojn:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Create New project</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kreu novan projekton</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Previous segment</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Antaŭa segmento</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Show File List</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Vidigu dosierliston</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Can't locate help file: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fiaskis trovi helpodosieron: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Using different fonts and alphabets</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Uzo de diversaj tiparoj kaj abocoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>ERROR: Preference system save operation failed.
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>ERARO: Fiaskis savi agordojn.
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>If no single font contains the characters of both alphabets, you can select a virtual Java font (such as “Serif”), and define this font such that it uses multiple real fonts. Refer to the instructions on the OmegaT web site for customizing and modifying OmegaT in this case.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Se neniu sola tiparo enavas simbolojn de la ambaŭ abocoj, oni povas elekti virtualan Ĝavo-tiparon (ekzemple, «Serif»), kaj difini tian tiparon, ke ĝi uzu plurajn realajn tiparojn. Legu instrukciojn ĉe la paĝaro de OmegaT pri akomodo kaj aliigo de OmegaT ĉi-okaze.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Target language results for: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Rezultoj de serĉo en celolingvo por: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Create a new project</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kreu novan projekton</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Validate Tags</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Valigidu etikedojn</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Browse Glossary</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Foliumu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Undo and Redo operations are possible with &lt;i0&gt;Ctrl-Z&lt;/i0&gt; and &lt;i1&gt;Ctrl-Y&lt;/i1&gt; respectively.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malfari kaj refari agojn eblas per &lt;i0&gt;Stir-Z&lt;/i0&gt; kaj &lt;i1&gt;Stir-Y&lt;/i1&gt; respektive.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Exact searches look for the specified query string within the current project or in any directory or directory tree.Exact search supports the wildcard search characters '*' and '?'.  The character '*' means to match zero or more characters (the search term 'run*' would match 'run', 'runs', and 'running', for example). The character '?' means to match exactly one character ('run?' would match 'runs' and 'rung', for example, but not 'run' or 'running').  This operation searches both source and target languages.
+
+Keyword searches examine the current project and return all segments which contain all of the query words, in any order.
+
+See documentation for details.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ekzakta serĉo ebligas trovi indikitan serĉatan en la kuranta projekto kaj en iu dosierujo aŭ dosierujarbo.  Ekzakta serĉo subtenas ĵokerojn «*» kaj «?». La ĵokero «*» responas al neniu aŭ kelkaj simboloj (serĉo de «kur*», ekzemple, redonos «kuri», «kuras», kaj «kuranta»). La ĵokero «?» respondas strikte al unu simbolo («kur?» redonos «kuri» kaj «kuru», ekzemple, sed ne «kuras» aŭ «kuranta»). Ĉi tiu operacio serĉas en fontaĵo kaj en tradukaĵo.
+
+Serĉo laŭ ŝlosilvortoj trarigardas fontodosierojn kaj redonas ĉiujn segmetojn, kiuj enhavas ĉiujn ŝlosilvortojn en iu ajn ordo.
+
+Plia informo troviĝas en dokumentaro.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Not a valid XML file</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malnorma XML-dosiero</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Found {0} fuzzy matche(s) and {1} glossary term(s)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Troviĝis {0} malstrikta(j) kongruaĵo(j) kaj {1} glosartermino(j)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Merge TMX files</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kunfandu TMX-dosierojn</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Recursive search</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Rekursie</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>ERROR - unable to build new TMX file</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>ERARO — fiaskis krei novan tradukmemoran dosieron</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Source language (i.e. EN-US, EN, ES-NI, DE, etc)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fontolingvo (ekz. EN-US, EO, BE-BY, DE, ktp)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unable to read project file
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fiaskis legi projektodosieron
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Search for: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Serĉu: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Target File Encoding</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Tradukaĵdosiera signaro</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>previous: &lt;a0&gt;Translation memory and glossary file formats</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>reen: &lt;a0&gt;Formatoj de tradukmemoraj kaj glosaraj dosieroj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>File '{0}' does not exist.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosiero '{0}' ne ekzistas.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Word count in unique segments: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Vortoj en unikaj segmentoj: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;OK</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Bone</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unexpected character in tag {0} on line {1}</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malĝusta signo en etikedo {0} en linio {1}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Index</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Indekso</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Error writing compiled output file</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eraro dum skribo de kompilita tradukaĵdosiero</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Please change similarity of the found fuzzy matches.
+
+Lowering the similarity coefficient may lead to dramatic speed loss and huge increase in memory consumption, therefore we advise to lower the similarity coefficient on small projects only.
+
+Note that the change made here is used only upon opening a project, so if you would like to apply it to your current project, close it and then open again.
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Bonvolu ŝanĝi similecon de trovitaj malstriktaj kongruaĵoj.
+
+Malpli alta simileckoeficiento povas sekvigi tromalaltan rapidecon kaj trograndan memoruzon, do, ni rekomendas malpliigi simileckoeficienton nur ĉe malgrandaj projektoj.
+
+Bonfolu memori, ke ŝanĝoj efektiviĝas nur dum malfermo de projekto, do, se vi volas efektivigi ilin por via kuranta projekto, bonvolu fermi ĝin kaj remalfermi.
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compile complete</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kompilo kompletigita</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Glossary root:</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Glosardosierujo:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Match and Glossary Viewer</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kongruaĵoj kaj glosaro</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Directory &lt;i0&gt;/omegat&lt;/i0&gt;. OmegaT automatically places the following files in this directory at creation:</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosierujo &lt;i0&gt;/omegat&lt;/i0&gt;. OmegaT aŭtomate metas en ĉi-tiun dosierujon sekvajn dosierojn, kiam projekto estas kreita:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Search</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Serĉo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Floating '?' character not tied to '&gt;'</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Simbolo «?» ne kunligita kun «&gt;»</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Getting started - an example project</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Komencante laboron — ekzempla projekto</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>WARNING: Parse error encountered when reading preference file.
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>AVERTO: Sintaksanaliza eraro estiĝis dum lego de agordodosiero.
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>End of stream encoutered without finding close block</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Trovita datumstrio sen fina bloko</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Search TMs</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Serĉo en tradukmemoro</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Overwrite Translation</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Anstataŭigu per kongruaĵo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Search translation memory</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Serĉo en tradukmemoro</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Directory &lt;i0&gt;/tm&lt;/i0&gt;. Place any &lt;a1&gt;translation memories&lt;/a1&gt; you wish to use in this directory after creating/before loading the project. Note: regardless of whether you use previous memories or not, OmegaT creates a working translation memory for the project, &lt;i2&gt;project_save.tmx&lt;/i2&gt;, in &lt;i3&gt;/omegat&lt;/i3&gt; when the project is saved, and also places an export translation memory in the root directory when the project is compiled.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosierujo &lt;i0&gt;/tm&lt;/i0&gt;. Metu ĉi-dosierujen &lt;a1&gt;tradukmemorojn&lt;/a1&gt;, kiujn vi volas uzi, post krei kaj antaŭ malfermi projekton. Atentu: se vi uzas antaŭajn tradukmemorojn aŭ ne, OmegaT kreas portempan tradukmemoron por la projekto, &lt;i2&gt;project_save.tmx&lt;/i2&gt;, en &lt;i3&gt;/omegat&lt;/i3&gt;, kiam projekto estas konservata, kaj ankaŭ metas eksportitajn tradukmemoron en la radikan dosierujon, kiam projekto estas kompilata.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unexpected char '{0}' ({1})</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neatendita simbolo '{0}' ({1})</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Orphan strings</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fortempiĝinta linio</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Table of Contents</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Enhavo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>\nTag name: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>\nEtikednomo: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>loaded </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>ŝargita </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Recycle Translation</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Anstataŭigu per kongruaĵo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Bad tag</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malĝusta etikedo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Show Mnemonics</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Montru mnemo-simbolojn</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Copying file</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosierkopio</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>About</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Pri la programo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Files with other extensions can also be imported if their extensions are mapped to the default extensions.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosieroj kun aliaj sufiksoj ankaŭ povas esti importataj, se iliaj sufiksoj estas alfrontataj al la defaŭltaj sufiksoj.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Welcome to OmegaT
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Bonvenon al OmegaT
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>OmegaT project files</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>OmegaT-projektodosieroj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Next segment</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Sekva segmento</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>previous: &lt;a0&gt;Important</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>reen: &lt;a0&gt;Gravaĵoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Source File Encoding</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fontaĵdosiera signaro</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Next entry</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Antaŭen</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Low (40%)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malalta (40%)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>A &lt;i0&gt;main project directory&lt;/i0&gt;. This directory is created when the project is created.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&lt;i0&gt;Ĉefa projektodosierujo&lt;/i0&gt;. Ĉi tiun dosierujon oni kreas, kiam projekto estas kreata.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Security error encountered loading project file</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dum ŝargo de projektodosiero estiĝis eraro pri sekureco</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Found {0} fuzzy matche(s)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Troviĝis {0} strikta(j) kongruaĵo(j)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>loading file </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>ŝargo de dosiero:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Source Filename Mask</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fontaĵdosiernoma masko</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Invalid tmx file '{0}'</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Maltaŭga tradukmemora dosiero '{0}'</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select Target Directory</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu tradukaĵdosierujo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Wind catches lily&lt;p&gt;Scatt'ring petals to the wind:&lt;p&gt;Your page is not found</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Vento hurlis kaj&lt;p&gt; Taŭzis lilion:&lt;p&gt;Via paĝo ne troviĝis</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Close project</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fermu projekton</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Words remaining to translate: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Tradukendaj vortoj: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Exciting help page&lt;p&gt;Gossamer threads hold you back&lt;p&gt;404 not found</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ĉi tiu paĝo&lt;p&gt;Verŝajne necesas&lt;p&gt;Sed ĝi ne troviĝis</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>word_counts: &lt;/i0&gt;this file contains two word counts of the complete project: one including and one excluding 100% matches.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>word_counts: &lt;/i0&gt;ĉi-tiu dosiero enhavas du vortokkvantoj  de la kompleta projekto: unu inkluzive de 100%-aj kongruaĵoj kaj unu ekskluzive.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unexpected NULL</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neatendita NULL</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Page slips through fingers&lt;p&gt;Pulse pounding hard and frantic&lt;p&gt;Vanishing like mist.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Paĝo glitis&lt;p&gt;Tra fingroj&lt;p&gt;Dissolviĝis kiel nebulo.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>OmegaT's editing functions apply to the editor field, which is the target text of the active segment. Editing operations are restricted to this field, i.e. only the target text of the active segment may be edited at any time. Text in any text field outside the editor field can however be marked and copied for pasting.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Redaktofunkcioj de OmegaT aplikeblas al la redaktokampo, kiu estas la celtksto de la akvita segmento. Redaktooperacioj estas limigitaj per tiu kampo, t.e., nur la celteksto de la aktiva segmento povas esti redaktata iatempe. Teksto en iu tekstokampo ekster la redaktokampo povas tamen esti markata kaj kopiata por sekva algluo.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>In order to permit translation between two languages which employ different alphabets, select a font which contains the characters of &lt;b0&gt;both&lt;/b0&gt; alphabets. Install an additional font if necessary.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Por ebligi tradukadon inter du lingvoj, uzantaj malsamajn abocojn, elektu tiparon, enhavantan simbolojn de &lt;b0&gt;ambaŭ&lt;/b0&gt; abocoj. Instalu ankoraŭan tiparon laŭbezone.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unsupported XML version {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Nesubtenata XML-versio {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unexpected character (1) </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neatendita simbolo (1) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Summary of project files and directories</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Priskribo de projektaj dosieroj kaj dosierujoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Preferences</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Agordoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Undo Last Action</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malfaru</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Create a New Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kreu novan projekton</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>next: &lt;a0&gt;Navigating text</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>antaŭen: &lt;a0&gt;Navigado en teksto</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Search</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Serĉo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Sample Text</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ekzempla teksto</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Sample</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ekzemplo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>previous: &lt;a0&gt;Editing tagged texts</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>reen: &lt;a0&gt;Redakto de kunetikedaj (formatitaj) tekstoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Java(TM) Resource Bundles</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ĝavaj risurcaroj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>File Format</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosierformato</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select Display Font</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu ekranan tiparon</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select display font</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu ekranan tiparon</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unsupported project file version ({0})</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Nesubtenata versio de projektodosiero ({0})</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>next: &lt;a0&gt;Keyboard shortcuts</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>antaŭen: &lt;a0&gt;Tujaĵoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <prop type="x-merge-mt">true</prop>
+
+         <tuv xml:lang="EN-US">
+            <seg>failed to create project</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fiaskis krei projekton</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>fiaskis krei projekton</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Error searching directory tree</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eraro dum serĉo en dosierujarbo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Browse TM</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Foliumu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>This operation creates false translations for 
+all strings in the current project and cannot be undone.
+Are you sure you want to proceed?</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ĉi tiu operacio faras falsajn tradukaĵojn por 
+ĉiu linio de la kuranta projekto, kaj ĝin maleblas malfari.
+Ĉu vi certas, ke vi volas fari tion?</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Can't recognize glossary file: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Maleblas rekoni glosardosieron: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Location</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ujo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Redo last action</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Refaru</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&lt;segment 0000&gt; </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&lt;segmento 0000&gt; </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>File name</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosiernomo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Source file root:</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosierujo kun fontaj dosieroj:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>It has the name given to it by the user.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ĝin nomigas la uzulo.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Can't associate parser for file extension</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Maleblas kunigi sintaksoanalizilon kun dosiernoma sufikso</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unexpected character (2) </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neatendita simbolo (2) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Help you are seeking&lt;p&gt;From your path it is fleeing&lt;p&gt;Its winter has come</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Vi serĉas helpon&lt;p&gt;Sed nokto forprenis&lt;p&gt;La paĝon</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Bartender yells loud:&lt;p&gt;Your page cannot be found, boy&lt;p&gt;Buy another drink.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kelnero diris mallaŭte:&lt;p&gt;La paĝon oni ne trovis&lt;p&gt;Trinku plu.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unrecognized escape character at line </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Nerekonita simbolo en linio </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Launch OmegaT.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Startigu OmegaT.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Back</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Reen</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Can't find saved translation file: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Maleblas trovi savitan tradukaĵdosieron: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Create New Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kreu novan projekton</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Update</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Ĝisdatigu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Revert to &amp;Defaults</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Reen al &amp;defaŭltaĵoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>*.tab, *.utf8&lt;/i0&gt;: glossary files.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>*.tab, *.utf8&lt;/i0&gt;: glosardosieroj.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compile Translation</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kompilu tradukon</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Exact search</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ekzakta serĉo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Cannot load specified XML file
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fiaskis ŝargi indikitan XML-dosieron
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Directory &lt;i0&gt;/target&lt;/i0&gt;. OmegaT places the translated files into this directory at compilation.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosierujo &lt;i0&gt;/target&lt;/i0&gt;. OmegaT metas ĉi-tien tradukitajn dosierojn, kiam projekto estas kompilita.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Use TAB to Advance</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Uzu taboklavon por antaŭeniri</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Building word counts</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kreo de vortolisto</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>*.tmx&lt;/i0&gt;: translation memory files created during previous projects. &lt;i1&gt;*.tmx&lt;/i1&gt; files must be in TMX Level 1 format.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>*.tmx&lt;/i0&gt;: tradukmemoraj dosieroj, kreitaj en antaŭaj projektoj. &lt;i1&gt;*.tmx&lt;/i1&gt;-dosieroj devas esti en la formato TMX nivelo 1.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Directory &lt;i0&gt;/glossary&lt;/i0&gt;. Place a &lt;a1&gt;glossary&lt;/a1&gt; which you wish to use in this directory after creating the project.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosierujo &lt;i0&gt;/glossary&lt;/i0&gt;. Metu &lt;a1&gt;glosaro(j)n&lt;/a1&gt;, kiu(j)n vi volas uzi, en ĉi-tiun ujon post krei projekton.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>XHTML files</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>XHTML-dosieroj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unknown error</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Nekonata eraro</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Next untranslated segment</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Sekva netradukita segmento</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Contents</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Enhavo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Parse error in file {0} at line {1} - {2}</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eraro de sintaksoanalizo en dosiero {0} en linio {1} - {2}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unsupported function</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Nesubtenata funkcio</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compare segment to match #2</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #2</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Add...</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Aldono...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compare segment to match #1</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #1</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>(comment tag) </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>(komentoetikedo) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Aborted project load</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Projektoŝargo ĉesiĝis</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compare fuzzy match #5</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #5</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compiling: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kompilo: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Save Translation Memory</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Konservu tradukmemoron</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Font Selection</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Tiparo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Search files</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Serĉu en dosieroj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Text search</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Tekstoserĉo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compare segment to match #5</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #5</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compare fuzzy match #3</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #3</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compare segment to match #4</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #4</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compare fuzzy match #4</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #4</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compare segment to match #3</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #3</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compare fuzzy match #1</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #1</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compare fuzzy match #2</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #2</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>(empty tag) </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>(malplena etikedo) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Warning</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Averto</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Help</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Helpo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Create a new project by selecting &lt;i0&gt;File&lt;/i0&gt;&gt; &lt;i1&gt;Create New Project&lt;/i1&gt; from the menu bar.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kreu novan projekton, elektinte la menuon &lt;i0&gt;Projekto&lt;/i0&gt;&gt; &lt;i1&gt;Kreu novan projekton&lt;/i1&gt;.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Cancel</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Nuligu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unrecognized tmx version ({0})</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Nerekonita versio de tradukmemoro ({0})</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Cannot create target language directory tree.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Maleblas krei tradukaĵdosierujon.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Font selection</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Tiparo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Select</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Elektu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select folder</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu dosierujon</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>HTML files</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>HTML-dosieroj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unexpected character (3) </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neatendita simbolo (3) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Source language search results for: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Rezultoj de serĉo en fontolingvo por: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>These three are certain:&lt;p&gt;Death, taxes, and page not found.&lt;p&gt;You, victim of one.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neeviteblas tri aĵoj:&lt;p&gt;Morto, impostoj kaj «paĝo ne trovita».&lt;p&gt;Divenu, kio okazis.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Ephemeral page&lt;p&gt;I am the Blue Screen of Death&lt;p&gt;No one hears your screams.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Efemera paĝo de&lt;p&gt;Blua ekrano de morto&lt;p&gt;Viajn kriojn neniu aŭdas.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Fatal error encountered - saving project file with '.recover' backup extension.
+Please consult the documentation about your recovery options and
+return the below information to the software manufacturer with
+a description of how this error was produced.
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Estiĝis fatala eraro — projektodosiero estas savata kiel deraŭra dosiero kun dosiernoma sukifso «.recover».
+Bonvolu konsulti helpon pri restaŭroopcioj kaj sendu la suban informon al la programkreinto kun priskribo de kondiĉoj, en kuj la eraro estiĝis.
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Target Filename Pattern</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Tradukaĵdosiernoma ŝablono</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Directory &lt;i0&gt;/source&lt;/i0&gt;. Place any files you wish to translate in this directory after creating your project and before opening it. Any files in this directory and subdirectories below it are included in the project for translation, provided their format is supported and they have the corresponding file extension.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosierujo &lt;i0&gt;/source&lt;/i0&gt;. Metu en ĉi-tiun dosierujon tradukendajn dosierojn post krei projekton kaj antaŭ malfermi ĝin. Ĉiuj dosieroj el ĉi-tiu dosierujo kaj ĝiaj subdosierujoj estas inkluzivataj enprojeken por traduko, kondiĉe ke iliaj formatoj estas subtenataj, kaj ili havas taŭgajn dosiernomajn sufiksojn.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Can't create target language directory: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Maleblas krei dosierujon por tradukaĵoj: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Tools</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Iloj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Analyzing strings - finished {0} of {1}</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Analizo de linioj — kompletigita(j) {0} el {1}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Edit</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Redakto</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>next: &lt;a0&gt;The user interface</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>antaŭen: &lt;a0&gt;Fasado</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>That filename already exists.  Please select a new name.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ĉi tiu dosiernomo jam ekzistas.  Bonvolu indiki alian nomon.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Loc file root: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosierujo por tradukaĵoj: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Table of contents</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Enhavo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&lt;end segment&gt;</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&lt;segmentofino&gt;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Insert Translation</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Insertu kongruaĵon</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>
+Tag name: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>
+Etikednomo: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Rather than beep&lt;p&gt;Or a rude error message&lt;p&gt;These words: 'Page not found'</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ne pepo,&lt;p&gt;Ne kruda erarmesaĝo&lt;p&gt;Nur vortoj: «Paĝo ne trovita»</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>project_save.tmx:&lt;/i0&gt; this file is created when the project is saved for the first time. It is in TMX format and is the working translation memory for the project.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>project_save.tmx:&lt;/i0&gt; ĉi-tiu dosiero estas kreata, kiam oni konservas projekton unuafoje. Ĝi estas en TMX-formato kaj estas portempa tradukmemoro de la projekto.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Size</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Grando</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Minimum (20%)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Minimuma (20%)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Insert</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Insertu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>The project directories are created when you create a project. By default, they are all grouped under the project root directory, but you can choose alternative locations for them by clicking on the &lt;i0&gt;Browse&lt;/i0&gt; button. You can therefore keep translation memories in a particular directories, for example, and select the desired directory when you create each new project rather than having to copy the translation memory file into the newly created &lt;i1&gt;/tm&lt;/i1&gt; directory.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Projektaj dosierujoj estas kreataj, kiam oni kreas projekton. Defaŭlte ili ĉiuj subas la ĉefan projektodosierujon, sed oni povas elekti aliajn lokojn por ili, alklakante butonon &lt;i0&gt;Foliumu&lt;/i0&gt;. Tiel oni povas konservi tradukmemorojn en difinitajn ujojn, ekzeple, kaj elekti la necesan dosierujon, kiam oni kreas novan projekton, anstataŭ kopii tradukmemora(j)n dosiero(j)n en nove kreitan dosierujon &lt;i1&gt;/tm&lt;/i1&gt;.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Invalid project tree.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malĝusta projektoarbo.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Matching Similarity</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Simileco de kongruaĵoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Parse error in </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eraro de sintaksoanalizo en </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Previous entry</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Reen</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>WARNING: Skipping segment {0} in TMX file '{1}' after parse error.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>AVERTO: Preterlasas segmenton {0} en tradukmemora dosiero '{1}' pro sintaksanaliza eraro.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>OmegaT project folder</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>OmegaT-projektodosierujo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Browse Target</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Foliumu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Pseudo translate</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Pseŭda traduko</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Use TAB to advance</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Uzu taboklavon por antaŭeniri</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Loading: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ŝargo: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Maximum number of finds has been reached</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Atingita maksimuma kvanto de trovitaj frazoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Table of Contents</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Enhavo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Undo last action</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malfaru</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Previous Segment</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Antaŭa segmento</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Error parsing a saved filters configuration file:
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eraro dum sintaksoanalizo de savita dosiero de filtrilagordoj:
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select Translation Memory Directory</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu memortradukdosierujo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Changing the location of project files and directories</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ŝanĝo de lokon de projektaj dosieroj kaj dosierujoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>To change the location of directories retrospectively, i.e. those of an existing project, delete the directory concerned. (Do not do this whilst the project is open.) When the project is next opened, OmegaT detects that some directories are missing, and presents you with the directory selection dialog in which you can select the new locations.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Por ŝanĝi lokon de dosierujojn de jam kreita projekto, forigu koncernan dosierujon. (Ne faru tion, kiam la projekto estas malfermita!) Kiam la projekto estas malfermata sekvafoje, OmegaT detektas, ke mankas kelkaj dosierujoj, kaj vidigas dialogujon de dosierujelekto, kie oni povas elekti novan lokon.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>A lot of matches</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Tro multaj kongruaĵoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Remove</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Forigu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Emptiness of soul&lt;p&gt;Forever aching blackness&lt;p&gt;Your help page not found</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Vakuo en animo&lt;p&gt;Ĉiam hurlanta mallumo&lt;p&gt;Paĝo ne trovita</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Found {0} glossary term(s)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Troviĝis {0} glosartermino(j)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compile translation</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kompilu tradukon</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Undo (Z)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malfaru (Z)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unexpected character (4) </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neatendita simbolo (4) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Some project folders seem to have moved.  Please find them.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kelkaj projektodosierujoj ne trovitaj. Bonvolu elekti aliajn.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Search thread unexpectedly died - please close search window</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Serĉofadeno neatendite motris — bonvolu fermi serĉofenestron</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>No tag errors were detected</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eraroj en eitkedoj ne troviĝis</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Specify custom project folders here.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ĉi tie eblas indiki malnormajn projektodosierujojn.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Specified language codes are invalid (TMX requires correct codes)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Indikita(j) lingvokodo(j) malĝustas (tradukmemoro bezonas ĝustajn kodojn)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unable to initialize read of XML file</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Maleblas komenci legon de XML-dosiero</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Column Index must be equal to 1</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kolumnindekso devas esti 1</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Escaped binary char contains malformed data (&amp;#x{0};)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Deksesuma speciala simbolo enhavas malĝustan datumon (&amp;#x{0};)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Files in &lt;i0&gt;/source&lt;/i0&gt; which are not imported into the project are transferred unchanged to &lt;i1&gt;/target&lt;/i1&gt; when you compile the project. This enables complete web sites in &lt;i2&gt;/source&lt;/i2&gt; to be mirrored in &lt;i3&gt;/target&lt;/i3&gt;, together with their image files in formats such as GIF or JPEG.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Dosieroj en &lt;i0&gt;/source&lt;/i0&gt;, kiuj ne estis importitaj neprojekten, estas senŝanĝe transdonataj en &lt;i1&gt;/target&lt;/i1&gt;, kiam oni kompilas projekton. Tio ebligas krei kompletajn spegulojn de TTTejoj el &lt;i2&gt;/source&lt;/i2&gt; en &lt;i3&gt;/target&lt;/i3&gt;, kune kun iliaj bildodosieroj en formatoj GIF aŭ JPEG ktp.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Font</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Tiparo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select a different display font with &lt;i0&gt;Configuration&lt;/i0&gt; &gt; &lt;i1&gt;Font&lt;/i1&gt;. The font type and size can be selected. The font selected applies to the display only; it has no effect upon fonts used in formatted documents. The fonts available for selection are those available on your system.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ŝanĝu ekranan tiparon per &lt;i0&gt;Agordoj&lt;/i0&gt; &gt; &lt;i1&gt;Tiparo&lt;/i1&gt;. Elekteblas tipara familio kaj grado. La elektita tiparo estas aplikata nur al la ekrano; la tiparo en formatita dokumento ne ŝanĝiĝas. Oni povas elekti inter tiparoj, instalitaj en la sistemo.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Exact searches look for the specified query string within the current project or in any directory or directory tree.Exact search supports the wildcard search characters '*' and '?'.  The character '*' means to match zero or more characters (the search term 'run*' would match 'run', 'runs', and 'running', for example). The character '?' means to match exactly one character ('run?' would match 'runs' and 'rung', for example, but not 'run' or 'running').  This operation searches both source and target languages.
+
+Keyword searches examine the source text and return all segments which contain all of the query words, in any order.  This operation can only be done on the source text of loaded projects.
+
+See documentation for details.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ekzakta serĉo ebligas trovi indikitan serĉatan en la kuranta projekto kaj en iu dosierujo aŭ dosierujarbo.  Ekzakta serĉo subtenas ĵokerojn «*» kaj «?». La ĵokero «*» responas al neniu aŭ kelkaj simboloj (serĉo de «kur*», ekzemple, redonos «kuri», «kuras», kaj «kuranta»). La ĵokero «?» respondas strikte al unu simbolo («kur?» redonos «kuri» kaj «kuru», ekzemple, sed ne «kuras» aŭ «kuranta»). Ĉi tiu operacio serĉas en fontaĵo kaj en tradukaĵo.
+
+Serĉo laŭ ŝlosilvortoj trarigardas fontodosierojn kaj redonas ĉiujn segmetojn, kiu enhavas ĉiujn ŝlosilvortojn en iu ajn ordo. Ĉi tiun operacion eblas fari nur kun fontodosieroj de malfermitaj projektoj.
+
+Plia informo troviĝas en dokumentaro.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;License</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Permesilo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>A file navigation dialog is displayed. In this dialog, select a suitable directory into which to place your project.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Vidiĝos dosiera dialogujo. En tiu dialogujo elektu taŭgan dosierujon por la projekto.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Cannot open input file</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Maleblas malfermi fontodosieron</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Couldn't initialize OS look and feel</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Maleblas komencvalorizi fasadon imitantan operaciumon</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Validating tags</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Validigu etikedojn</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Number of segments</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Segmentokvanto</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Save</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Konservu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&lt;projectname&gt;.tmx&lt;/i0&gt;. This is the translation memory exported by the project. OmegaT creates it automatically and places it in this directory each time you compile the project. Note that this translation memory only contains segments from the project at the time it was last compiled. It does not import segments from any translation memory files in the &lt;i1&gt;/tm&lt;/i1&gt; directory.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&lt;projektonomo&gt;.tmx&lt;/i0&gt;. Tio estas la tradukmemoro, ekposrtita per la projekto. OmegaT kreas ĝin aŭtomate kaj metas ĝin en ĉi-tiun ujon ĉiam, kiam oni kompilas projekton. Atentu: ĉi-tiu tradukmemoro enhavas nur segmentojn el la projekto je la tempo de la lasta kompilo. Ĝi ne importas iujn segmentojn el iu tradukmemora dosiero el la dosierujo &lt;i1&gt;/tm&lt;/i1&gt;.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Building index tables</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kreo de indeksotabeloj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Text Search</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Tekstoserĉo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>File</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Projekto</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>The procedure here is for the purposes of explanation; it need not be followed rigidly in practice.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ĉi-suba proceduro celas nur eksplikon; ne nepras strikte sekvi ĝin praktike.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Analyzing Translation Memory - {0} of {1}</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Analizo de tradukmemoro — {0} el {1}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Validating Tags</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Validigu etikedojn</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Failed to load translation memory for project.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fiaskis ŝargi tradukmemoron por projekto.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Total word count: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Totala vortokvanto: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Next untranslated</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Sekva netradukita segmento</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Quit OmegaT</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eliru</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>&amp;Close</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>&amp;Fermu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Dismiss window</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fermu fenestron</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Next Segment</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Sekva segmento</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Compile</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Kompilu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select Fuzzy Match #2</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #2</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Normal (60%)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Norma (60%)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select Fuzzy Match #3</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #3</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>next: &lt;a0&gt;Working with OpenOffice.org</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>antaŭen: &lt;a0&gt;Laboro kun dosieroj de OpenOffice.org / StarOffice</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select Fuzzy Match #4</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #4</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>About OmegaT</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Pri OmegaT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Redo (Y)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Refaru (Y)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Many matches</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Multaj kongruaĵoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select Fuzzy Match #5</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #5</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Target language (i.e. DE-DE, EN-IE, ES, EN, etc)</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Cela lingvo (ekz. DE-DE, RU, UK-UA, EN, ktp)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Editing functions</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Redaktofunkcioj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select Fuzzy Match #1</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu malstriktan konruaĵon #1</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Error saving filters configuration:
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eraro dum savo de filtrilagoroj:
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>In the File name field, enter a name (e.g. &lt;i0&gt;ABC&lt;/i0&gt;) for your project, and confirm.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>En la kampo «Dosiernomo» enigu nomon (ekz. &lt;i0&gt;ABC&lt;/i0&gt;) por la projekto kaj konfirmu.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Unexpected character (5) </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neatendita simbolo (5) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>OmegaT version </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Versio de OmegaT </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>OK</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Bone</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Project Files</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Projektodosieroj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Search Translation Memory</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Serĉo en tradukmemoro</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>ERROR: Illegal OpenOffice file, no contents found.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>ERARO: misa OpenOffice.org-dosiero, malestas enhavo.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Setup File Filters</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Agordoj de dosierfiltriloj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>The help page you seek&lt;p&gt;Lies beyond our perception&lt;p&gt;But others await</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>La paĝo, kiun vi serĉas,&lt;p&gt;Malestas&lt;p&gt;Sed ĉeestas multaj aliaj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>(close tag) </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>(fina etikedo) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Close Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Fermu projekton</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>previous: &lt;a0&gt;The translation process</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>reen: &lt;a0&gt;Tradukado</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Loading project</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ŝargo de projekto</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Select Source Directory</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Elektu fontodosierujo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Search returned no matches</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Neniu kongruaĵo trovita</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Error</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eraro</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Browse Source</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Foliumu</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>OpenOffice files</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>OpenOffice.org-dosieroj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>*.txt, *.xhtml, *.html, *.properties, *.sxw&lt;/i0&gt;: translated files</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>*.txt, *.xhtml, *.html, *.properties, *.sxw&lt;/i0&gt;: tradukitaj dosieroj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Find</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Serĉo</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Encountered illegal \u sequence</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Trovita malĝusta vico de \\u</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Loading source files complete</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Ŝargo de fontodosieroj finita</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>IOException encountered: </seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Eneligoeraro estiĝis: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Locale is wrong or is not specified '{0}'. Localized Resource bundle cannot be created.</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Malĝusta aŭ neindikita lokalaĵo '{0}'. Maleblas krei lokalaĵaron.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Entries with modified tags</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Segmentoj kun ŝanĝitaj etikedoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>Show Match window</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Vidigu fenestron de kongruaĵoj</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN-US">
+            <seg>On</seg>
+         </tuv>
+
+         <tuv xml:lang="EO">
+            <seg>Aktiva</seg>
+         </tuv>
+      </tu>
+   </body>
+</tmx>

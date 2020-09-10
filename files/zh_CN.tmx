@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.4.0_0_1056f9fb5" segtype="sentence" srclang="en-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="en-US">
+        <seg>* [[Issued shares]] is the sum of shares outstanding and treasury shares.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T232612Z" creationid="miurahr" creationdate="20200906T232612Z">
+        <seg>*[[发行股份]]是未付余额和股份份额的总和。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>* [[Shares authorized]] include both issued (by the board of directors or shareholders) and unissued but authorized by the company's [[constitutional documents]].</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T232641Z" creationid="miurahr" creationdate="20200906T232641Z">
+        <seg>* [[授权的股份 ]] 包括已发行 ( 由董事会或股东发行 ) 和未发行但经公司 [[宪法文件 ] ] 授权发行的股份。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>* [[Treasury share]]s are authorized, issued, and held by the company itself.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T232559Z" creationid="miurahr" creationdate="20200906T232559Z">
+        <seg>*[[财务分享]]是由公司本身核准、发放和持有的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>== Rights ==
+Subject to the applicable laws, the rules of the corporation and any [[shareholders' agreement]], shareholders may have the right:
+
+* to sell their shares.&lt;ref name="velasco"&gt;{{cite journal|last1=Velasco|first1=Julian|date=2006|title=The Fundamental Rights of the Shareholder|url=https://lawreview.law.ucdavis.edu/issues/40/2/articles/davisvol40no2_velasco.pdf|journal=UC Davis L. Rev.|volume=40|pages=407–467|accessdate=16 April 2018}}&lt;/ref&gt;
+* to vote on the directors nominated by the board of directors.&lt;ref name="velasco" /&gt;
+* to nominate directors (although this is very difficult in practice because of minority protections) and propose [[shareholder resolution]]s.&lt;ref name="velasco" /&gt;
+* to vote on mergers and changes to the corporate charter.&lt;ref name="velasco" /&gt;
+* to [[dividend]]s if they are declared.&lt;ref name="velasco" /&gt;
+* to access certain information; for publicly traded companies, this information is normally publicly available.&lt;ref name="velasco" /&gt;
+* to sue the company for violation of fiduciary duty.&lt;ref name="velasco" /&gt;
+* to purchase new shares issued by the company.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T235122Z" creationid="miurahr" creationdate="20200906T235122Z">
+        <seg>== 权利 == 在符合适用法律，公司规则和任何 [[股东协议]] 的前提下，股东可享有以下权利 :
+
+* 出售其股票。&lt;ref name="velasco"&gt;{{举出 journal|last1=Velasco|first1=Julian|date=2006|title=The Fundamental Rights of The Shareholder|url=https://lawreview.law.ucdavis.edu/issues/40/2/articles/davisvol40no2_velasco.pdf|journal=UC Davis L . Revolme=40|pages=407-467|accessdate=2018年4月16日}}&lt;/ref&gt;
+* 就董事局提名的董事投票。&lt;ref name="velasco" /&gt;
+* 提名董事 ( 虽然这在实践中由于少数群体的保护而非常困难 ) ，并提出 [[股东决议]]。&lt;ref name="velasco" /&gt;
+* 就合并和修改公司章程进行表决。&lt;ref name="velasco" /&gt;
+* 至 [[红利]] s ( 如果已声明 ) 。&lt;ref name="velasco" /&gt;
+* 要获取某些信息; 对于公开交易的公司，此信息通常是公开的。&lt;ref name="velasco" /&gt;
+* 控告该公司违反受信责任。&lt;ref name="velasco" /&gt;
+* 购买该公司发行的新股。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>== Types  ==
+A ''beneficial shareholder'' is the person that has the economic benefit of ownership of the shares, while a ''nominee shareholder'' is the person who is on the corporation's register as the owner while being in fact acting for the benefit and at the direction of the beneficiary, whether disclosed or not.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234835Z" creationid="miurahr" creationdate="20200906T234835Z">
+        <seg>==类型==
+"受益人"是拥有股份的经济利益的人，而"被提名人"是在公司注册的人，而实际上是在为受益人的利益和方向行事，无论是否披露。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>=== Common shareholders ===
+An individual or an institution can be a common shareholder who owns common shares within a company.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234850Z" creationid="miurahr" creationdate="20200906T234850Z">
+        <seg>===普通股东===
+个人或机构可以是一个共同的股东，在公司内拥有共同的股份。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>==See also==
+* [[Mutual organization]]
+* [[Scrip issue]]
+* [[Stock]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Commonscatinline|Stock certificates}}
+*{{wiktionary-inline|share}}
+
+{{Authority control}}
+
+[[Category:Equity securities]]
+[[Category:Stock market]]</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234339Z" creationid="miurahr" creationdate="20200906T234339Z">
+        <seg>==请参阅 ==
+* [ [ 相互组织]]
+* [ [ Scrip 问题]]
+* [ [ 股票 ] ]
+
+==引用== {{Reflist}}
+
+==外部链接== *{{Commonscatline|股票证书}} *{{wiktionary-inline|share}}
+
+{{权限控制}}
+
+[[类别:股票证券 ] ] [[类别:股票市场 ] ]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>==Tax treatment==
+Tax treatment of dividends varies between tax jurisdictions.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T232809Z" creationid="miurahr" creationdate="20200906T232809Z">
+        <seg>==税收待迂==
+税收待迂在税收法域之间有所不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>==Terminology==
+
+* [[Shares outstanding]] are those that are authorized by the government,  issued by the company, and held by third parties.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T232437Z" creationid="miurahr" creationdate="20200906T232437Z">
+        <seg>==术语==
+
+* [[所欠股份]]  是由政府授权，由公司发行并，由第三方持有的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>==Valuation==
+Shares are valued according to the various principles in different [[Market (economics)|market]]s, but a basic premise is that a share is worth the price at which a transaction would be likely to occur were the shares to be sold.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T232126Z" creationid="miurahr" creationdate="20200906T232126Z">
+        <seg>==估价==
+根据不同的 [[市场 (经济)| 市场]] 中的各种原则，股票是价值的，但一个基本前提是，股票的价值是交易可能会产生的份额。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An actual sale transaction of shares between buyer and seller is usually considered to provide the best prima facie market indicator as to the "true value" of shares at that particular time.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T231903Z" creationid="miurahr" creationdate="20200906T231903Z">
+        <seg>买方与卖方之间的股票交易交易，通常是在这一特定时间内提供股票的"真正价值"的最佳初步市场指标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By law, a person is not a shareholder in a corporation until their name and other details are entered in the corporation's register of shareholders or members.&lt;ref&gt;{{cite web|url=http://www.investopedia.com/terms/s/shareholder.asp|title=Shareholder|first=Scarlett|last=Kelley|date=26 November 2003|website=investopedia.com}}&lt;/ref&gt; 
+
+The influence of a shareholder on the business is determined by the shareholding percentage owned.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234547Z" creationid="miurahr" creationdate="20200906T234547Z">
+        <seg>根据法律，个人不是公司的股东，除非他们的姓名和其他详细信息记入公司的股东或成员登记册。&lt;ref&gt;{{cite web|url=http://www.investopedia.com/terms/s/shareholder.asp|title=Shareholder|first=Scarlett|last=Kelley|date=26 November 2003|website=investopedia.com}}&lt;/ref&gt; 
+
+股东对业务的影响由持股比例持股确定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Common shareholders have the right to influence decisions concerning the company and can file class action lawsuits in case any wrongdoing happens.&lt;ref&gt;{{Cite web|url=https://corporatefinanceinstitute.com/resources/knowledge/finance/shareholder/|title=Shareholder - Definition, Roles, and Types of Shareholders|website=Corporate Finance Institute|language=en-US|access-date=2019-02-19}}&lt;/ref&gt;
+
+=== Preferred shareholders ===
+In this, the shareholder is paid a fixed sum of dividend even before the common shareholders and they have no voting rights within the company.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T235017Z" creationid="miurahr" creationdate="20200906T235017Z">
+        <seg>普通股股东有权影响有关公司的决策，如果发生任何不当行为，可以提起集体诉讼。.&lt;ref&gt;{{Cite web|url=https://corporatefinanceinstitute.com/resources/knowledge/finance/shareholder/|title=Shareholder - Definition, Roles, and Types of Shareholders|website=Corporate Finance Institute|language=en-US|access-date=2019-02-19}}&lt;/ref&gt;
+
+===偏好股东===
+在此，股东在普通股股东面前获得固定股息，并且在公司内没有投票权。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, employees, suppliers, customers, the community, etc., are typically considered stakeholders because they contribute value or are impacted by the corporation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234821Z" creationid="miurahr" creationdate="20200906T234821Z">
+        <seg>例如，员工，供应商，客户，社区等通常被视为项目干系人，因为他们贡献价值或受到公司的影响。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For instance, in [[India]], dividends are [[tax]] free in the hands of the shareholder up to Rs 10 lakhs, but the company paying the dividend has to pay dividend distribution tax at 12.5%.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T233552Z" creationid="miurahr" creationdate="20200906T233552Z">
+        <seg>例如，在[[印度]]，股息的股息是股东最多10名，但支付红利的公司必须支付红利分配税12.5%。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Further, Indian tax laws include provisions to stop [[dividend stripping]].&lt;ref&gt;{{cite web|url=http://www.rediff.com/money/2006/jan/16tax.htm|title=All about shares and tax|date=16 January 2006|publisher=Rediff India Abroad|accessdate=23 February 2012}}&lt;/ref&gt;{{Citation needed|date=February 2012}}
+
+==Share certificates==
+Historically, investors were given [[share certificate]]s as evidence of their ownership of shares.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T233440Z" creationid="miurahr" creationdate="20200906T233440Z">
+        <seg>此外，印度税法包括停止 [[股息剥离]] 的规定。&lt;ref&gt;{{cite web|url=http://www.rediff.com/money/2006/jan/16tax.htm|title=所有关于股票和税收|date=16 January 2006|publisher=Rediff India Abroad|accessdate=23 February 2012}}&lt;/ref&gt;{{Citation needed|date=February 2012}}
+==分享凭证==
+在历史上，投资者被给予[[分享证]]作为其股权所有权的证据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However, most shareholders acquire shares in the [[secondary market]] and provided no capital directly to the corporation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234631Z" creationid="miurahr" creationdate="20200906T234631Z">
+        <seg>然而，大多数股东收购 [[二级市场]] 的股份，并无直接向公司提供资本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In modern times, certificates are not always given and ownership may be recorded electronically by a system such as [[CREST (securities depository)|CREST]] or [[Depository Trust &amp; Clearing Corporation|DTCC]], a [[central securities depository]].</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T233216Z" creationid="miurahr" creationdate="20200906T233216Z">
+        <seg>在现代，证书并非总是给予，所有权可以通过诸如 [[CREST (证券保管)|CREST]] 或 [[存款信托和清算公司|DTCC]] 的系统以电子方式记录， [[中央证券保管]] 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Primarily, there are two types of shareholders.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234839Z" creationid="miurahr" creationdate="20200906T234839Z">
+        <seg>主要有两种类型的股东。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shareholders are considered by some to be a [[subset]] of [[stakeholder (corporate)|stakeholders]], which may include anyone who has a direct or indirect interest in the [[business entity]].</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234817Z" creationid="miurahr" creationdate="20200906T234817Z">
+        <seg>股东被一些人认为是 [[利益相关者](利益相关者)]]的[[子集]]，它可能包括对[[企业实体]]有直接或间接利益的任何人。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shareholders may be granted special privileges depending on a [[share class]].</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234700Z" creationid="miurahr" creationdate="20200906T234700Z">
+        <seg>股东可根据 [[分享类别]] 给予特殊特权。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shareholders may be referred to as members of a corporation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234515Z" creationid="miurahr" creationdate="20200906T234515Z">
+        <seg>股东可称为法团成员。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shareholders may have acquired their shares in the [[primary market]] by subscribing to the [[initial public offering|IPO]]s and thus provided [[capital (finance)|capital]] to the corporation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234617Z" creationid="miurahr" creationdate="20200906T234617Z">
+        <seg>股东可以通过认购 [[初始公开发行|IPO] ] 的方式在 [[初级市场]] 购买其股票，从而为公司提供 [[资本 (财务)| 资本] ] 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shareholders of a corporation are legally separate from the corporation itself.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234558Z" creationid="miurahr" creationdate="20200906T234558Z">
+        <seg>法团的股东在法律上与法团分开。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The [[board of directors]] of a corporation generally governs a corporation for the benefit of shareholders.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234741Z" creationid="miurahr" creationdate="20200906T234741Z">
+        <seg>法团的 [[董事理事会]] 一般管限一个法团，以惠及股东。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The [[liquidity]] of markets is a major consideration as to whether a share is able to be sold at any given time.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T231932Z" creationid="miurahr" creationdate="20200906T231932Z">
+        <seg>市场的 [[流动性]] 是对某一份额是否能够在任何特定时间出售的主要考虑因素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The corporation is not required to record the beneficial ownership of a shareholding, only the owner as recorded on the register.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234605Z" creationid="miurahr" creationdate="20200906T234605Z">
+        <seg>法团无须记录股份的实益拥有权，而只须记录在注册纪录册内记录的拥有人。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The denominated value of a share is its face value, and the total of the face value of issued shares represent the capital of a company,&lt;ref&gt;{{cite book |title=Accountancy |url=http://www.nios.ac.in/320lesson.htm |year=2008 |publisher=[[National Institute of Open Schooling]] |location= Noida, Uttar Pradesh, India |page=242 |chapter=Chapter 22 Company-An Introduction |chapterurl=http://www.nos.org/srsec320newE/320EL22.pdf |accessdate=24 August 2011}}&lt;/ref&gt; which may not reflect the market value of those shares.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234420Z" creationid="miurahr" creationdate="20200906T234420Z">
+        <seg>股票的面值是它的面值，所发行股份的面值代表一家公司的资本，&lt;ref&gt;{{cite book |title=Accountancy |url=http://www.nios.ac.in/320lesson.htm |year=2008 |publisher=[[National Institute of Open Schooling]] |location= Noida, Uttar Pradesh, India |page=242 |chapter=Chapter 22 Company-An Introduction |chapterurl=http://www.nos.org/srsec320newE/320EL22.pdf |accessdate=24 August 2011}}&lt;/ref&gt; ，可能无法反映这些产品的市场价值 股份。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The income received from the ownership of shares is a [[dividend]].</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T232232Z" creationid="miurahr" creationdate="20200906T231201Z">
+        <seg>从份额领取的报酬是[[股息]]。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The number of shares outstanding times the share price gives the [[market capitalization]] of the company, which if the trading price held constant would be sufficient to purchase the company.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T232539Z" creationid="miurahr" creationdate="20200906T232539Z">
+        <seg>分享价格给公司的[[市场资本资本]]份额，如果交易价格保持不变，就足以购买公司。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The process of purchasing and selling shares often involves going through a [[stockbroker]] as a [[Reseller|middle man]].&lt;ref&gt;{{cite web|url=http://www.shareworld.co.uk/index.php/beginners-corner/beginners-guide/|title=How to Buy Shares|publisher=ShareWorld|author=davids355|date=September 4, 2015|accessdate=23 February 2012}}&lt;/ref&gt;
+There are different types of shares such as equity shares, preference shares, bonus shares, right shares, and employees stock option plan shares.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T232147Z" creationid="miurahr" creationdate="20200906T232147Z">
+        <seg>购买和销售股票的过程通常涉及通过[[stockbroker]]作为[[经销商中介人]]。&lt;ref&gt;{{\b76}web url=http://www.shareworld.co.uk/index.php/beginners-corner/初学者-guide/title=How to Buy Shares publisher=david author=davids355date=9月4日，2015存取日期=23年2月日=2012年2月日}&lt;/ref&gt;ShareWorld
+股票、偏好分享、奖金分享、股票份额、员工股票选择计划等不同的股份种类不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The value of shareholders' cash-flow rights can be computed by discounting future free cash flows.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T235127Z" creationid="miurahr" creationdate="20200906T235127Z">
+        <seg>股东现金流权的价值可以通过贴现未来的自由现金流来计算。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The value of shareholders' voting rights can be computed by four methods:
+
+* the difference between voting shares and non-voting shares (dual-class approach).&lt;ref&gt;{{cite journal |last1=Zingales |first1=Luigi |title=The value of the voting right: a study of the Milan stock exchange experience |journal=Review of Financial Studies |date=1994 |volume=7 |pages=125–148 |doi=10.1093/rfs/7.1.125}}&lt;/ref&gt;
+* the difference between the price paid in a block-trade transaction and the subsequent price paid in a smaller transaction on exchanges (block-trade approach).&lt;ref&gt;{{cite journal |last1=Dyck |first1=A.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T235210Z" creationid="miurahr" creationdate="20200906T235210Z">
+        <seg>股东表决权的价值可以通过四种方法计算 :
+
+* 有表决权股份与非有表决权股份之间的差额 (双级方法)。&lt;ref&gt;{{cite journal |last1=Zingales |first1=Luigi |title=The value of the voting right: a study of the Milan stock exchange experience |journal=Review of Financial Studies |date=1994 |volume=7 |pages=125–148 |doi=10.1093/rfs/7.1.125}}&lt;/ref&gt;
+* 块交易中支付的价格与在交易所的较小交易中支付的后续价格之间的差额 (块贸易方法)。&lt;ref&gt;{{cite journal |last1=Dyck |first1=A.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There is also the concept of a deemed [[dividend]], which is not tax free.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T233724Z" creationid="miurahr" creationdate="20200906T233724Z">
+        <seg>还有一个被认为是 [[股息]] 的概念，并不是免税的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They are generally not liable for the debts of the corporation and the shareholders' liability for company debts are said to be limited to the unpaid share price unless if a shareholder has offered guarantees.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234602Z" creationid="miurahr" creationdate="20200906T234602Z">
+        <seg>除非股东提出担保，否则它们一般不承担公司的债务，股东对公司债务的赔偿责任仅限于未缴的股票价格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This type of shareholding is more common.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234855Z" creationid="miurahr" creationdate="20200906T234855Z">
+        <seg>这种共担的类型更常见。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When more than one person are on the record as owners of a shareholding, the first one on the record is taken to have control of the shareholding, and all correspondence and communication by the company will be with that person.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234609Z" creationid="miurahr" creationdate="20200906T234609Z">
+        <seg>当超过一个人作为共享所有者记录在记录上时，记录中的第一个人被视为拥有对共享的控制权，并且公司的所有通信和通信都将与该人员联系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{{More citations needed|date=April 2020}}
+A '''shareholder''' (also known as '''stockholder''') is an [[individual]] or institution (including a [[corporation]]) that legally owns one or more [[share (finance)|shares]] of [[stock]] in a [[public company|public]] or [[private corporation]].</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234509Z" creationid="miurahr" creationdate="20200906T234509Z">
+        <seg>{{更多 citions needed|date=A4 2020}} "股东"( 也称为 "股东") 是 [ [个人]] 或机构 (包括 [ [ 公司]]) ，在 [ [公共公司 | 公共]] 或 [[私有公司]]中合法拥有 [[股票]] 的一个或多个 [ [ 股票 ]] 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{{Redirect|Shares||Share (disambiguation){{!}}Share}}
+{{Use dmy dates|date=May 2016}}{{Securities}}
+In [[finance|financial markets]], a '''share''' is a unit used as [[mutual fund]]s, [[limited partnership]]s, and [[real estate investment trust]]s.&lt;ref&gt;{{cite web|url=http://www.investopedia.com/terms/s/shares.asp|title=Shares Definition|publisher=[[Investopedia]]|last1=Chen|first1=James|date=February 23, 2018|accessdate=9 July 2013}}&lt;/ref&gt; The owner of shares in the company is a [[shareholder]] (or stockholder) of the corporation.&lt;ref&gt;{{cite book|last=Hoang|first=Paul|title=Business and Management|publisher=IBID Press|location=Victoria|year=2007|pages=[https://archive.org/details/businessmanageme0000hoan/page/71 71]|chapter=1.4 Stakeholders|isbn=1-876659-63-7|url=https://archive.org/details/businessmanageme0000hoan/page/71}}&lt;/ref&gt;  A share is an indivisible unit of capital, expressing the ownership relationship between the company and the shareholder.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="miurahr" changedate="20200906T234324Z" creationid="miurahr" creationdate="20200906T234324Z">
+        <seg>{{Redirect|股份||Share (disambiguation){{!}}Share}}
+{{Use dmy dates|date=May 2016}}{{Securities}}
+ '''股份'''是[[finance|投資市場]]的一个单位用作 [[互助基金]]， [[有限合伙伙伴]]和 [[不动产投资信任]]，&lt;ref&gt;{{cite web|url=http://www.investopedia.com/terms/s/shares.asp|title=Shares Definition|publisher=[[Investopedia]]|last1=Chen|first1=James|date=February 23, 2018|accessdate=9 July 2013}}&lt;/ref&gt; The owner of shares in the company is a [[shareholder]] (or stockholder) of the corporation.&lt;ref&gt;{{cite book|last=Hoang|first=Paul|title=Business and Management|publisher=IBID Press|location=Victoria|year=2007|pages=[https://archive.org/details/businessmanageme0000hoan/page/71 71]|chapter=1.4 Stakeholders|isbn=1-876659-63-7|url=https://archive.org/details/businessmanageme0000hoan/page/71}}&lt;/ref&gt;  A share is an indivisible unit of capital, expressing the ownership relationship between the company and the shareholder.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

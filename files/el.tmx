@@ -1,0 +1,4821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+
+<tmx version="1.4">
+   <header
+      creationtool="TMX Merger"
+      creationtoolversion="1.1"
+      segtype="sentence"
+      adminlang="EN-US"
+      srclang="EN"
+   >
+   </header>
+   <body>
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Illegal HTML entity (&amp;---;):</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μη έγκυρη οντότητα HTML (&amp;---;):</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Allow translation to be equal to source</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δυνατότητα ισοδυναμίας της μετάφρασης με το κείμενο πηγής</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unable to read project file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η ανάγνωση του αρχείου του έργου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Save Translation Memory</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Αποθήκευση Μεταφραστικής Μνήμης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Words remaining to translate:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αριθμός λέξεων που απομένουν για μετάφραση:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Project load cancelled by user</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η φόρτωση του έργου ακυρώθηκε από τον χρήστη</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Use &amp;TAB to Advance</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Χρησιμοποιήστε το &amp;TAB για να προχωρήσετε</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Failed to load specified project!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αποτυχία φόρτωσης του συγκεκριμένου έργου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Problem encountered loading project file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε σφάλμα κατά τη φόρτωση του αρχείου του έργου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error: Translation unit encountered before TMX header.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σφάλμα: Εντοπίστηκε μεταφραστική μονάδα πριν την επικεφαλίδα του ΤΜΧ.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Failed to compile project files!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αποτυχία μεταγλώτισσης των αρχείων του έργου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Sets of segmentation rules:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σετ κανόνων κατάτμησης κειμένου:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Segmentation...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Κατάτμηση...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Segment the subflows (footnotes, images alt text)</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Διαίρεση των υποσημειώσεων και του κειμένου (alt text) των εικόνων</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Project &amp;Files...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αρχεία Έργου...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Back</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Πίσω</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+Please consult the documentation about your recovery options and
+return the below information to the software manufacturer with
+a description of how this error was produced.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+Παρακαλούμε συμβουλευτείτε τον Οδηγό Χρήσης για τις επιλογές επανάκτησης και στείλτε στον δημιουργό του λογισμικού τις παρακάτω πληροφορίες μαζί με μια σύντομη περιγραφή του πως προκλήθηκε το σφάλμα.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>See the help documentation for more details.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Για περισσότερες πληροφορίες διαβάστε τον Οδηγό Χρήσης.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Pattern Before</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μοτίβο πριν από</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot create target directory:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η δημιουργία καταλόγου προορισμού:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Users Manual viewer does not support navigation to external links.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το πρόγραμμα προβολής του Οδηγού Χρήσης δεν υποστηρίζει την πλοήγηση σε εξωτερικούς συνδέσμους</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot access glossary directory!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η πρόσβαση στον κατάλογο του γλωσσαρίου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Loading glossary...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Φόρτωση γλωσσαρίου...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Keyword search</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αναζήτηση λέξης-κλειδί</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>OmegaT is the original the work of Keith Godfrey
+
+Code has been contributed by: 
+  Benjamin Siband
+  Maxym Mykhalchuk (lead developer)
+  Sacha Chua 
+  Henry Pijffers 
+  Kim Bruning
+
+Other contributions by: 
+  Sabine Cretella
+  Dmitri Gabinski
+  Jean-Christophe Helary
+  Raymond Martin
+  Samuel Murray
+  Marc Prior (project coordinator)
+  and many, many more very helpful people</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+
+Το OmegaT is είναι δημιουργία αρχικά του Keith Godfrey
+
+Συνεισφορά στον κώδικα είχαν οι: 
+  Benjamin Siband
+  Maxym Mykhalchuk (lead developer)
+  Sacha Chua 
+  Henry Pijffers 
+  Kim Bruning
+
+Επίσης βοήθησαν οι: 
+  Sabine Cretella
+  Dmitri Gabinski
+  Jean-Christophe Helary
+  Raymond Martin
+  Samuel Murray
+  Marc Prior (project coordinator)
+  και πολλοί άλλοι καλοί άνθρωποι</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Έργο</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>The &amp;source text</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το κείμενο πηγής</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error searching directory tree!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σφάλμα κατά την αναζήτηση του δέντρου καταλόγου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Insert best fuzzy match into target field</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εισαγωγή του καλύτερου αποτελέσματος ταύτισης στο πεδίο προορισμού</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <prop type="x-merge-mt">true</prop>
+
+         <tuv xml:lang="EN">
+            <seg>OmegaT is a free and open source multiplatform Computer Assisted Translation tool with fuzzy matching, translation memory, keyword search, glossaries, and translation leveraging into updated projects.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το OmegaT είναι ένα ελεύθερο εργαλείο Ηλεκτρονικώς Υποβοηθούμενης Μετάφρασης ανοιχτού κώδικα που λειτουργεί πάνω σε πολλαπλές πλατφόρμες. Τα πλεονεκτήματα του περιλαμβάνουν μερική ταύτιση, μεταφραστική μνήμη, αναζήτηση με τη χρήση λέξεων-κλειδιών, γλωσσάρια και εξοικονόμηση χρόνου κατά τη μετάφραση ανανεωμένου περιεχομένου του οποίου προηγούμενες εκδόσεις έχουν μεταφραστεί.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το OmegaT είναι ένα ελεύθερο εργαλείο Ηλεκτρονικώς Υποβοηθούμενης Μετάφρασης ανοιχτού κώδικα που λειτουργεί πάνω σε πολλαπλές πλατφόρμες. Τα πλεονεκτήματα του περιλαμβάνουν μερική ταύτιση, μεταφραστική μνήμη, αναζήτηση με τη χρήση λέξεων-κλειδιών, γλωσσάρια και εξοικονόμηση χρόνου κατά τη μετάφραση ανανεωμένου περιεχομένου που ήδη έχουν μεταφραστεί οι προηγούμενες εκδόσεις του.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Note: All the segmentation rule sets with a matching Language Pattern are applied in the given order.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σημείωση: Τα σετ κανόνων κατάτμησης μαζί με το αντίστοιχο Μοτίβο Γλώσσας εφαρμόζονται με τη σειρά που εμφανίζονται.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Search for:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αναζήτηση για:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>attributes.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>χαρακτηριστικά.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+To add new files to the project, click on the Import Source Files button in the Project files window, or copy the files to your project's 'source' folder using your favorite file manager and call Project -&gt; Reload Project from the main menu.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+Για να προσθέσετε νέα αρχεία στο έργο, πατήστε το κουμπί Εισαγωγή Αρχείων Προέλευσης στο παράθυρο Αρχεία έργου ή αντιγράψτε τα αρχεία στο φάκελο 'προέλευσης' του έργου σας και πηγαίνοντας στο κύριο μενού πατήστε Έργο &gt; Επαναφόρτωση Έργου.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Do &amp;not copy source text into target field</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μην αντιγράφετε κείμενο από το κείμενο προέλευσης στο πεδίο προορισμού</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Some project directories seem to have been moved.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μερικοί κατάλογοι του έργου φαίνεται να έχουν μετακινηθεί.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Insert Match</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Εισαγωγή Αποτελέσματος Ταύτισης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Move D&amp;own</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μετακίνηση προς τα &amp;κάτω</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Con&amp;tents</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Περιεχόμενα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Edit project properties here.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επεξεργασία των ιδιοτήτων του έργου.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Validating Tags...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επικύρωση ετικετών...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>character matches exactly one character ('run?' would match 'runs' and 'rung', for example, but not 'run' or 'running').</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>ισοδυναμεί με ένα μονάχα χαρακτήρα (για παράδειγμα, η αναζήτηση 'run?' θα συμπεριλάμβανε αποτελέσμα για τα 'runs' και 'rung', αλλά όχι για τα 'run' ή 'running').</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+
+Το πρόγραμμα αυτό διανέμεται με την ελπίδα ότι θα είναι χρήσιμο, αλλά ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ, ούτε καν με οποιαδήποτε υποκρυπτόμενη εγγύηση ΔΥΝΑΤΟΤΗΤΑΣ ΕΜΠΟΡΕΥΜΑΤΟΠΟΙΗΣΗΣ ΤΟΥ ΠΡΟΪΟΝΤΟΣ ή ΚΑΤΑΛΛΗΛΟΛΗΤΑΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ ΧΡΗΣΗΣ.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Please consult the documentation about your recovery options and
+return the below information to the software manufacturer with
+a description of how this error was produced.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρακαλούμε συμβουλευτείτε τον Οδηγό Χρήσης για τις επιλογές επανάκτησης και στείλτε στον δημιουργό του λογισμικού τις παρακάτω πληροφορίες μαζί με μια σύντομη περιγραφή του πως προκλήθηκε το σφάλμα.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Target File Encoding:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κωδικοποίηση Αρχείου Προορισμού:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source language search results for:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αποτελέσματα αναζήτησης στην γλώσσα-πηγή για:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot associate parser with the file extension</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η συσχέτιση του προγράμματος ανάλυσης με την επέκταση ονομασίας του αρχείου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Cancel</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Άκυρο</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <prop type="x-merge-mt">true</prop>
+
+         <tuv xml:lang="EN">
+            <seg>Create &amp;Target Documents</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δημιουργία Τελικού Εγγράφου</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δημιουργία Εγγράφου-Στόχου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>OmegaT Project Files</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αρχεία 'Εργου OmegaT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Move Down</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μετακίνηση προς τα &amp;κάτω</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Please close search window.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κλείστε το παράθυρο της αναζήτησης.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Exception occured:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε εξαίρεση:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Of which translated</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Από τα οποία έχουν μεταφραστεί τα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>You should recreate the directory structure or specify 
+the new location of missing directories.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Πρέπει να δημιουργήσετε ξανά τη δομή του καταλόγου ή να καθορίσετε νέα τοποθεσία για τους καταλόγους που λείπουν.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>HTML parser got into unknown state on line {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο αναλυτής HTML αντιμετώπισε άγνωστη περίπτωση στη γραμμή {0}!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Next Un&amp;translated Segment</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επόμενο αμετά&amp;φραστο τμήμα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>{0} fuzzy matche(s) and {1} glossary term(s) found</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>βρέθηκαν {0} αποτελέσματα μερικής ταύτισης και {1} όρος/οι από το γλωσσάρι</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Enabled</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ενεργό</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Warning: Translation unit variant encountered outside translation unit.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προειδοποίηση: Παρουσιάστικε εναλλακτική εκδοχή της μεταφραστικής μονάδας έξω από αυτή.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source File Encoding:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κωδικοποίηση Αρχείου Προέλευσης:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>To access this link, either copy and paste the URL to your Web browser, or open the Users Manual in your Web browser ({0} file).</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Για να ανοίξετε αυτόν τον σύνδεσμο αντιγράψτε και επικολλήστε το URL στο πρόγραμμα πλοήγησής σας ή ανοίξτε μέσα από το πρόγραμμα πλοήγησής σας τον Οδηγό Χρήσης (αρχείο {0}).</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Open Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Άνοιγμα Έργου...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Insert Translation</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Εισαγωγή μετάφρασης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Users Manual...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Οδηγός Χρήσης...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Close Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κλείσιμο Έργου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>R&amp;emove</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αφαίρεση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Then while translating from Canadian French your project will use all the rules defined for all the language chain in the correct order.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Έτσι όταν μετφράζετε από γαλλικά Καναδά το έργο σας θα χρησιμοποιεί όλους εκείνους τους κανόνες που έχουν καθοριστεί στην αλυσίδα των γλωσσών με τη σωστή σειρά.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+Here you may also specify custom location of project subdirectories.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+Εδώ μπορείτε επίσης να καθορίσετε μία προσαρμοσμένη τοποθεσία για τους υποκαταλόγους του έργου.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;About...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Πληροφορίες..</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;OK</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>OK</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Russian</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ρώσικα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Starting tags</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αρχικές ετικέτες</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Project is Empty</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το Έργο είναι άδειο</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Filename Variables:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εκδοχές Ονομασίας Αρχείου:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Invalid project tree!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μη έγκυρο δέντρο έργου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>File '{0}' does not exist!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το αρχείο '{0}' δεν υπάρχει!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Previous Segment</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Π&amp;ροηγούμενο τμήμα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+
+OmegaT is the original the work of Keith Godfrey
+
+Code has been contributed by: 
+  Benjamin Siband
+  Maxym Mykhalchuk (lead developer)
+  Sacha Chua 
+  Henry Pijffers 
+  Kim Bruning
+
+Other contributions by: 
+  Sabine Cretella
+  Dmitri Gabinski
+  Jean-Christophe Helary
+  Raymond Martin
+  Samuel Murray
+  Marc Prior (project coordinator)
+  and many, many more very helpful people</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+
+Το OmegaT is είναι δημιουργία αρχικά του Keith Godfrey
+
+Συνεισφορά στον κώδικα είχαν οι: 
+  Benjamin Siband
+  Maxym Mykhalchuk (lead developer)
+  Sacha Chua 
+  Henry Pijffers 
+  Kim Bruning
+
+Επίσης βοήθησαν οι: 
+  Sabine Cretella
+  Dmitri Gabinski
+  Jean-Christophe Helary
+  Raymond Martin
+  Samuel Murray
+  Marc Prior (project coordinator)
+  και πολλοί άλλοι καλοί άνθρωποι</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Important Notes</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σημαντικές σημειώσεις</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>This program is free software; you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation; either
+version 2 of the License, or (at your option) any later version.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το πρόγραμμα αυτό είναι ελεύθερο λογισμικό. Επιτρέπεται η αναδιανομή του ή και η τροποποίησή του σύμφωνα με τους όρους της  Άδειας Δημόσιας Χρήσης του GNU όπως αυτή δημοσιεύεται από το Ίδρυμα Ελέυθερου Λογισμικού: είτε σύμφωνα με τη δεύτερη έκδοση της Άδειας Χρήσης είτε (κατά προτίμηση) σύμφωνα με μεταγενέστερη έκδοση.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>R&amp;eplace with Match</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αντικατάσταση με το Αποτέλεσμα &amp;Ταύτισης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>WARNING: Language attribute is missing for segment '{0}'</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Απουσιάζει ο προσδιορισμός γλώσσας από το τμήμα '{0}'</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Parse error in</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σφάλμα ανάλυσης σε</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Ending tags</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Τελικές ετικέτες</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Localized Resource bundle cannot be created</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η δημιουργία του τοποικοποιημένου πακέτου πόρων</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Insert the &amp;best fuzzy match</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εισαγωγή του καλύτερου αποτελέσματος μερικής ταύτισης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Target Language:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Γλώσσα-στόχος:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>They are optional and they affect only the experience you get when moving to a not-yet-translated segment.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η ενέργεια είναι προαιρετική. Οι παράμετροι επηρεάζουν μόνο τον τρόπο μεταφοράς στα τμήματα κειμένου που δεν έχουν μεταφραστεί.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+
+OmegaT is the original the work of Keith Godfrey
+
+Code has been contributed by: 
+  Benjamin Siband
+  Maxym Mykhalchuk (lead developer)
+  Sacha Chua 
+  Henry Pijffers 
+  Kim Bruning
+
+  Raymond Martin
+
+Other contributions by: 
+  Marc Prior (project coordinator and ASAD manual writer)
+  Jean-Christophe Helary
+  Samuel Murray
+  Dmitry Gabinski
+  Raymond: Martin
+  and many, many more very helpful people</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+
+Το OmegaT είναι αυθεντικό δημιούργημα του Keith Godfrey
+
+Στον κώδικα συνέφεραν οι: 
+  Benjamin Siband
+  Maxym Mykhalchuk (lead developer)
+  Sacha Chua 
+  Henry Pijffers 
+  Kim Bruning 	Raymond Martin
+
+Άλλοι που συνέφεραν στο έργο αυτό είναι οι: 
+  Marc Prior (Συντονιστής Έργου &amp; Συγγραφέας του Οδηγού Χρήσης)
+  Jean-Christophe Helary
+  Samuel Murray
+  Dmitry Gabinski
+  και πολλοί άλλοι που προσέφεραν πολύτιμη βοήθεια</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>E&amp;nable Sentence-level Segmenting</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δυνατότητα κατάτμησης κειμένου σε επίπεδο προτάσεων</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unchecked means that the starting formatting tag will be included into the following segment.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν έχει ελεγχθεί σημαίνει ότι η αρχική ετικέτα μορφοποίησης θα συμπεριληφθεί στο επόμενο τμήμα.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Match/Glossary Viewer...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προβολή Αποτελεσμάτων Ταύτισης/Γλωσσαρίου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+To add files to the project, click on the Import Source Files...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Για να προσθέσετε αρχεία στο έργο, κάνετε κλικ στην Εισαγωγή Αρχείων Προέλευσης...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Go To</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Μετάβαση σε...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error parsing filters configuration file:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε σφάλμα κατά την ανάλυση του αρχείου ρύθμισης φίλτρων:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Reading TMX file {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ανάγνωση αρχείου TMX {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unexpected NULL on line {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μη αναμενόμενο κενό στη γραμμή {0}!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>This is the way text will look when displayed.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το κείμενο θα έχει αυτή τη μορφή.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Welcome to OmegaT!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το OmegaT σας καλωσορίζει!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot create target directory!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η δημιουργία καταλόγου προορισμού!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Escaped decimal char contains malformed data (&amp;#{0};)!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο δεκαδικός χαρακτήρας διαφυγής περιέχει ακατάλληλα δεδομένα (&amp;#{0};)!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>WARNING: Parse error encountered reading preferences file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Παρουσιάστηκε σφάλμα ανάλυσης κατά την ανάγνωση του αρχείου προτιμήσεων!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Segmentation Setup</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εκτέλεση Κατάτμησης Κειμένου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Glossary Directory Selection</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή του Καταλόγου του Γλωσσαρίου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Loading project...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Φόρτωση έργου...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>The ?</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο χαρακτήρας ?</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Search</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αναζήτηση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Target Directory Selection</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή του Καταλόγου Προορισμού</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Minimal similarity:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ελάχιστη ομοιότητα:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Sample Text</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δοκιμαστικό κείμενο</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>OmegaT Translation Memory CAT Tool</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εργαλείο Μεταφραστικής Μνήμης OmegaT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>IOException encountered:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε Εξαίρεση IO:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Version: {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Έκδοση: {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot reset to default filter.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατός ο επαναπροσδιορισμός του προεπιλεγμένου φίλτρου.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Security error encountered loading project file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε σφάλμα ασφαλείας κατά τη φόρτωση του αρχείου του έργου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>I&amp;nsert Source</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εισαγωγή Κειμένου &amp;Πηγής</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Edit Filter</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επεξεργασία φίλτρου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>File Format</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Τύπος αρχείου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Defaults</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προεπιλεγμένες ρυθμίσεις</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Fatal error encountered - saving project file with '.recover' backup extension.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε ανεπανόρθωτο σφάλμα - αποθήκευση του αρχείου του έργου με επέκταση ονόματος '.επανάκτηση' αντιγράφου ασφαλείας.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Tools</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Εργαλεία</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Previous</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προηγούμενη σελίδα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <prop type="x-merge-mt">true</prop>
+
+         <tuv xml:lang="EN">
+            <seg>&amp;Save</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Αποθήκευση στη μνήμη</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Αποθήκευση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+
+See the help documentation for more details.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Για περισσότερες πληροφορίες διαβάστε τις οδηγίες βοήθειας.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>IOException encountered!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε Εξαίρεση ΙΟ!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error while trying to edit the project!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε σφάλμα κατά την επεξεργασία του έργου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Filename already exists.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το όνομα αρχείου υπάρχει ήδη.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+Tag name:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+Όνομα ετικέτας:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Fuzzy Matches</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αποτελέσματα μερικής ταύτισης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Ολοκρηρώθηκε η φόρτωση του αρχείου προέλευσης</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ολοκληρώθηκε η φόρτωση του αρχείου προέλευσης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot load specified XML file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η φόρτωση του καθορισμένου XML αρχείου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>F&amp;ont...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Γραμματοσειρά...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Help you are seeking&lt;p&gt;From your path it is fleeing&lt;p&gt;Its winter has come</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν μπορούμε να σας βοηθήσουμε δυστυχώς, περάστε μια άλλη φορά.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot create target directory tree!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η δημιουργία δέντρου καταλόγου προορισμού!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Users Manual</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Οδηγός Χρήσης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Project autosaved on {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το έργο αποθηκεύτηκε αυτόματα στις {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Copyright © 2002-2005 Keith Godfrey et al</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Πνευματικά δικαιώματα © 2002-2005 Keith Godfrey et al</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Do not insert &quot;[best fuzzy match]&quot; before the best fuzzy match itself</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μην εισάγετε &quot;[καλύτερο αποτέλεσμα ταύτησης]&quot; πριν το ίδιο το καλύτερο αποτέλεσμα ταύτισης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>[fuzzy]</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>[μερικής ταύτισης]</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unexpected character in tag {0} on line {1}!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μη αναμενόμενος χαρακτήρας στην ετικέτα {0} στη γραμμή {1}!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Locale is wrong or is not specified '{0}'!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η τοπική γλώσσα είναι λανθασμένη ή δεν έχει καθοριστεί '{0}'!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>XHTML files</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αρχεία XHTML</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Japanese</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Γιαπωνέζικα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>File {0} does not exist!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το αρχείο {0} δεν υπάρχει!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Workflow Options</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογές Ροής Εργασιών</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Move &amp;Up</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μετακίνηση προς τα &amp;πάνω</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Translated files directory entered does not exist!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο κατάλογος των αρχείων προορισμού που ορίσατε δεν υπάρχει!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+You should recreate the directory structure or specify 
+the new location of missing directories.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+Πρέπει να δημιουργήσετε ξανά τη δομή του καταλόγου ή να καθορίσετε νέα τοποθεσία για τους καταλόγους που λείπουν.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Warning</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προειδοποίηση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Edit Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επεξεργασία Έργου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Confirm</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιβεβαίωση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Reading of TMX file complete</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η ανάγνωση του αρχείου ΤΜΧ ολοκληρώθηκε</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Translated files directory:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κατάλογος μεταφρασμένων αρχείων:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;TAB Advance</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Επιλογή επόμενου τμήματος με χρήση του ΤΑΒ</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error saving project file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε σφάλμα κατά την αποθήκευση του αρχείου του έργου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Glossary directory:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κατάλογος γλωσσαρίου:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>OmegaT version</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>OmegaT έκδοση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Note: Source File Encoding setting affects only the HTML files that have no encoding declaration inside.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σημείωση: Οι ρυθμίσεις Κωδικοποίησης του Αρχείου Προέλευσης επηρεάζουν μόνο τα αρχεία ΗΤΜL που δεν εμπεριέχουν καμία δήλωση κωδικοποίησης.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>These three are certain:&lt;p&gt;Death, taxes, and page not found.&lt;p&gt;You, victim of one.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η σελίδα δυστυχώς δεν βρέθηκε</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Ephemeral page&lt;p&gt;I am the Blue Screen of Death&lt;p&gt;No one hears your screams.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η σελίδα αυτή έφυγε νωρίς, δυστυχώς.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Created by: {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δημιουργήθηκε από τον/την: {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Please select a different name.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλέξτε διαφορετικό όνομα.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>[EAR] Wrong file type specified: It must be HTML or XML!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>[EAR] Καθορίστηκε λανθασμένος τύπος αρχείου: Πρέπει να είναι HTML ή XML!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Escaped decimal char contains malformed data ({0})!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Διαφυγών δυαδικός χαρακτήρας περιλαμβάνει παραμορφομένα δεδομένα ({0})!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>OmegaT: Instant Start v0.2</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>OmegaT: Άμεση Έναρξη έκδ. 0.2</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Total number of segments</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Συνολικός αριθμός τμημάτων κειμένου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Edit</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επεξεργασία</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Fatal error while parsing:
+{0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε μοιραίο σφάλμα κατά την ανάλυση:
+{0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>The TMX file will continue to be loaded.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Θα συνεχιστεί η φόρτωση του αρχείου ΤΜΧ.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Leave the segment empty</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ας μείνει το τμήμα κενό</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Default</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προεπιλεγμένη ρύθμιση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Warning: Language not specified for translation unit variant.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προειδοποίηση: Δεν έχει προκαθοριστεί η γλώσσα για την εναλλακτική εκδοχή της μεταφραστικής μονάδας.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&lt;end segment&gt;</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&lt;τέλος τμήματος&gt;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Rather than beep&lt;p&gt;Or a rude error message&lt;p&gt;These words: 'Page not found'</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η σελίδα δυστυχώς δεν βρέθηκε.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>(comment tag)</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>(ετικέτα σχολίου)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Preferences system save operation failed!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η λειτουργία της αποθήκευσης των προτιμήσεων απέτυχε!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Too big HTML file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το αρχείο HTML είναι πολύ μεγάλο!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot find saved translation file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν βρίσκω το αποθηκευμένο αρχείο της μετάφρασης!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error saving filters configuration!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε σφάλμα κατά την αποθήκευση των ρυθμίσεων των φίλτρων!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Sentence &amp;Segment TMX file</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κατάτμηση κειμένου σε προτάσεις στο αρχείου TMX</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Please select the language of your source files and the language 
+you would like to translate to.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλέξτε τη γλώσσα των αρχείων προέλευσης και τη γλώσσα προς την οποία θέλετε να μεταφράσετε.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Segment skipped.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το τμήμα κειμένου προσπεράστηκε.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unexpected char '{0}' ({1})!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μη αναμενόμενος χαρακτήρας '{0}' ({1})!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>{0} fuzzy matche(s) found</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>βρέθηκαν {0} αποτελέσματα μερικής ταύτησης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Emptiness of soul&lt;p&gt;Forever aching blackness&lt;p&gt;Your help page not found</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η σελίδα που αναζητάς δεν βρίσκεται, τι κρίμα...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;New...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Νέο...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+
+Exception occured:
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+
+Παρουσιάστηκε η εξαίρεση:
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Before Break</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Πριν την αλλαγή γραμμής/σελίδας</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Locale is wrong or is not specified {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η τοπική γλώσσα είναι λανθασμένη ή δεν έχει καθοριστεί {0}!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Exception while parsing:
+{0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε εξαίρεση κατά την ανάλυση:
+{0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unable to build new TMX file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η δημιουργία νέου αρχείου TMX!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Variant skipped.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η εναλλακτική εκδοχή προσπεράστηκε.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Column Index must be equal to 1</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο δείκτης της κολώνας πρέπει να είναι 1</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Escaped character never terminated!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο χαρακτήρας διαφυγής δεν τερματίστηκε ποτέ!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Quit</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Έξοδος</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;View</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προ&amp;βολή</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error saving filters configuration:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστικε σφάλμα κατά την αποθήκευση των ρυθμίσεων των φίλτρων:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;License</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Άδεια χρήσης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>{0} glossary term(s) found</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>βρέθηκαν {0} όρος/οι από το γλωσσάρι</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot open the link {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν μπορώ να ανοίξω τον σύνδεσμο {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Bro&amp;wse</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αναζή&amp;τηση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Number of Segments</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αριθμός τμημάτων κειμένου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>WARNING: Skipping segment {0} in TMX file '{1}' after parse error!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Παράκαμψη του τμήματος {0} στο TMX αρχείο '{1}' μετά την παρουσίαση σφάλματος ανάλυσης!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>De&amp;faults</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προεπιλεγμένες &amp;ρυθμίσεις</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Text Search</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αναζήτηση κειμένου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>View or edit file filters.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προβολή ή επεξεργασία φίλτρων του αρχείου.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Are you sure you want to remove the {0} set of segmentation rules?</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Είστε σίγουρος/η ότι θέλετε να αφαιρέσετε το σετ κανόνων κατάτμησης {0} ?</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>This is where file conversion filters are edited.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εδώ γίνεται η επεξεργασία των φίλτρων που επιτρέπουν τη μετατροπή των τύπων των αρχείων.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Target File Encoding :</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κωδικοποίηση Αρχείου Προορισμού:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot find saved translation file:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η εύρεση του αποθηκευμένου αρχείου της μετάφρασης:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Exact searches look for the specified query string within the current project or in any directory or directory tree.Exact search supports the wildcard characters * and ?.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η ακριβής αναζήτηση ψάχνει για την καθορισμένη συμβολοσειρά ερωτήματος μέσα στο τρέχον έργο ή σε οποιοδήποτε κατάλογο ή δέντρο καταλόγου. Η ακριβής αναζήτηση υποστηρίζει του χαρακτήρες μπαλαντέρ * και ?.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>?&gt; header!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>?&gt;!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+Thus, for example, rules for Canadian French (FR-CA) should be higher than rules for French (FR.*), and higher than Default (.*) ones.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Για πράδειγμα, οι κανόνες για τα γαλλικά Καναδά (FR-CA) θα πρέπει να εμφανίζονται πιο πάνω από από τους κανόνες για τα γαλλικά (FR.*), και ακόμα πιο πάνω από τους προεπιλεγμένους κανόνες (.*).</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Minimal Similarity:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ελάχιστη Ομοιότητα:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Recoverable error while parsing:
+{0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε αναστρέψιμο σφάλμα κατά την ανάλυση:
+{0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Search Project...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Αναζήτηση Έργων...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Translation Memory Directory Selection</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή του Καταλόγου της Μεταφραστικής Μνήμης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>(empty tag)</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>(κενή ετικέτα)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Close</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Κλείσιμο</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Display F&amp;ont...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εμφάνιση Γ&amp;ραμματοσειράς...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Move &amp;Down</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μετακίνηση προς κάτω</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Language Name</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Όνομα Γλώσσας</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>About OmegaT</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σχετικά με το OmegaT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>If HTML file has the encoding declaration, it will be used disregarding any value you set in this dialog.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αν το HTML αρχείο εμπεριέχει δήλωση κωδικοποίησης, θα χρησιμοποιηθεί αυτή αγνοώντας οποιαδήποτε τιμή θέσετε σε αυτό το παράθυρο διαλόγου.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Language Pattern</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μοτίβο Γλώσσας</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>The help page you seek&lt;p&gt;Lies beyond our perception&lt;p&gt;But others await</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η σελίδα που ψάχνεις είναι τόσο σπάνια που θα ήταν θαύμα να την έβρισκες</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot build TMX file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η δημιουργία αρχείου TMX!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σφάλμα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>[U8W] Wrong file type specified: It must be HTML or XML!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>[U8W] Καθορίστηκε λανθασμένος τύπος αρχείου: Πρέπει να είναι HTML ή XML!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Settings</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Ρυθμίσεις</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error saving segmentation rules configuration!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε σφάλμα κατά την αποθήκευση των ρυθμίσεων των κανόνων κατάτμησης κειμένου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+Reading TMX file {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+Ανάγνωση του αρχείου ΤΜΧ {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select Fuzzy Match #&amp;1</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή Αποτελέσματος #&amp;1</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Encountered illegal \u sequence</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε μη έγκυρη ακολουθία \u</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select Fuzzy Match #&amp;3</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή Αποτελέσματος #&amp;3</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select Fuzzy Match #&amp;2</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή Αποτελέσματος #&amp;2</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select Fuzzy Match #&amp;5</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή Αποτελέσματος #&amp;5</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select Fuzzy Match #&amp;4</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή Αποτελέσματος #&amp;4</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Open Project...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Άνοιγμα Έργου...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Warning: The TMX source language is different from the project source language ({0}).</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προειδοποίηση: Η γλώσσα-πηγή του ΤΜΧ διαφέρει από τη γλώσσα-πηγή του έργου ({0}).</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>The * character matches zero or more characters (the search term 'run*' would match 'run', 'runs', and 'running', for example).</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο χαρακτήρας * ισοδυναμεί με μηδέν, ένα ή παραπάνω χαρακτήρες (για παράδειγμα, ο όρος αναζήτησης  'run*' θα συμπεριλάμβανε και αποτελέσματα για τα 'run', 'runs', και 'running').</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>For example, rules for Canadian French (FR-CA) should be higher that rules for French (FR.*), and higher than Default (.*) ones.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Για παράδειγμα, οι κανόνες για τα γαλλικά Καναδά (FR-CA) θα υπερισχύουν έναντι των κανόνων για τα γαλλικά (FR.*), και θα βρίσκονται ακόμα πιο πάνω από τους προκαθορισμένους γενικούς κανόνες (.*).</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Analyzing strings - {0} of {1} completed</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ανάλυση συμβολοσειρών - ολοκληρώθηκαν {0} από {1}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Confused by false start of comment tag!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η λανθασμένη αρχή της ετικέτας σχολίου προκάλεσε σύγχιση!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Loading file:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Φόρτωση αρχείου:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>ERROR</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>ΣΦΑΛΜΑ</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>TMX requires correct codes.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το TMX απαιτεί σωστούς κωδικούς.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>The language code should be in the form xx-YY or xx_YY, where 
+xx is the language code and YY is the country code (optional).</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο κωδικός της γλώσσας πρέπει να έχει τη μορφή xx-YY ή xx_YY, όπου xx είναι ο κωδικός γλώσσας και YY ο κωδικός χώρας (προαιρετικό).</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>OpenDocument/OpenOffice.org files</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αρχεία OpenDocument/OpenOffice.org</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Filename</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Όνομα αρχείου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select directory</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλέξτε κατάλογο</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Thus, for example, rules for Canadian French (FR-CA) should be higher than rules for French (FR.*), and higher than Default (.*) ones.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Για πράδειγμα, οι κανόνες για τα γαλλικά Καναδά (FR-CA) θα πρέπει να εμφανίζονται πιο πάνω από από τους κανόνες για τα γαλλικά (FR.*), και ακόμα πιο πάνω από τους προεπιλεγμένους κανόνες (.*).</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Here you may also specify custom location of project subdirectories.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εδώ μπορείτε επίσης να καθορίσετε μία προσαρμοσμένη τοποθεσία για τους υποκαταλόγους του έργου.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Failed to load translation memory for project!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αποτυχία φόρτωσης της μεταφραστικής μνήμης για το έργο αυτό!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <prop type="x-merge-mt">true</prop>
+
+         <tuv xml:lang="EN">
+            <seg>Default (English)</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προεπιλεγμένη γλώσσα (Ελληνικά)</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προεπιλεγμένη γλώσσα (Αγγλικά)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Creating target documents:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δημιουργία τελικών εγγράφων:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&lt;auto&gt;</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&lt;αυτόματα&gt;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Confirm removal of {0} file filter</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιβεβαίωση της αφαίρεσης του φίλτρου {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Align Java™ Resource Bundles</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Στοίχιση πακέτων πόρων Java™</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Mourning and sorrow&lt;p&gt;404 not with us now&lt;p&gt;Lost to paradise</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>404 Η σελίδα δεν υπάρχει πια.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>File &amp;Filters...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Φίλτρα Αρχείου...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Reopen the project now?</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Θέλετε να ξαναανοίξετε το έργο τώρα?</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot reset the filter to default patterns.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η ρύθμιση του φίλτρου κατά το αρχικό μοτίβο.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Confirm removal of pattern {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιβεβαίωση αφαίρεσης του μοτίβου {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unsupported project file version ({0})!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η έκδοση ({0}) του αρχείου του έργου δεν υποστηρίζεται!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Match/Glossary Viewer</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προβολή Αποτελεσμάτων Ταύτισης/Γλωσσαρίου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Arrays must not be null</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Οι πίνακες δεν πρέπει να είναι μηδενικοί</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Always Confirm Quit</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Πάντα να επιβεβαιώνεται η Έξοδος</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Text Files</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αρχεία κειμένων</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>After Break</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μετά την αλλαγή γραμμής/σελίδας</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Failed to create project!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αποτυχία δημιουργίας έργου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Bad directory name {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Λάθος όνομα καταλόγου {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Undo Last Action</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Αναίρεση τελευταίας κίνησης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Navigation Bar</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μπάρα πλοήγησης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <prop type="x-merge-mt">true</prop>
+
+         <tuv xml:lang="EN">
+            <seg>Total number of unique segments</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σύνολο τμημάτων κειμένου</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σύνολο μοναδικών τμημάτων κειμένου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>I&amp;nsert</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εισαγωγή</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Editing Field...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Επεξεργασία πεδίου...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Segmentation Rules...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Κανόνες διαίρεσης κειμένου...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Escaped binary char contains malformed data ({0})!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Διαφυγών δυαδικός χαρακτήρας περιλαμβάνει παραμορφωμένα δεδομένα ({0})!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Next Segment</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ε&amp;πόμενο τμήμα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Here you may edit the parameters affecting your workflow.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εδώ μπορείτε να επεξεργαστείτε τις παραμέτρους που σχετίζονται με τη ροή των εργασιών σας.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>OmegaT Logo</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Λογότυπο του OmegaT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Keyword searches examine the current project and return all segments which contain all of the query words, in any order.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η αναζήτηση λέξης-κλειδί εξετάζει το τρέχον έργο και παρουσιάζει όλα εκείνα τα τμήματα που περιλαμβάνουν όλες τις λέξεις του ερωτήματος ανεξαρτήτου σειράς.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>(close tag)</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>(ετικέτα κλεισίματος)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Recursive search</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επαναλαμβανόμενη αναζήτηση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;New Project...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Νέο Έργο...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Segments should include the following formatting that falls on the terminal segment boundary:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Τα τμήματα πρέπει να περιέχουν την ακόλουθη μορφοποίηση που εφαρμόζεται στο τερματικό όριο του τμήματος:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Target File Encoding</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κωδικοποίηση Αρχείου Προορισμού</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source files directory entered does not exist!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο κατάλογος των αρχείων προέλευσης που ορίσατε δεν υπάρχει!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Edit File Filter</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επεξεργασία φίλτρου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Reload</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Επαναφόρτωση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Project saved</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το έργο αποθηκεύτηκε</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot open input file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατό το άνοιγμα του αρχείου εισόδου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Building index tables...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δημιουργία ευρετηρίου...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Add</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Πρόσθεση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>To add files to the project, click on the Import Source Files... button in the Project Files window or call this action from the Project menu and select the source files you want to import.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Για να προσθέσετε αρχεία στο έργο, κάνετε κλικ στο κουμπί Εισαγωγή Αρχείων Προέλευσης (στο παράθυρο Αρχεία Έργου) ή αλλιώς πηγαίνετε στο μενού του Έργου και επιλέξτε τα αρχεία προέλευσης που θέλετε να εισάγετε.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source Directory Selection</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή του Καταλόγου Προέλευσης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Import Source Files...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Εισαγωγή Αρχείων Προέλευσης...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Sample Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δείγμα Έργου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>loaded</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>φορτωμένα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>This operation searches both the source and target languages.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η λειτουργία αυτή εκτελεί αναζήτηση και στη γλώσσα-πηγή και στη γλώσσα-στόχο.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unrecognized escape character at line {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μη αναγνωρίσιμος χαρακτήρας στη γραμμή {0}!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error parsing filters configuration file:
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε σφάλμα κατά την ανάλυση του αρχείου ρύθμισης φίλτρων:
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>The Target Language entered is invalid!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η γλώσσα-στόχος που ορίσατε δεν είναι έγκυρη!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>OmegaT Project Directory</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κατάλογος Έργου OmegaT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select Match #&amp;5</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή Αποτελέσματος Ταύτισης #&amp;5</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select Match #&amp;4</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή Αποτελέσματος Ταύτισης #&amp;4</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select Match #&amp;3</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή Αποτελέσματος Ταύτισης #&amp;3</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Search TMs</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αναζήτηση στις μεταφραστικές μνήμες</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select Match #&amp;2</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή Αποτελέσματος Ταύτισης #&amp;2</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>B&amp;rowse</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αναζήτηση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Note: not all filters allow you to select an encoding.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σημείωση: Δεν σας επιτρέπουν όλα τα φίλτρανα επιλέξετε κωδικοποίηση.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Move Up</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μετακίνηση προς πάνω</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Orphan strings</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&quot;Ορφανές&quot; συμβολοσειρές</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Warning: Source segment could not be located for certain translation units.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προειδοποίηση: Το τμήμα κειμένου δεν ήταν δυνατό να εντοπιστεί για κάποιες μεταφραστικές μονάδες.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unable to initialize read of XML file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η εκκίνηση ανάγνωσης του αρχείου XML!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>The Source Language entered is invalid!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η γλώσσα-πηγή που ορίσατε δεν είναι έγκυρη!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Copying file</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αντιγραφή αρχείου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Warning while parsing:
+{0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προειδοποίηση κατά την ανάλυση:
+{0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Translation Memory directory entered does not exist!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο κατάλογος της μεταφραστικής μνήμης που ορίσατε δεν υπάρχει!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Glossary</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Γλωσσάρι</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source File Encoding</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κωδικοποίηση Αρχείου Προέλευσης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source Filename Pattern:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μοτίβο Αρχείου Προέλευσης:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Select Match #&amp;1</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλογή Αποτελέσματος Ταύτισης #&amp;1</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Help</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Βοήθεια</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+Each filter has a source filename pattern and can support different source file encodings, target file encodings, and target filename pattern.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+Κάθε φίλτρο έχει ένα μοτίβο ονόματος αρχείου προέλευσης και μπορεί να υποστηρίζει διαφορετικές κωδικοποιήσεις αρχείων προέλευσης και αρχείων προορισμού, όπως και διαφορετικά μοτίβα ονόματος αρχείων προορισμού</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>No tag errors detected</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν εντοπίστηκε κανένα σφάλμα ετικέτας</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Wind catches lily&lt;p&gt;Scatt'ring petals to the wind:&lt;p&gt;Your page is not found</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η σελίδα δυστυχώς δεν βρέθηκε</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Exciting help page&lt;p&gt;Gossamer threads hold you back&lt;p&gt;404 not found</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>404 Η σελίδα βοήθειας δεν βρέθηκε</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Target documents created</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Τα τελικά έγγραφα δημιουργήθηκαν</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>ERROR: Invalid OpenDocument or OpenOffice.org file, content not found!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>ΣΦΑΛΜΑ: Μη έγκυρο αρχείο OpenDocument ή OpenOffice.org. Δεν έχει βρεθεί περιεχόμενο!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Page slips through fingers&lt;p&gt;Pulse pounding hard and frantic&lt;p&gt;Vanishing like mist.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σελίδα εδώ, σελίδα εκεί, που είναι η σελίδα;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error creating project!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε σφάλμα κατά την δημιουργία έργου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unsupported function!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η λειτουργία αυτή δεν υποστηρίζεται!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Break/Exception</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αλλαγή γραμμής/Εξαίρεση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Tag name:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ονομασία ετικέτας:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unrecognized TMX version ({0})!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η έκδοση TMX ({0}) δεν αναγνωρίζεται!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>HTML and XHTML files</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αρχεία HTML και XHTML</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Create a New Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δημιουργήστε ένα νέο έργο</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Edit File Filters</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επεξεργασία των φίλτρων</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>XML file is invalid: It does not have a &lt;?xml ...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μη έγκυρο αρχείο XML: Δεν περιέχει επικεφαλίδα &lt;?xml ...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>OmegaT license</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Άδεια χρήσης του OmegaT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source Filename Pattern</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μοτίβο Ονόματος Αρχείου Προέλευσης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Java(TM) Resource Bundles</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Πακέτα Πόρων Java(TM)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+Note: not all filters allow you to select an encoding.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+Σημείωση: δεν επιτρέπουν όλα τα φίλτρα την επιλογή κωδικοποίησης.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Edit Pattern</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επεξεργασία Μοτίβου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&lt;segment 0000&gt;</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&lt;τμήμα 0000&gt;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Warning: Segment encountered outside translation unit variant.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προειδοποίηση: Εντοπίστηκε τμήμα κειμένου έξω από την εναλλακτική εκδοχή της μεταφραστικής μονάδας.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Move U&amp;p</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μετακίνηση προς τα &amp;πάνω</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Word count in unique segments:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Καταμέτρηση λέξεων στα μοναδικά τμήματα:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Location</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Τοποθεσία</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Edit...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Επεξεργασία...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Each filter must have a different source filename pattern and can support different source file encodings, target file encodings, and target filename pattern.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κάθε αρχείο πρέπει να έχει διαφορετικό μοτίβο ονόματος αρχείου προέλευσης και μπορεί να υποστηρίζει διαφορετικές κωδικοποιήσεις αρχείων προέλευσης και αρχείων προορισμού, όπως και διαφορετικά μοτίβα ονόματος αρχείων προορισμού.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Validate Tags</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Επικύρωση ετικετών</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Not a valid XML file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το παρόν δεν είναι έγκυρο XML αρχείο!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Loading file...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Φόρτωση αρχείου:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Break</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αλλαγή γραμμής/σελίδας</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Note: Each language uses one of the segmentation rule sets.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σημείωση: Κάθε γλώσσα χρησιμοποιεί ένα σετ κανόνων διαίρεσης.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Please select what text you would like to be inserted into the segment that is not translated yet, when you move to it.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επιλέξτε ποιο κείμενο θα θέλατε να εισαχθεί στο τμήμα που δεν έχει μεταφραστεί ακόμα, όταν θα το ανοίξετε προς μετάφραση.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Target language search results for:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αποτελέσματα αναζήτησης στην γλώσσα-στόχο για:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Bartender yells loud:&lt;p&gt;Your page cannot be found, boy&lt;p&gt;Buy another drink.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η σελίδα δυστυχώς δεν βρέθηκε.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Browse</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Αναζήτηση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Saving project...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αποθήκευση έργου...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Isolated tags</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μεμονομένες ετικέτες</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unexpected char {0} ({1})!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μη αναμενόμενος χαρακτήρας {0} ({1})!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+
+Keyword searches examine the current project and return all segments which contain all of the query words, in any order.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η αναζήτηση λέξης-κλειδί εξετάζει το τρέχον έργο και παρουσιάζει όλα εκείνα τα τμήματα που περιλαμβάνουν όλες τις λέξεις του ερωτήματος ανεξαρτήτου σειράς.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>You may also copy the files to your project's 'source' folder using your favorite file manager and reload the project by calling Project -&gt; Reload from the main menu.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μπορείτε επίσης να αντιγράψετε αρχεία στο φάκελο προέλευσης του έργου σας χρησιμοποιώντας τον διαχειριστή αρχείων της προτίμησής σας και ξαναφορτώστε το έργο επιλέγοντας Έργο &gt; Επαναφόρτωση από το κύριο μενού.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>File Import Failed</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η εισαγωγή του αρχείου απέτυχε</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Edit Filter Patterns</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επεξεργασία Μοτίβου Φίλτρων</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Properties...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Ιδιότητες...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Create New Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δημιουργία Νέου Έργου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Exact search</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ακριβής αναζήτηση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source files directory:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κατάλογος αρχείων προέλευσης:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Redo Last Action</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Επανάληψη της τελευταίας κίνησης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Bad tag on line {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Λανθασμένη ετικέτα στη γραμμή {0}!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Source Language:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Γλώσσα-πηγή:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Overwrite Translation</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Αντικατάσταση μετάφρασης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Segmentation rules are applied in the following order:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Οι κανόνες κατάτμησης εφαρμόζονται με την ακόλουθη σειρά:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Add...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Πρόσθεση...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error writing compiled output file!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σφάλμα κατά την εγγραφή του μεταγλωττισμένου αρχείου εξόδου!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Next</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επόμενη σελίδα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source File Encoding :</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κωδικοποίηση Αρχείου Προέλευσης:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Search files</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αναζήτηση αρχείων</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source language: {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Γλώσσα-πηγή: {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>[best fuzzy match]</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>[καλύτερο αποτέλεσμα ταύτισης]</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>In order for the changes to take effect OmegaT needs to close and then open the project.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Για να ενεργοποιηθούν οι αλλαγές πρέπει να κλείσετε το OmegaT και έπειτα να ανοίξετε πάλι το έργο.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Prefix:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Πρόθεμα:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Remove Filter</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αφαίρεση φίλτρου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>File &amp;Format</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Τύπος Αρχείου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Glossary directory entered does not exist!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο κατάλογος του γλωσσαρίου που ορίσατε δεν υπάρχει!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Segmentation method: {0}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Τρόπος κατάτμησης κειμένου: {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>HTML files</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αρχεία HTML</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>A&amp;dd</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Πρόσθεση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Dele&amp;te</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Διαγραφή</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Target Filename Pattern</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μοτίβο Ονόματος Αρχείου Προορισμού</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>To edit what files in what encodings the filter will process, select the filter from the list and click Edit.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Για να αλλάξετε την αντιστοίχηση αρχείων - κωδικοποιήσεων που θα επεξεργαστούν τα φίλτρα, επιλέξτε το φίλτρο από τη λίστα και πατήστε Επεξεργασία.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <prop type="x-merge-mt">true</prop>
+
+         <tuv xml:lang="EN">
+            <seg>Remove pattern?</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αφαίρεση μοτίβου?</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αφαίρεση σχήματος?</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Add Pattern</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Πρόσθεση Μοτίβου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Total word count:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Σύνολο λέξεων:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>New Language and Country</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Νέα Γλώσσα και Χώρα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>End of stream encoutered without finding close block!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε τέλος ροής χωρίς να έχει βρεθεί μπλοκ κλεισίματος!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>button in the Project Files window or call this action from the Project menu and select the source files you want to import.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>κουμπί στο παράθυρο Αρχεία Έργου ή αλλιώς πηγαίνετε στο μενού του Έργου και επιλέξτε τα αρχεία προέλευσης που θέλετε να εισάγετε.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Brows&amp;e</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αναζήτη&amp;ση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Re&amp;place with Source</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Α&amp;ντικατάσταση με Κείμενο Πηγής</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Unsupported XML version {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η έκδοση XML {0} δεν υποστηρίζεται!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>OmegaT is a high performance Java-based Translation Memory CAT (Computer Assisted Translation) tool with features such as: fuzzy matching, keyword search, glossary term identification, and multiple file type support.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το OmegaT είναι ένα εργαλείο Μεταφραστικής Μνήμης βασισμένο στη Java, που επιτρέπει: μερική ταύτιση τμημάτων του κειμένου πηγής με τους υπάρχοντες πόρους, την αναζήτηση λέξεων-κλειδιών, την ανεύρεση όρων μέσα στο γλωσσάρι και την υποστήριξη πολλαπλών τύπων αρχείων.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Building word counts...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Καταμέτρηση λέξεων...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Reopen the project?</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Θέλετε να ανοίξετε πάλι το έργο?</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Size</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Μέγεθος</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Loading:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Φόρτωση:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Insert</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εισαγωγή</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Could not initialize OS look and feel!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν ήταν δυνατή η προετοιμασία εξοικείωσης με το Λειτουργικό Σύστημα!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Your project is empty.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το έργο δεν περιέχει τίποτα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Invalid TMX file '{0}'!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μη έγκυρο αρχείο TMX '{0}'!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Open...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Άνοιγμα...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>These units have been skipped.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Οι μονάδες αυτές προσπεράστηκαν.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Maximum number of finds has been reached</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο ανώτατος αριθμός αποτελεσμάτων έχει επιτευχθεί.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Table of Contents</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Περιεχόμενα</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Edit Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Επεξεργασία έργου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Remove</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αφαίρεση</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source Filename Pattern :</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μοτίβο Ονόματος Αρχείου Προέλευσης:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Source file loading complete</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ολοκρηρώθηκε η φόρτωση του αρχείου προέλευσης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Add Filter</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Πρόσθεση φίλτου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>File Filters</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Φίλτρα Αρχείου...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>To have multiple filters of a specific type, select the type from the list and edit it.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Για να έχετε πολλαπλά φίλτρα για ένα συγκεκριμένο τύπο αρχείου, επιλέξτε τον τύπο από τη λίστα και προχωρήστε στην επεξεργασία του.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Parse error in file {0} at line {1} - {2}!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστηκε σφάλμα ανάλυσης στο αρχείο {0} σειρά {1} - {2}!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Display Font</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Γραμματοσειρά οθόνης</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Workflow...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Σειρά εργασιών...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>D&amp;elete</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Διαγραφή</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Font</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Γραμματοσειρά</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Pattern After</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μοτίβο μετά από</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>&amp;Options</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>&amp;Επιλογές</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Specified language codes are invalid!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Οι καθοριμένοι κωδικοί γλωσσών δεν είναι έγκυροι</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot locate help file:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν μπορώ να εντοπίσω το αρχείο βοήθειας:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Search thread died unexpectedly!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το περιεχόμενο της αναζήτησης εξαφανίστηκε ξαφνικά!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Analyzing Translation Memory - {0} of {1}</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ανάλυση Μεταφραστικής Μνήμης- {0} από{1}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>No matches returned by search.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Η αναζήτηση δεν έφερε κανένα αποτέλεσμα.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Reload Project</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επαναφόρτωση Έργου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Floating '?' character not tied to '&gt;'!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αιωρούμενος χαρακτήρας '?' δεν είναι συνδεδεμένος με το '&gt;'!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Do you really want to quit?</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Θέλετε οπωσδήποτε να εξέλθετε?</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Bad tag start on line {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Λανθασμένη αρχική ετικέτα στη γραμμή {0}!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Import Source Files...</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Εισαγωγή Αρχείων Προέλευσης...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>The first set with a matching Language Pattern is applied, so specific rules should be higher than general ones.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το πρώτο σετ που αντιστοιχεί σε ένα Μοτίβο Γλώσσας εφαρμόζεται, οπότε οι ειδικοί κανόνες υπερισχύουν έναντι των γενικών.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Cannot recognize glossary file:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Δεν είναι δυνατή η αναγνώριση του αρχείου του γλωσσαρίου:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Filename Variables :</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μεταβλητές Ονόματος Αρχείου:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Error saving filters configuration:
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Παρουσιάστικε σφάλμα κατά την αποθήκευση των ρυθμίσεων των φίλτρων:
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Project Files</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Αρχεία Έργου</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Editing Field Options</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Επεξεργασία Επιλογών Πεδίων</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>View or edit file conversion filters.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Προβολή ή επεξεργασία φίλτρων μετατροπής αρχείων.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Here you may setup the source filename patterns of files the filter will process, customize the filenames of translated files, and select what encodings it will use for loading the file and saving its translated counterpart.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Από εδώ μπορείτε να ρυθμίσετε τα πρότυπα σχήματα ονομασίας αρχείων προέλευσης των αρχείων που θα επεξεργαστούν τα φίλτρα, να προσαρμόσετε την ονομασία των μεταφρασμένων αρχείων και να επιλέξετε την κωδικοποίηση ποθ θα πρέπει να χρησιμοποιήσει το σύστημα για να φορτώσει το αρχείο και να αποθηκεύσει το αντίστοιχο του μεταφρασμένο αρχείο.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Mo&amp;ve Down</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Μετακίνηση προς κάτω</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+Reopen the project now?</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Θέλετε να ανοίξετε πάλι το έργο;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Escaped binary char contains malformed data (&amp;#x{0};)!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Ο δυαδικός χαρακτήρας διαφυγής περιέχει ακατάλληλα δεδομένα (&amp;#x{0};)!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>WARNING: Unable to locate source language text in segment {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Δεν ήταν δυνατός ο εντοπισμός κειμένου γλώσσας-πηγή στο τμήμα {0}!</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE.</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Το πρόγραμμα αυτό διανέμεται με την ελπίδα ότι θα είναι χρήσιμο, αλλά ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ, ούτε καν με οποιαδήποτε υποκρυπτόμενη εγγύηση ΔΥΝΑΤΟΤΗΤΑΣ ΕΜΠΟΡΕΥΜΑΤΟΠΟΙΗΣΗΣ ΤΟΥ ΠΡΟΪΟΝΤΟΣ ή ΚΑΤΑΛΛΗΛΟΛΗΤΑΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ ΧΡΗΣΗΣ.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>
+
+Exception occured: 
+</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>
+
+Παρουσιάστηκε η εξαίρεση: 
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Entries with modified tags</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Καταχωρήσεις με τροποποιημένες ετικέτες</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="EN">
+            <seg>Translation Memory directory:</seg>
+         </tuv>
+
+         <tuv xml:lang="EL-GR">
+            <seg>Κατάλογος Μεταφραστικής Μνήμης:</seg>
+         </tuv>
+      </tu>
+   </body>
+</tmx>

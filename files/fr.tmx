@@ -1,0 +1,2681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+
+<tmx version="1.4">
+   <header
+      creationtool="TMX Merger"
+      creationtoolversion="1.1"
+      segtype="sentence"
+      adminlang="EN-US"
+      srclang="en-US"
+   >
+   </header>
+   <body>
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Open Project...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Ouvrir un projet...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Professional features</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T232554Z" changeid="miurahr">
+            <seg>Fonctions professionnelles</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Illegal HTML entity (&amp;---;):</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Entité HTML non conforme (&amp;---;):</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Save Translation Memory</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Sauvegarder la mémoire de traduction</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Project load cancelled by user</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Vous avez annulé le chargement du projet</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Failed to load specified project!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le projet n'a pas pu être chargé !
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Analyzing strings - {0} of {1} completed</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>chaînes analysées: {0} sur {1}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Problem encountered loading project file!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Problème lors du chargement du fichier projet !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Confused by false start of comment tag!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Confusion due à un marqueur de départ de commentaire erroné !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Failed to compile project files!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Les fichiers du projet n'ont pas pu être compilés !
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Project &amp;Files...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fichiers du &amp;projet...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Loading file:</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Chargement du fichier :</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>ERROR</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Erreur</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Back</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Retour</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Cannot access glossary directory!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible d'accéder au répertoire des glossaires !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>The language code should be in the form xx-YY or xx_YY, where 
+xx is the language code and YY is the country code (optional).</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le code langue doit être de la forme suivante: xx_YY ou bien xx-YY,
+où xx est un code langue générique et YY un code pays, optionnel.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Compatible with other translation memory applications (TMX, TTX, TXML, XLIFF, SDLXLIFF)</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T233456Z" changeid="miurahr">
+            <seg>Compatibilité avec d'autres logiciels de mémoire de traduction (TMX, TTX, TXML, XLIFF, SDLXLIFF)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Loading glossary...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Chargement des glossaires...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Keyword search</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Recherche par mot clef</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>OpenDocument/OpenOffice.org files</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fichiers OpenDocument/OpenOffice.org</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Filename</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Nom du fichier</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Error searching directory tree!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Erreur dans la recherche des répertoires !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>attributes.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>attributs.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Cannot recognize glossary file: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible de reconnaître le glossaire : </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>OmegaT Project Folder</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Répertoire projet OmegaT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Cannot create target directory! : </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible de créer le répertoire cible :
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Failed to load translation memory for project!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>La mémoire de traduction du projet n'a pas pu être chargée !
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Close</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T233224Z" changeid="miurahr">
+            <seg>Fermer</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Con&amp;tents</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Table des matières</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Filename already exists. Please select a different name.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Ce nom de fichier existe déjà, veuillez choisir un autre nom.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Translated files directory: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Répertoire des fichiers en langue cible: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Validating Tags...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Validation des marqueurs...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&lt;auto&gt;</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&lt;automatique&gt;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Confirm removal of {0} file filter</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Confirmez la suppression du filtre {0}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Preferences system save operation failed! 
+</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible de sauver les préférences système !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Mourning and sorrow&lt;p&gt;404 not with us now&lt;p&gt;Lost to paradise</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Cette page a trouvé le chemin du paradis...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Cannot associate parser with the file extension</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible d'associer un filtre à l'extension</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Cancel</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Annuler</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Create &amp;Target Documents</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Créer les documents cibles</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>File &amp;Filters...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Fichiers et filtres</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>OmegaT Project Files</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fichiers projet OmegaT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Cannot load specified XML file! 
+</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le fichier XML spécifié ne peut pas être chargé !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unsupported project file version ({0})!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Version de fichier projet non acceptée ({0}) !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Match/Glossary Viewer</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Correspondances et glossaires</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Arrays must not be null</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Les tables ne doivent pas être non définies</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Fuzzy matching</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T232605Z" changeid="miurahr">
+            <seg>Correspondances partielles</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Text Files</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fichiers textes</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Creating target documents: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Création des documents cibles: </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Failed to create project!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible de créer le projet !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>HTML parser got into unknown state on line {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le filtre HTML a été rendu inopérant à la ligne {0} !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Undo Last Action</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Annuler la dernière action</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Next Un&amp;translated Segment</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Segment &amp;non-traduit suivant</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>{0} fuzzy matche(s) and {1} glossary term(s) found</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>{0} correspondances(s) et {1} terme(s) du glossaire</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Enabled</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Activé</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Next Segment</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Segment suivant</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Insert Translation</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Insérer une correspondance</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Open Project</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Ouvrir un projet</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Users Manual...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Manuel de l'utilisateur</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Close Project</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Fermer le projet...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Cannot reset to default filter.
+
+Exception occured: 
+</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Il n'est pas possible de revenir au filtre par défaut.
+
+Une erreur a eu lieu: 
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Select</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Choisir</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;New Project...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Nouveau projet...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Recursive search</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Recherche récursive</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Search for: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Chercher : </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Target File Encoding</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Encodage de fichier cible</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;About...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;A propos...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Word count in unique segments: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Nombre de mots dans les segments uniques</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Source files directory entered does not exist!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le répertoire spécifié pour les fichiers source n'existe pas !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Edit File Filter</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Modifier un filtre</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Cannot open input file!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible d'ouvrir le fichier d'entrée !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Building index tables...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Création des tables d'index...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Add</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Ajouter</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Source Directory Selection</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Sélectionnez le répertoire qui contient les fichiers source</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Invalid project tree!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Structure de projet non valide !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>File '{0}' does not exist!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le fichier '{0}' n'existe pas !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Previous Segment</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Segment &amp;précédent</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unrecognized escape character at line {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Caractère d'échappement non reconnu à la ligne  {0} !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Error parsing filters configuration file:
+</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Erreur d'analyse d'un ficher de configuration des filtres :
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>This is where file conversion filters are edited. Each filter must have a different source filename pattern and can support different source file encodings, target file encodings, and target filename pattern.
+Note: not all filters allow you to select an encoding.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Vous pouvez modifier les filtres de conversion ici.
+Chaque filtre doit être associé a un pattern de nom de fichier source et peut accepter différents pattern de nom de fichier cible, encodages pour les fichiers sources et cibles.
+Note: tous les filtres ne vous autorisent pas à choisir un encodage.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>OmegaT is a high performance Java-based Translation Memory CAT (Computer Assisted Translation) tool with features such as: fuzzy matching, keyword search, glossary term identification, and multiple file type support.
+
+OmegaT is the original the work of Keith Godfrey
+
+Code has been contributed by: 
+  Benjamin Siband
+  Maxym Mykhalchuk (lead developer)
+  Sacha Chua 
+  Henry Pijffers 
+  Raymond Martin
+
+Other contributions by: 
+  Marc Prior (project coordinator and ASAD manual writer)
+  Jean-Christophe Helary
+  Samuel Murray
+  Dmitry Gabinski
+  Raymond: Martin (documentation coordinator)
+  and many, many more very helpful people</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>OmegaT est un outil d'aide à la traduction (mémoire de traduction) de haute performance écrit en Java. Il inclut des fonctions telles que la recherche automatique de correspondances, la recherche par mot-clef, l'identifications des termes de glossaire. Il accepte de nombreux formats de fichiers.
+
+OmegaT est le produit d'un travail original de  Keith Godfrey
+
+Les personnes suivantes ont contribué au code: 
+  Benjamin Siband
+  Maxym Mykhalchuk (responsable développement)
+  Sacha Chua 
+  Henry Pijffers
+
+Les personnes suivantes on contribué d'autres manières: 
+  Marc Prior (coordinateur du projet et auteur du manuel ASAD)
+  Jean-Christophe Helary
+  Samuel Murray
+  Dmitry Gabinski
+  Raymond: Martin (coordinateur de la documentation)
+  ainsi que de nombreuses autres personnes.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Search TMs</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Recherche dans les mémoires de traduction</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>B&amp;rowse</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Sélectionner (&amp;2)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Orphan strings</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Chaîne orpheline</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unable to initialize read of XML file!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible d'initialiser la lecture du fichier XML !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>loaded </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>chargé</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>About</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200908T002815Z" changeid="miurahr">
+            <seg>A propos</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Copying file</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Copie du fichier</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Target Language:</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Code de la langue &amp;cible :</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Seule la licence en langue anglaise est légalement valable. 
+Vous pouvez trouver des traductions françaises qui peuvent servir de référence 
+mais qui en aucun cas ne peuvent remplacer la licence originale 
+GNU General Public License, Free Software Foundation, version 2 ou plus récente.
+
+This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Translation Memory directory entered does not exist!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le répertoire spécifié pour les fichiers mémoires de traductions n'existe pas !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Error saving filters configuration! :
+</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Erreur en sauvegardant la configuration des filtres ! :
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Exact searches look for the specified query string within the current project or in any directory or directory tree.Exact search supports the wildcard characters * and ?.  The * character matches zero or more characters (the search term 'run*' would match 'run', 'runs', and 'running', for example). The ? character matches exactly one character ('run?' would match 'runs' and 'rung', for example, but not 'run' or 'running').  This operation searches both the source and target languages.
+
+Keyword searches examine the current project and return all segments which contain all of the query words, in any order.
+
+See the help documentation for more details.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Les recherches exactes identifient la chaîne de caractères spécifiée dans le projet actuel ou dans un autre répertoire/système de répertoire. Vous pouvez utilisez les caractères &quot;*&quot; et &quot;?&quot; dans votre recherche.
+
+Le caractère &quot;*&quot; s'identifie à zéro ou plusieurs caractères. La recherche sur &quot;mon*&quot; donnera les résultats &quot;mon&quot;, &quot;monde&quot;, &quot;monter&quot; par exemple.
+Le caractère &quot;?&quot; s'identifie à un seul caractère. La recherche sur &quot;mon?&quot; donnera le résultat &quot;mont&quot; par exemple.
+
+Cette recherche est effectuée aussi bien dans la langue source que dans la langue cible.
+
+Les recherches par mots clefs identifient le texte source et identifient tous les segments contenant la chaîne recherchée sans considération d'ordre. Cette opération ne peut être effectuée que dans le texte source d'un projet chargé.
+
+Consultez la documentation pour les détails.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Search thread died unexpectedly! Please close search window.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>La recherche a été avortée, veuillez fermer la fenêtre de recherche.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Source File Encoding</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Encodage de fichier source</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Simultaneous processing of multiple-file projects</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T233201Z" changeid="miurahr">
+            <seg>Traitement parallèle des projets multifichier</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Match/Glossary Viewer...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Correspondances et &amp;glossaires...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Help</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Aide</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>OmegaT &lt;s0&gt;the free translation memory tool&lt;/s0&gt;</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T232215Z" changeid="miurahr">
+            <seg>OmegaT &lt;s0&gt;l'outil libre de TAO&lt;/s0&gt;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>No tag errors detected</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Aucune erreur de marqueur n'a été détectée</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>XML file is invalid: It does not have a &lt;?xml ... ?&gt; header!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le fichier XML n'est pas conforme: il lui manque l'entête &lt;?xml ... ?&gt; !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unexpected NULL on line {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>NULL non conforme à la ligne {0} !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>This is the way text will look when displayed.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Les textes seront affichés avec cette fonte.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Wind catches lily&lt;p&gt;Scatt'ring petals to the wind:&lt;p&gt;Your page is not found</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Autant en emporte&lt;p&gt;la page...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Words remaining to translate: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Mots restant à traduire :</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Escaped decimal char contains malformed data (&amp;#{0};)!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Caractère décimal contenant des données non conformes (&amp;#x{0};) !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Exciting help page&lt;p&gt;Gossamer threads hold you back&lt;p&gt;404 not found</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Pas de page d'aide&lt;p&gt;dommage...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Target documents created</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Documents cibles créés</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>ERROR: Invalid OpenDocument or OpenOffice.org file, content not found!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>ERREUR: fichier de format OpenDocument ou OpenOffice.org non conforme, pas de contenu identifié !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Page slips through fingers&lt;p&gt;Pulse pounding hard and frantic&lt;p&gt;Vanishing like mist.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Page brumeuse&lt;p&gt;mirage, pas de page...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Error creating project!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Erreur en créant le projet !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unsupported function!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fonction non implémentée !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unrecognized TMX version ({0})!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Version de TMX non reconnue ({0}) !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&lt;s0&gt;OmegaT&lt;/s0&gt; is a free translation memory application that works on Windows, macOS, Linux...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T232251Z" changeid="miurahr">
+            <seg>&lt;s0&gt;OmegaT&lt;/s0&gt;est un logiciel libre de TAO conçu pour des traducteurs professionnels, qui fonctionne sous Windows, macOS ou Linux.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Glossary Directory Selection</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Sélectionnez le répertoire qui contient les glossaires</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Create a New Project</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Créer un nouveau projet</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Loading project...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Chargement du projet...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Edit File Filters</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Modifier les filtres</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Search</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Chercher</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Target Directory Selection</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Sélectionnez le répertoire qui contient les fichiers cible</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Sample Text</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Exemple</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>OmegaT Translation Memory CAT Tool</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>OmegaT mémoire de traduction, outil d'aide à la traduction.
+
+Consultez la documentation dans le menu &lt;Aide&gt; &lt;Manuel de l'utilisateur&gt;.
+
+Principes de base:
+• Créez un nouveau projet (menu &lt;Fichier&gt; &lt;Nouveau projet...&gt;).
+   ⇒ Glissez les fichiers à traduire dans le répertoire /source du projet.
+• Ouvrez le projet (menu &lt;Fichier&gt; &lt;Ouvrir un projet&gt;).
+   ⇒ Les segments à traduire s'affichent.
+   ⇒ La zone de traduction est celle entre &lt;(numéro) début&gt; et &lt;fin&gt;
+   ⇒ Vous pouvez commencer à traduire.
+   ⇒ Passez au segment suivant en validant votre traduction ([Entrée]).
+• Sauvegardez fréquement votre travail (menu &lt;Fichier&gt; &lt;Sauvegarder la mémoire de traduction&gt;).
+• Visualisez votre traduction en créant les documents traduits (menu &lt;Fichier&gt; &lt;Créez les documents cible&gt;).
+   ⇒ Votre traduction (même partielle) se trouve dans le répertoire /target du projet.
+
+Pour en savoir plus sur l'utilisation des correspondances, mémoires de traduction et glossaires, ainsi que sur les autres fonctions de OmegaT, veuillez consulter le manuel de l'utilisateur.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>OmegaT license</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>OmegaT, licence</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Source Filename Pattern</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Pattern de nom de fichier source</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Java(TM) Resource Bundles</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Paquets de ressources Java(TM)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Security error encountered loading project file!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Problème de sécurité au chargement du projet !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Edit Filter</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Modifier un filtre</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Defaults</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Valeurs par &amp;défaut</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>File Format</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Format de fichier</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Tools</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Outils</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;File</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Fichier</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Location</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Localisation </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unicode (UTF-8) support: can be used with non-Latin alphabets</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T233413Z" changeid="miurahr">
+            <seg>Prise en charge d'Unicode (UTF-8) : utilisation possible avec les alphabets non latins</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Validate Tags</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Valider les marqueurs</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Integral spelling checker</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T233444Z" changeid="miurahr">
+            <seg>Vérificateur orthographique intégral</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Not a valid XML file!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fichier XML non valide !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&lt;segment 0000&gt; </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&lt;début 0000&gt; </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Loading file...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Chargement du fichier...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Help you are seeking&lt;p&gt;From your path it is fleeing&lt;p&gt;Its winter has come</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>L'aide que vous cherchez&lt;p&gt;a disparu...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Bartender yells loud:&lt;p&gt;Your page cannot be found, boy&lt;p&gt;Buy another drink.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Pas de page&lt;p&gt;passez un tour...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Cannot create target directory tree!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible de créer le système de répertoire en langue cible !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Target language search results for: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Résultats de la recherche dans la langue cible pour : </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Users Manual</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Manuel de l'utilisateur</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Browse</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Sélectionner (&amp;1)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Create New Project</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Création du projet</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>WARNING: Parse error encountered reading preferences file! 
+</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Attention: erreur lors de l'analyse des préférences !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Exact search</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Recherche exacte</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Source files directory:</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Répertoire des fichiers en langue source :</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Redo Last Action</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Reproduire la dernière action</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unexpected character in tag {0} on line {1}!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Caractère non conforme dans le marqueur {0} à la ligne {1} !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>IOException encountered! : </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Errreur Entrée/Sortie ! :</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Bad tag on line {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Marqueur non valide à la ligne {0} !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Source Language:</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Code de la langue &amp;source :</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Cannot find saved translation file! : </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Traduction sauvegardée introuvable :
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>XHTML files</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fichiers XHTML</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Overwrite Translation</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Remplacer par une correspondance</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Target File Encoding :</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Encodage de fichier &amp;cible</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Error writing compiled output file!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Erreur à l'écriture d'un fichier traduit !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>(comment tag) </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>(marqueur de commentaire) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Search files</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Chercher dans les fichiers</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>The Target Language entered is invalid!
+</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le code pour la langue cible n'est pas correct !
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Translated files directory entered does not exist!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le répertoire spécifié pour les fichiers cible n'existe pas !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>(empty tag) </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>(marqueur vide) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Warning</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Attention</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Remove Filter</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Supprimer un filtre</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>File &amp;Format</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Format de fichier</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;TAB Advance</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Utiliser &amp;TAB pour valider</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Error saving project file!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Erreur en sauvegardant le projet !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Glossary directory:</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Répertoire des glossaires :</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Glossary directory entered does not exist!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le répertoire spécifié pour les glossaires n'existe pas !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Select folder</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Choisir un répertoire</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>HTML files</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fichiers HTML</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Source language search results for: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Résultats de la recherche dans la langue source pour : </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>These three are certain:&lt;p&gt;Death, taxes, and page not found.&lt;p&gt;You, victim of one.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Victime d'un sort&lt;p&gt;pas de page...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Ephemeral page&lt;p&gt;I am the Blue Screen of Death&lt;p&gt;No one hears your screams.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Pas de page&lt;p&gt;personne ne vous entend pleurer...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Fatal error encountered - saving project file with '.recover' backup extension.
+Please consult the documentation about your recovery options and
+return the below information to the software manufacturer with
+a description of how this error was produced.
+</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Erreur majeure. Le projet est sauvegardé avec l'extension '.recover'.
+Consultez la documentation pour les possibilités de récupération et renvoyez l'information suivante aux développeurs en y joignant un descriptif de la manipulation qui a amené l'erreur.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Target Filename Pattern</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Pattern de nom de fichier cible</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Specified language codes are invalid! TMX requires correct codes.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Les codes langues choisis ne sont pas corrects.
+Choisissez des codes acceptés par le standard TMX.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>[EAR] Wrong file type specified: It must be HTML or XML!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>[EAR] Type de fichier spécifié erroné: HTML ou XML requis !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Edit</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Edition</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>End of stream encoutered without finding close block!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Pas de bloc de fin en clôture de fichier !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Brows&amp;e</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Sélectionner (&amp;4)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unsupported XML version {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Version XML non acceptée {0} !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&lt;end segment&gt;</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&lt;fin&gt;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Building word counts...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Calcul du nombre de mots...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>
+Tag name: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>
+Nom du marqueur : </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Rather than beep&lt;p&gt;Or a rude error message&lt;p&gt;These words: 'Page not found'</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Sans un bruit&lt;p&gt;ces mots: &quot;pas de page&quot;...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Size</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Taille</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Insert</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Insérer</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>The Source Language entered is invalid!
+</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le code pour la langue source n'est pas correct !
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Could not initialize OS look and feel!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>L'apparence spécifique au système d'exploitation n'a pas pu être initialisée !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Parse error in </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Erreur d'analyse dans </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Invalid TMX file '{0}'!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fichier TMX '{0}' non valide !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Filename &amp;Variables :</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Variables nom de fichier</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Some project folders seem to have been moved. Please locate them and re-establish
+ the directory structure or specify their new location here.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Certains répertoires semblent avoir été déplacés.
+
+Veuillez rétablir la structure des répertoires ou les localiser et indiquer ici leur nouvelle position.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Source File &amp;Encoding :</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Encodage de fichier &amp;source</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Loading: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Chargement:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Maximum number of finds has been reached</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le nombre maximum de résultats a été atteint.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unexpected char '{0}' ({1})!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Caractère non conforme '{0}' ({1}) !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Remove</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Retirer</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>{0} fuzzy matche(s) found</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>{0} correspondance(s) trouvé(s)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Emptiness of soul&lt;p&gt;Forever aching blackness&lt;p&gt;Your help page not found</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Ecran aussi vide que votre regard&lt;p&gt;pas de page...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Source Filename Pattern :</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Pattern de nom de fichier source</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Source file loading complete</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Chargement des fichiers source accompli</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Add Filter</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Ajouter un filtre</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>File Filters</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Filtres de fichiers</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Cannot locate help file: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le manuel utilisateur est introuvable. Vérifiez que le fichier ci-dessous est présent à l'emplacement indiqué :
+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Plain text</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T233519Z" changeid="miurahr">
+            <seg>Texte brut</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unable to build new TMX file!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible de créer de nouveau fichier TMX !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Specify custom project folders here.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Vous pouvez modifier ici les répertoires par défaut du projet :</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Parse error in file {0} at line {1} - {2}!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Erreur d'analyse dans le fichier
+{0}
+à la ligne {1} - {2}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Column Index must be equal to 1</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>L'index de colonne doit être égal à 1</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Display Font</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fonte d'affichage</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Escaped character never terminated!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Caractère d'échappement non fermé !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Quit</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Quitter OmegaT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Match propagation</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T232614Z" changeid="miurahr">
+            <seg>Propagation des correspondances</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Font</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Fonte</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;License</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Licence</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>{0} glossary term(s) found</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>{0} terme(s) du glossaire trouvé(s)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Bro&amp;wse</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Sélectionner (&amp;3)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Number of Segments</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Nombre de segments</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Unable to read project file! 
+</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible de lire le fichier projet !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>WARNING: Skipping segment {0} in TMX file '{1}' after parse error!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Attention: erreur d'analyse, le segment {0} du fichier TMX '{1}' est ignoré. !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Text Search</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Recherche textuelle</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Analyzing Translation Memory - {0} of {1}</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>chaînes de la mémoire de traduction analysées: {0} sur {1}</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>No matches returned by search.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>La recherche n'a produit aucun résultat.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Total word count: </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Nombre total de mots :</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Search Project...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Chercher dans le projet...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Translation Memory Directory Selection</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Sélectionnez le répertoire qui contient les mémoire de traduction</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Close</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Fermer</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Floating '?' character not tied to '&gt;'!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Caractère '?' flottant non lié à '&gt;' !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Display F&amp;ont...</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fonte d'&amp;affichage...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Bad tag start on line {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Marqueur de départ non valide à la ligne {0} !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>About OmegaT</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>À propos de OmegaT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>OmegaT version </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>OmegaT Version </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Project Files</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Fichiers du projet</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>The help page you seek&lt;p&gt;Lies beyond our perception&lt;p&gt;But others await</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>La page que vous cherchez n'est pas là&lt;p&gt; mais d'autres vous attendent...</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Cannot build TMX file!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Impossible de créer de fichier TMX !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>(close tag) </seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>(marqueur de clôture) </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>View or edit file conversion filters. To have multiple filters of a specific type, select the type from the list and edit it.
+Each filter has a source filename pattern and can support different source file encodings, target file encodings, and target filename pattern.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Visualiser et modifier les filtres de conversion.
+Pour avoir différents filtres d'un type spécifique, sélectionnez le type dans la liste et modifiez le.
+Chaque filtre est associé à un pattern de nom de fichier source et peut accepter différents pattern de nom de fichier cible, encodages pour les fichiers sources et cibles.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>It is a tool intended for professional translators.</seg>
+         </tuv>
+
+         <tuv xml:lang="fr" changedate="20200909T232319Z" changeid="miurahr">
+            <seg>Il ne traduit pas à votre place</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Error</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Erreur</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>[U8W] Wrong file type specified: It must be HTML or XML!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>[U8W] Type de fichier spécifié erroné: HTML ou XML requis !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Escaped binary char contains malformed data (&amp;#x{0};)!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Caractère binaire contenant des données non conformes (&amp;#x{0};) !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Locale is wrong or is not specified '{0}'! Localized Resource bundle cannot be created</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Le paramètre de localisation est soit non valide soit non spécifié '{0}' ! Les ressources localisées n'ont pas pu être crées.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&amp;Settings</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>&amp;Préférences</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>WARNING: Unable to locate source language text in segment {0}!</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Attention: impossible de trouver de texte en langue source dans le segment {0} !</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Select Fuzzy Match #&amp;1</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Choisir la correspondance #&amp;1</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Encountered illegal \u sequence</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Séquence \u non conforme</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Select Fuzzy Match #&amp;3</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Choisir la correspondance #&amp;3</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Select Fuzzy Match #&amp;2</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Choisir la correspondance #&amp;2</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Select Fuzzy Match #&amp;5</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Choisir la correspondance #&amp;5</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Entries with modified tags</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Des marqueurs ont été modifiés</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Select Fuzzy Match #&amp;4</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Choisir la correspondance #&amp;4</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Translation Memory directory:</seg>
+         </tuv>
+
+         <tuv xml:lang="fr">
+            <seg>Répertoire des mémoires de traduction :</seg>
+         </tuv>
+      </tu>
+   </body>
+</tmx>
