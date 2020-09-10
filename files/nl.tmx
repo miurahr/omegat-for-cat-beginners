@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.4">
+  <header
+    creationtool="OmegaT"
+    creationtoolversion="1.6.0"
+    segtype="sentence"
+    o-tmf="OmegaT TMX"
+    adminlang="EN-US"
+    srclang="EN-US"
+    datatype="plaintext"
+  >
+  </header>
+  <body>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OmegaT, the free memory translation tool</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OmegaT, gratis gereedschap voor vertaalgeheugens</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Memory translation tool, OpenOffice, GPL, mï¿½oire de traduction, CAT, computer aided translation, TAO</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Gereedschap voor vertaalgeheugens, OpenOffice, GPL, mï¿½oire de traduction, CAT, computer aided translation, TAO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The free (GPL) translation memory tool</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Het gratis (GPL) gereedschap voor vertaalgeheugens</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Introducing OmegaT</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OmegaT introductie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Requirements</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Vereisten</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Screenshot</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Schermafbeelding</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Documentation</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Documentatie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Other OmegaT resources</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Meer hulpprogramma's voor OmegaT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>User groups</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Gebruikersgroepen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Reviews</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Besprekingen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The OmegaT project and you</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Werk mee aan OmegaT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The standard releases are supplied with online help texts and a brief online tutorial, in English.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>De standaardversies worden geleverd met online helpteksten, en een beknopte online tutorial in Engels.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Some documentation is available in other languages, but may not be up-to-date.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Overige documentatie is ook beschikbaar in andere talen hoewel deze misschien niet up-to-date is.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The ASAD manual is a comprehensive reference manual; new users are advised to make use of the online Help first.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>De ASAD-handleiding is een uitgebreide referentiehandleiding. We raden nieuwe gebruikers aan eerst de online-help te gebruiken.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>http://www.omegat.org/omegat/resources/fdl.html</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>http://www.omegat.org/omegat/images/ss_windows.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The user manuals are subject to the &lt;a0&gt;GNU Free Documentation Licence&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Op de handleidingen is de &lt;a0&gt;GNU Free Documentation Licence&lt;/a0&gt; van toepassing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>You may copy, modify, translate and/or distribute the user manuals, but please read the licence first if you do so.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Je mag deze handleidingen kopiëren, wijzigen, vertalen en/of distribueren. Lees in deze gevallen eerst de licence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If you wish to localize OmegaT and/or translate the user documentation into your language, please &lt;a1&gt;contact Marc Prior&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Neem contact op met &lt;a1&gt;Marc Prior&lt;/a1&gt; als je OmegaT wilt localiseren of de gebruikersdocumentatie wilt vertalen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>http://www.omegat.org/omegat/docs/asad.sxw</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>http://www.omegat.org/omegat/images/ss_windows.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The ASAD manual (English)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>De ASAD-handleiding (Engels)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>PDF (Marc Prior)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>PDS (Marc Prior)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Introduction (English) and brief tutorial for version 1.3.5</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Introductie (Engels) en korte tutorial voor versie 1.3.5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>German manual for version 1.0.2</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Duitse handleiding voor versie 1.0.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>French manual for version 1.0.2</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Franse handleiding voor versie 1.0.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>English manual for version 1.0.2</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Engelse handleiding voor versie 1.0.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Italian manual for version 1.0.2</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Italiaanse handleiding voor versie 1.0.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>French manual for version 0.9.7</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Franse handleiding voor versie 0.9.7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>PDF and SXW (Karin Adamczyk/Nathalie Girard-Grace)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>PDF en SXW (Karin Adamczyk/Nathalie Girard-Grace)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Italian manual for version 0.9.7</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Italiaanse gebruiksaanwijzing voor versie 0.9.7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>PDF and SXW (Branka Bucconi)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>PDF en  SXW (Branka Bucconi)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>http://www.omegat.org/omegat/docs/0.9.7_ja_doc.zip</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>http://www.omegat.org/omegat/docs/0.9.7_ja_doc.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Japanese manual for version 0.9.7</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Japanse handleiding voor versie 0.9.7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>PDF and SXW (Mie Yamamoto)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>PDF and SXW (Mie Yamamoto)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>http://www.omegat.org/omegat/docs/0.9.7_en_doc.zip</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>http://www.omegat.org/omegat/docs/0.9.7_en_doc.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>English manual for version 0.9.7</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Engelse handleiding voor versie 0.9.7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>PDF and SXW (Marc Prior)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>PDF and SXW (Marc Prior)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OmegaT, the free translation memory tool</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Het gratis (GPL) vertaalgeheugengereedschap</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Official versions (builds released by the OmegaT project)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Officiele versies (builds uitgegeven door het OmegaT-project)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>http://sourceforge.net/projects/omegat</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>http://sourceforge.net/projects/omegat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Sourceforge download area</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Sourceforge download-sectie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Download the latest version here..</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Download hier de laatste versie.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Special versions (test builds and builds released by other contributors):</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Speciale versies (test builds and builds uitgegeven door derden):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>http://www.omegat.org/omegat/specials/OmegaT_1.4.1_ca.zip</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>http://www.omegat.org/omegat/specials/OmegaT_1.4.1_ca.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Catalan version of OmegaT 1.4.1</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Catalaanse versie van OmegaT 1.4.1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contributed by Mikel L.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>van Mikel L.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Forcada</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Forcada</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>http://www.omegat.org/omegat/specials/1.3.5_af.zip</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>http://www.omegat.org/omegat/specials/1.3.5_af.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Afrikaans version of OmegaT 1.3.5</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Afrikaanse versie van OmegaT 1.3.5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contributed by Samuel Murray.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>van Samuel Murray.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Afrikaans user interface - documentation in English.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Gebruikersinterface in Afrikaans - documentatie in Engels.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>http://www.omegat.org/omegat/specials/OmegaT_DG.zip</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>http://www.omegat.org/omegat/specials/OmegaT_DG.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Shortcut build</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Build met extra sneltoetsen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Special build contributed by Dmitri Gabinski, with additional keyboard shortcuts.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Speciale build van Dmitri Gabinski, met extra sneltoetsen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Third-party software (essential or strongly recommended)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Software van derden (noodzakelijk, of sterk aanbevolen)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Linux only.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Alleen voor Linux</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Windows, Linux, Solaris.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Voor Windows, Linux en Solaris.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>For information only; Mac OS X users should find the Java Runtime environment already installed.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Ter informatie, want gebruikers van Mac OS X hebben al een Java Runtime environment.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Free version of StarOffice.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Gratis versie van StarOffice,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Enables OmegaT to handle files in MS Word, Excel and Powerpoint formats.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>waarmee OmegaT bestanden van MS Word, Excel and Powerpoint kan gebruiken.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OmegaT, free memory translation tool</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OmegaT, gratis gereedschap voor het vertaalgeheugen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The OmegaT project and You</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Werk mee aan OmegaT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OmegaT isn't just a product; it's an exciting project, and you can be part of it.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Behalve een programma is OmegaT ook een interessant project, waar je aan kunt mee doen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OmegaT is free software.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OmegaT is gratis software</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>That means that users like you are free to download and use it with very little in the way of restrictions.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Dat betekent dat gebruikers als jij het mogen downloaden en vrijwel zonder beperkingen kunnen gebruiken.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>You are also free to copy it pass it on to other people.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Je mag het ook kopiëren en aan anderen doorgeven.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OmegaT is open-source software.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OmegaT is opensource-software.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>That means that if you feel so inclined, you may modify OmegaT to suit your own requirements.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Dit betekent dat je OmegaT aan je behoeften kunt  aanpassen, als je dat wilt.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>For advocates of open-source software, this freedom is even more important than the exemption from having to pay anything.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Dat vinden voorstanders opensource-software vinden nog belangrijker dan dat ze niet voor de software hoeven te betalen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>By the same token, the OmegaT project is run by volunteers who receive no payment for the work they do and time they spend on the project.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>In die zin wordt het OmegaT-project ook gedreven door vrijwilligers, die niet betaald worden voor het werk dat ze voor het project doen en de tijd die ze aan het project besteden.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If you have found OmegaT useful, you are welcome to contact the development team and make a donation.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Als je OmegaT nuttig vindt, kun je natuurlijk contact opnemen met de ontwikkelaars voor een donatie.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>However, the project relies for its survival and progress much more on OmegaT users providing support in other forms than upon financial contributions.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Maar voor zijn voortbestaan is het project veel afhankelijker van andere vormen van  ondersteuning door OmegaT-gebruikers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The OmegaT project would benefit from greater support from volunteers in almost all areas.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Op vrijwel elk gebied kan het OmegaT-project de steun van vrijwilligers goed gebruiken.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Although many users are aware of this, their reaction is often &quot;But I can't program!&quot;.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Veel gebruikers weten dit, maar de reactie is vaak: &quot;Ik kan niet programmeren.&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Programming is certainly the most important function, and without programming, there is no program.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Programmeren is inderdaad de belangrijkste taak, want zonder dat is er geen programma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>But programming isn't the only job needing to be done.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Maar programmeren is niet het enige wat moet gebeuren.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Below is a list of areas for which further volunteers would be more than welcome!</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Voor de volgende taken zijn vrijwilligers uiterst welkom:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Documentation authoring</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Documentatie schrijven</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Documentation is very important.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Documentatie is zeer belangrijk.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Many of you reading this will be translators who have translated a lot of user documentation.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Heel wat mensen die dit lezen zijn vertalers die vaak al heel wat documentatie hebben vertaald.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Have you considered writing some user documentation yourself?</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Ooit al eens overwogen om zelf eens documentatie te schrijven?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It's a real eye-opener!</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Het is een echte eye-opener!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Localization</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Lokalisatie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Thanks to the work of translators in the past, OmegaT's user interface and/or Help texts have been translated into several languages.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Dankzij het werk van vertalers, zijn de gebruikersinterface en/of de helpbestanden al in verschillende talen vertaald.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>That means there are only a few thousand left!</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Er zijn er dus nog een paar duizend over.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Localizing OmegaT into other languages is also an ongoing task, since new features and functions are being added all the time.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OmegaT lokaliseren is een doorlopend proces omdat er voortdurend nieuwe mogelijkheden en functies worden toegevoegd.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Testing</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Testen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>One of the most useful things OmegaT users can do is... to use OmegaT.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Het beste dat OmegaT gebruikers kunnen doen is... OmegaT gebruiken.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>And when they find things that don't work, or deficiencies in the documentation, to tell us about them.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>En als ze iets wat niet werkt of tekorkomingen in de documentatie vinden, dit aan ons doorgeven.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Programming (Java)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Programmeren (Java)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OmegaT is written in Java.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OmegaT is geschreven in Java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If you're a programmer and you happen to know Java, we'd like to hear from you.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Als je programmeur bent, en Java kent, horen we graag van je.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If not...</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Zo niet...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Programming (not Java)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Programmeren (anders dan Java)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>... it's by no means the case that all programming need be done in Java.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Al het programmeerwerk hoeft zeker niet alleen maar in Java gedaan te worden.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If you can program in another language, you can write code to support the core application.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Als je in een andere taal kunt prgrammeren, kun je code schrijven ter ondersteuning van de basisapplicatie.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Such auxiliary code has already been written in Star Basic and Tcl/Tk, for instance.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Dergelijke aanvullende code is bijvoorbeeld al geschreven in Star Basic en in Tcl/Tk.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>But I can't program at all, I hear you say.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>&quot;Maar ik kan   helemaal niet programmeren,&quot; hoor ik ja al zeggen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Well, have you considered learning?</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Heb je er al eens aan gedacht om het te leren?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If you are already reasonably familiar with computers in general and choose a straightforward scripting language like Tcl/Tk, you could teach yourself enough to be able to write simple but useful scripts within just a couple of weeks.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Als je redelijk bekend bent met computeres in het algemeen en voor een eenvoudige scripttaal kiest, zoals Tcl/Tk, kun je  binnen een paar weken een bruikbaar script schrijven.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Continuing Professional Development is the current buzzword!</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Continuing Professional Development, is het buzzwoord tegenwoordig!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Publicity</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Publbiciteit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Have you ever written an article for your professional association's journal?</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Al ooit een artikel geschreven voor het blad van je beroepsorganisatie?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If not, why not write an article on using OmegaT?</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Zo niet, waarom schrijf je er niet een over het gebruik van OmegaT?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Memory translation tool, OpenOffice, GPL, m?moire de traduction, CAT, computer aided translation, TAO</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Gereedschap voor vertaalgeheugens, OpenOffice, GPL, mï¿½oire de traduction, CAT, computer aided translation, TAO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OmegaT is a free translation memory application written in Java.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OmegaT is een gratis vertaalgeheugenapplicatie die in Java is geschreven.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It is a tool intended for professional translators.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Het is een gereedschap dat  voor professionele vertalers is bedoeld.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It does not translate for you!</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Maar het vertaalt niet voor je!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>(Software that does this is called &quot;machine translation&quot;, and you will have to look elsewhere for it.) OmegaT has the following features:</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>(De software die daarvoor wordt gebruikt is: 'machine translation', daarvoor moet je ergens anders zijn.) OmegaT heeft de volgende features:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Simultaneous processing of multiple-file projects</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Gelijktijdige verwerking van projecten met meerdere bestanden</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Simultaneous use of multiple translation memories</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Gelijktijdig gebruik van meerdere vertaalgeheugens</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>External glossaries</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Externe woordenlijsten</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Document file formats: plain text, HTML, OpenOffice.org/StarOffice (the latter has excellent conversion filters for MS Word, Excel, RTF)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Bestandsformaten: plain text, HTML, OpenOffice.org/StarOffice (laatstgenoemde heeft uitstekende conversiefilters voor MS Word, Excel en RTF)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Unicode (UTF-8) support: can be used with non-Latin alphabets</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Unicode-ondersteuning (UTF-8): kan voor niet-Latijnse tekens worden gebruikt.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Compatible with other translation memory applications (TMX Level 1)</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Compatibel met andere vertaalgeheugen-applicaties (TMX Level 1).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>System requirements</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Systeemvereisten</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OmegaT has been successfully installed on Windows 98, 2000 and XP, Macintosh OS X and Linux.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OmegaT kan worden geïnstalleerd onder Windows 98, 200 en XP, Macintosh OS X en Linux</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It requires the Java Runtime Environment (J2RE) and OpenOffice.org (both also free).</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Je hebt er de Java Runtime Environment (J2RE) en OpenOffice voor nodig (beide ook gratis verkrijgbaar)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Hit the &quot;Downloads&quot; button on the left to obtain this software.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Klik op de &quot;Downloads&quot;-knop links om de software te downloaden.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>User requirements</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Eisen aan de gebruiker</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OmegaT is not particularly difficult to install or use, but it does require a willingness to read and follow the instructions.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OmegaT is niet echt moeilijk om te installeren of te gebruiken, maar je moet wel bereid zijn de gebruiksaanwijzingen te lezen en op te volgen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If you have a natural aversion to reading instructions, and your approach to new software is to click on every button you see until something resembling the desired effect occurs, then I suggest you don't use OmegaT.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Als je een hekel hebt aan gebruiksaanwijzingen, en je nieuwe software gewoonlijk uitprobeert door op elke knop te klikken die je tegenkomt totdat er iets gebeurt wat lijkt op het gewenste effect, dan stel ik voor dat je OmegaT niet gebruikt.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>You should also be willing to obtain and install other (free) software.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Je moet ook bereid zijn om andere (gratis) software te laden en installeren.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OpenOffice.org segmentation macros</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OpenOffice.org segmentatiemacro's</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contributed by Benjamin Siband.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>van Benjamin Siband.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Enable OmegaT to segment by the sentence rather than by the paragraph.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Hiermee kan OmegaT in zinnen segementeren, in plaats van in alinea's.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Description of Benjamin Siband's segmentation macros.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Beschrijving van Benjamin Sibands segmentatiemacro's.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Macro for removing internal tags from TMX files.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Macro voor het verwijderen van interne tags uit TMX files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contributed by Sonja Tomaskovic.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>van Sonja Tomaskovic.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contributed by Dmitri Gabinski.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>van Dmitri Gabinski.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Written in Python.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Geschreven in Python.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Java command-line script for merging two or more TMX files.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Java invoerregel-script voor het samenvoegen van twee of meer TMX-bestanden </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contributed by Henry Pijffers.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>van Henry Pijffers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Java command-line script for removing &quot;superfluous&quot; translation units from a TMX file: deletes all TUs without target segment or in which the target segment is identical to the source segment.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Java command-line script voor het verwijderen van  &quot;overbodige&quot; translation units uit een TMX-bestand verwijdert alle TU's zonder doelsegment, of waarvan het doelsegement gelijk is aan het bronsegment,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Extspell external spelling checker.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Extspell externe spellingscontrole.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contributed by Marc Prior.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>van Mark Prior</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Requires tcl/tk and Aspell (both free, all platforms).</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>hiervoor zijn tcl/tk and Aspell nodig (beide gratis, alle platforms).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Converts translation memories in TMX format generated by Wordfast to a form which can be read by OmegaT.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Converteert Wordfast vertaalgeheugens in TMX-format naar een vorm die door OmegaT kan worden gelezen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Miscellaneous resources</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Overige bestanden</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Icons</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Pictogrammen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Selection of alternative icons for use with OmegaT.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Aantal alternatieve pictogrammen voor gebruik met OmegaT.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Sample texts</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Voorbeeldteksten</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>For testing and demonstrating OmegaT.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Om OmegaT te testen en te demonstreren</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Review of OmegaT 1.4.2.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Bespreking van OmegaT 1.4.2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>By Sylvain Galibert.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Door Sylvain Galibert.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Review of OmegaT 1.4.4.01.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Bespreking van OmegaT 1.4.4.01.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>By Corinne McKay.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Door Corinne McKay.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Review of OmegaT 1.4.4.0.2.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Bespreking van OmegaT 1.4.4.0.2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>By Jean-Christophe Helary.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Door Jean-Christophe Helary.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Review of OmegaT, 23 February 2005.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Bespreking van OmegaT, 23 February 2005.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>By Dmitri Popov.</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Door Dmitri Popov.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OmegaT has two online user groups:</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>OmegaT heeft twee online gebruikersgroepen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The OmegaT Yahoo!</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>De OmegaT Yahoo-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>group</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>groep</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Run by Jean-Christophe Helary</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Beheerd door Jean-Christophe Helary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Run by Sabine Cretella</seg>
+      </tuv>
+      <tuv xml:lang="NL-NL">
+        <seg>Beheerd door Sabine Cretella</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

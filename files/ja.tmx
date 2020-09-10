@@ -1,0 +1,3990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header
+    creationtool="OmegaT"
+    creationtoolversion="1"
+    segtype="paragraph"
+    o-tmf="OmegaT TMX"
+    adminlang="EN-US"
+    srclang="EN"
+    datatype="plaintext"
+  >
+  </header>
+  <body>
+    <tu>
+      <tuv lang="EN">
+        <seg>Editing functions</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>編集機能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Table of contents</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>目次</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;The translation process</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;翻訳の手順</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Navigating text</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;テキストのナビゲーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT&apos;s editing functions apply to the editor field, which is the target text of the active segment. Editing operations are restricted to this field, i.e. only the target text of the active segment may be edited at any time. Text in any text field outside the editor field can however be marked and copied for pasting.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTの編集機能は「編集フィールド」（ターゲット文書のアクティブセグメント）で使用できます。逆に、その部分しか編集できません。編集フィールド外のテキストは選択とコピーのみ行えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT supports the usual mouse operations, cursor keys and cursor key shortcuts, and shortcuts for mark, cut and paste operations. These are likely to vary between operating systems.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTでは通常のマウス、カーソルキーとそのショートカット、選択用ショートカット、切り取りと貼り付けなどの操作が行えます。操作方法はOSによって違います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Undo and Redo operations are possible with &lt;i0&gt;Ctrl-Z&lt;/i0&gt; and &lt;i1&gt;Ctrl-Y&lt;/i1&gt; respectively.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>やり直し(Undo)と繰り返し(Redo)操作は&lt;i0&gt;Ctrl-Z&lt;/i0&gt; と &lt;i1&gt;Ctrl-Y&lt;/i1&gt; で行えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You cannot &lt;b0&gt;add&lt;/b0&gt; any formatting to the text you are translating. The formatting of a formatted file (at present, StarOffice/OpenOffice.org and HTML are the supported formats), is retained, and you have a limited degree of control over it. (Refer to &lt;a1&gt;Tags&lt;/a1&gt; for details.) To add formatting, insert a marker such as &quot;##&quot; and format the text in another application such as OpenOffice.org after compiling.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳中のテキストに書式（フォーマット）を&lt;b0&gt;追加&lt;/b0&gt; することはできません。原文の書式(現時点ではStarOffice/OpenOffice.orgとHTML がサポートされています)はそのまま保存され、翻訳時には書式関連の編集権限は制限されます。 ( &lt;a1&gt;タグ&lt;/a1&gt; の項目を参照してください) 書式を追加するには、自分で &quot;##&quot; などマーカーを置いてコンパイル後に OpenOffice.orgなどを使って編集してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Project files and directories</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトファイルとディレクトリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Translation memory and glossary file formats</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;翻訳メモリとグロッサリファイルの形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Keyboard shortcuts</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;キーボードショートカット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Summary of project files and directories</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトファイルとディレクトリの概観</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>An OmegaT project comprises the following files and directories:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTのプロジェクトは以下のファイルとディレクトリを含んでいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>A &lt;i0&gt;main project directory&lt;/i0&gt;. This directory is created when the project is created.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;プロジェクトメインディレクトリ&lt;/i0&gt;。これはプロジェクトが作成されたとき同時に作られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It has the name given to it by the user.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>名前はユーザーが設定したものとなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>omegat.project.&lt;/i0&gt; When the project is created, OmegaT automatically creates this file and places it in this directory. To open a project in OmegaT, you must open its &lt;i1&gt;omegat.project&lt;/i1&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>omegat.project&lt;/i0&gt;。プロジェクトが作成されたときに自動的に生成されます。プロジェクトを開くには必ずその&lt;i1&gt;omegat.project&lt;/i1&gt;ファイルを開いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>&lt;projectname&gt;.tmx&lt;/i0&gt;. This is the translation memory exported by the project. OmegaT creates it automatically and places it in this directory each time you compile the project. Note that this translation memory only contains segments from the project at the time it was last compiled. It does not import segments from any translation memory files in the &lt;i1&gt;/tm&lt;/i1&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;プロジェクト名&gt;.tmx&lt;/i0&gt;。これはプロジェクトによって作られた翻訳メモリです。プロジェクトがコンパイルされたときに作成されます。翻訳メモリの内容はコンパイル時のプロジェクトから生成されたもののみを含んでおり、&lt;i1&gt;/tm&lt;/i1&gt;の中身はインポートされません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Directory &lt;i0&gt;/source&lt;/i0&gt;. Place any files you wish to translate in this directory after creating your project and before opening it. Any files in this directory and subdirectories below it are included in the project for translation, provided their format is supported and they have the corresponding file extension.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;/source&lt;/i0&gt;ディレクトリ。プロジェクトの作成後、それを開くまえに翻訳したいファイルをこの中に置いてください。このディレクトリ下のサポートされるファイル形式と拡張子のファイルがプロジェクトに含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Files with other extensions can also be imported if their extensions are mapped to the default extensions.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>他の拡張子を持つファイルも、対応拡張子にマッピングすれば開けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Files in &lt;i0&gt;/source&lt;/i0&gt; which are not imported into the project are transferred unchanged to &lt;i1&gt;/target&lt;/i1&gt; when you compile the project. This enables complete web sites in &lt;i2&gt;/source&lt;/i2&gt; to be mirrored in &lt;i3&gt;/target&lt;/i3&gt;, together with their image files in formats such as GIF or JPEG.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;/source&lt;/i0&gt;ディレクトリ内でプロジェクトに含まれないファイルはコンパイル時に&lt;i1&gt;/target&lt;/i1&gt;ディレクトリにそのままコピーされます。そのためウェブサイトをそのまま&lt;i2&gt;/source&lt;/i2&gt; に置いても.gifや.jpgなどイメージファイルはともに&lt;i3&gt;/target&lt;/i3&gt;ディレクトリにミラーされます。（ファイルを選別して置く必要はありません）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Directory &lt;i0&gt;/glossary&lt;/i0&gt;. Place a &lt;a1&gt;glossary&lt;/a1&gt; which you wish to use in this directory after creating the project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;/glossary&lt;/i0&gt;ディレクトリ。プロジェクト作成後に、使用したいグロッサリファイルをここに置いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*.tab, *.utf8&lt;/i0&gt;: glossary files.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>*.tab, *.utf8&lt;/i0&gt;: グロッサリのファイル形式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Directory &lt;i0&gt;/omegat&lt;/i0&gt;. OmegaT automatically places the following files in this directory at creation:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;/omegat&lt;/i0&gt;ディレクトリ。OmegaTは以下のファイルをこのディレクトリ下に作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>project_save.tmx:&lt;/i0&gt; this file is created when the project is saved for the first time. It is in TMX format and is the working translation memory for the project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>project_save.tmx:&lt;/i0&gt; 最初にプロジェクトが保存されたときに作成されます。プロジェクトの翻訳メモリファイルで、TMXフォーマットで保存されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>word_counts: &lt;/i0&gt;this file contains two word counts of the complete project: one including and one excluding 100% matches.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>word_counts: &lt;/i0&gt; このファイルには完全一致を含む/含まないの2つのワードカウントが入っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Directory &lt;i0&gt;/target&lt;/i0&gt;. OmegaT places the translated files into this directory at compilation.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;/target&lt;/i0&gt;ディレクトリ。コンパイル後の完成ファイルはここに置かれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*.txt, *.xhtml, *.html, *.properties, *.sxw&lt;/i0&gt;: translated files</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>*.txt, *.xhtml, *.html, *.properties, *.sxw&lt;/i0&gt;: 翻訳後のファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Non-translated files transferred from &lt;i0&gt;/source&lt;/i0&gt; at compilation</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;/source&lt;/i0&gt;ディレクトリ下の翻訳されないファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Directory &lt;i0&gt;/tm&lt;/i0&gt;. Place any &lt;a1&gt;translation memories&lt;/a1&gt; you wish to use in this directory after creating/before loading the project. Note: regardless of whether you use previous memories or not, OmegaT creates a working translation memory for the project, &lt;i2&gt;project_save.tmx&lt;/i2&gt;, in &lt;i3&gt;/omegat&lt;/i3&gt; when the project is saved, and also places an export translation memory in the root directory when the project is compiled.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;/tm&lt;/i0&gt;ディレクトリ。プロジェクトを開く前に、ここに必要な&lt;a1&gt;翻訳メモリ&lt;/a1&gt;を置いてください。注意：以前の翻訳メモリを使う/使わないに関わらずOmegaTは作業中の翻訳メモリ&lt;i2&gt;project_save.tmx&lt;/i2&gt;を&lt;i3&gt;/omegat&lt;/i3&gt;ディレクトリ下に保存します。プロジェクトのコンパイル時には翻訳メモリをルートディレクトリにエクスポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*.tmx&lt;/i0&gt;: translation memory files created during previous projects. &lt;i1&gt;*.tmx&lt;/i1&gt; files must be in TMX Level 1 format.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>*.tmx&lt;/i0&gt;: 以前のプロジェクトで作られた翻訳メモリファイル。&lt;i1&gt;*.tmx&lt;/i1&gt;拡張子のファイルはTMXレベル1フォーマットである必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Changing the location of project files and directories</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトファイルとディレクトリの移動</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The project directories are created when you create a project. By default, they are all grouped under the project root directory, but you can choose alternative locations for them by clicking on the &lt;i0&gt;Browse&lt;/i0&gt; button. You can therefore keep translation memories in a particular directories, for example, and select the desired directory when you create each new project rather than having to copy the translation memory file into the newly created &lt;i1&gt;/tm&lt;/i1&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトディレクトリはプロジェクト作成時に自動的に生成されます。デフォルトではプロジェクトルートディレクトリ以下に置かれますが、&lt;i0&gt;参照&lt;/i0&gt;ボタンで他の場所を選ぶこともできます。それによって翻訳メモリの場所を特定できます＝新しいプロジェクトの作成ごとに古い翻訳メモリを&lt;i1&gt;/tm&lt;/i1&gt;ディレクトリにコピーしなくて済みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To change the location of directories retrospectively, i.e. those of an existing project, delete the directory concerned. (Do not do this whilst the project is open.) When the project is next opened, OmegaT detects that some directories are missing, and presents you with the directory selection dialog in which you can select the new locations.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>既存プロジェクトのディレクトリを変更したくなった際には、(プロジェクトが開かれていないときに)変更したいディレクトリを削除してください。 再度プロジェクトが開かれたとき、OmegaT は失われたディレクトリを検知して新しい場所を聞いてくるダイアログを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Using different fonts and alphabets</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>フォントの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Editing tagged texts</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;タグ入りテキストの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Working with OpenOffice.org</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;OpenOffice.orgとの連携</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Select a different display font with &lt;i0&gt;Configuration&lt;/i0&gt; &gt; &lt;i1&gt;Font&lt;/i1&gt;. The font type and size can be selected. The font selected applies to the display only; it has no effect upon fonts used in formatted documents. The fonts available for selection are those available on your system.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;設定&lt;/i0&gt; &gt; &lt;i1&gt;フォント&lt;/i1&gt;から画面のフォントの大きさ、タイプを選択できます。変化は表示にのみ適用され、編集後のテキストには影響しません。システムで使用可能なフォントがすべて選択可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In order to permit translation between two languages which employ different alphabets, select a font which contains the characters of &lt;b0&gt;both&lt;/b0&gt; alphabets. Install an additional font if necessary.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>二つの異なる文字を持つ言語にまたがって翻訳するときは、&lt;b0&gt;両方&lt;/b0&gt;の文字を表示可能なフォントを選択してください。必要な場合は新たなフォントをインストールしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If no single font contains the characters of both alphabets, you can select a virtual Java font (such as “Serif”), and define this font such that it uses multiple real fonts. Refer to the instructions on the OmegaT web site for customizing and modifying OmegaT in this case.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>適切なフォントが見つからない場合はJava仮想フォント(「Serif」など)を選択し、それが複数のフォントを使い分けるように設定してください。OmegaTへのそれらカスタマイズ、修正についてはウェブサイトを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Getting started - an example project</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>はじめてみよう - サンプルプロジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Important</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;重要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;The user interface</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;ユーザーインターフェイス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The procedure here is for the purposes of explanation; it need not be followed rigidly in practice.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>紹介されている手順は説明を意図したもので、実際すべてこのとおり真似する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Launch OmegaT.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTの起動</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Create a new project by selecting &lt;i0&gt;File&lt;/i0&gt;&gt; &lt;i1&gt;Create New Project&lt;/i1&gt; from the menu bar.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;ファイル&lt;/i0&gt;&gt; &lt;i1&gt;新しいプロジェクト&lt;/i1&gt; をクリックして新しいプロジェクトを作ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>A file navigation dialog is displayed. In this dialog, select a suitable directory into which to place your project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ファイル選択のダイアログが出ますので、適当なフォルダを選んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In the File name field, enter a name (e.g. &lt;i0&gt;ABC&lt;/i0&gt;) for your project, and confirm.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>名前の入力欄にプロジェクト名 (例えば &lt;i0&gt;ABC&lt;/i0&gt;など) を入力してOKをクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Another dialog is called up, this time indicating the directories for the project. As you can see from the dialog, OmegaT is proposing to create a new directory with the name you selected (e.g. &lt;i0&gt;ABC&lt;/i0&gt;), and below that a further five subdirectories. You can modify the locations of these default directories, but for the sake of the example, confirm the defaults. (The project files and directories are explained in detail &lt;a1&gt;here&lt;/a1&gt;.)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>するとまた別のダイアログが表示されます。今回はプロジェクトのディレクトリを選択するものです。見てわかるとおり、OmegaTは設定されたディレクトリを作成します。 (例えば &lt;i0&gt;ABC&lt;/i0&gt;など) その下には5つのサブディレクトリがあるはずです。それらのデフォルトディレクトリは変更可能です。説明のために、ここはデフォルトのままにします。 (プロジェクトとディレクトリについては&lt;a1&gt;こちら&lt;/a1&gt;を参照してください)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Enter the language and locale codes for your source and target languages, e.g. DE-CH for German (Switzerland), EN-UK for English (United Kingdom). The actual codes are not particularly important unless you intend to exchange translation memories with customers or colleagues, in which case you should be careful to follow the standard required (usually ISO).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ソース言語欄とターゲット言語欄に言語とロケールコードを入力します。例えば、ドイツ語だとDE-CH (スイス)、英語だとEN-UK (英国)となります。翻訳メモリを同僚や顧客と共有しない限り、それらは重要ではありません。必要な際は適切な基準に従ってください。(基本的にはISOコード。日本語はjaとなります)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT now creates a main directory (also referred to as the “project root directory”) with the name you selected previously (e.g. &lt;i0&gt;ABC&lt;/i0&gt;). Below the project root directory are five subdirectories: &lt;i1&gt;/glossary&lt;/i1&gt;, &lt;i2&gt;/source&lt;/i2&gt;, &lt;i3&gt;/omegat&lt;/i3&gt;, &lt;i4&gt;/target&lt;/i4&gt; and &lt;i5&gt;/tm&lt;/i5&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTはプロジェクトメインディレクトリを作成しました。(プロジェクトのルートディレクトリとも呼ばれます)名前は先ほど入力したものになっているはずです。 ( &lt;i0&gt;ABC&lt;/i0&gt;など) その下にはプロジェクト用の5つのサブディレクトリが作成されます:(&lt;i1&gt;/glossary&lt;/i1&gt;, &lt;i2&gt;/source&lt;/i2&gt;, &lt;i3&gt;/omegat&lt;/i3&gt;, &lt;i4&gt;/target&lt;/i4&gt; and &lt;i5&gt;/tm&lt;/i5&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Find a file to translate. Save it as a text file with the extension &lt;i0&gt;*.txt&lt;/i0&gt;, and place it in &lt;i1&gt;/source&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳するファイルを用意して、テキスト形式(&lt;i0&gt;.txt&lt;/i0&gt;)で&lt;i1&gt;/source&lt;/i1&gt;ディレクトリに保存してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Open the project you have just created with &lt;i0&gt;File&lt;/i0&gt; &gt; &lt;i1&gt;Open&lt;/i1&gt;. OmegaT automatically looks in the directory you last opened. Your project root directory is displayed with the OmegaT icon, indicating that it is a project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;ファイル&lt;/i0&gt; &gt; &lt;i1&gt;開く&lt;/i1&gt;から先ほど作成したプロジェクトを開きます。OmegaTは自動的に最後に開かれたディレクトリを検索します。プロジェクトのルートディレクトリはOmegaTアイコンで表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Open the project by selecting first the project directory marked with the icon (double-click or select and confirm with “Open”), then the file &lt;i0&gt;omegat.project&lt;/i0&gt;. Do not try to open any other file, such as your source text file — it won&apos;t work!</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTアイコンのプロジェクトディレクトリを開いて(ダブルクリック、または選択して「開く」)、ファイル名&lt;i0&gt;omegat.project&lt;/i0&gt;というファイルを選択してください。他のファイルは選択しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT opens the project, displaying the text of your file in the main OmegaT window.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTがプロジェクトを開きます。メインウィンドウにテキストが表示されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Place the cursor in the target field of the first segment, between the tags &lt;segment 0001&gt; and &lt;end segment&gt;. Type in your translation and delete the original text. Hit &lt;i0&gt;Enter&lt;/i0&gt; to confirm.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ひとつめのセグメント&lt;segment 0001&gt; と&lt;end segment&gt;の間にカーソルをあわせてください。訳を入力して元の文を削除します。&lt;i0&gt;Enter&lt;/i0&gt;を押して次へ進みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Repeat this process with each segment until you have translated the complete text.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>これを繰り返してすべてのセグメントを翻訳します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now select &lt;i0&gt;File&lt;/i0&gt; &gt; &lt;i1&gt;Save&lt;/i1&gt;, then &lt;i2&gt;File&lt;/i2&gt; &gt; &lt;i3&gt;Compile&lt;/i3&gt;. You can then close OmegaT &lt;i4&gt;(File&lt;/i4&gt; &gt; &lt;i5&gt;Quit&lt;/i5&gt;)&lt;i6&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>最後に&lt;i0&gt;ファイル&lt;/i0&gt; &gt; &lt;i1&gt;保存&lt;/i1&gt;して &lt;i2&gt;ファイル&lt;/i2&gt; &gt; &lt;i3&gt;コンパイル&lt;/i3&gt;します。終了するには&lt;i4&gt;ファイル&lt;/i4&gt; &gt; &lt;i5&gt;終了&lt;/i5&gt;をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You will find your translated file in the directory &lt;i0&gt;/target&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳後のテキストが&lt;i0&gt;/target&lt;/i0&gt;ディレクトリに作成されているはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Glossary</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>グロッサリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Saving, revising and compiling</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;訳の保存･改訂･コンパイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Translation file formats</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;翻訳ファイルの形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The glossary function is automatic. To use an existing glossary, simply place it in the &lt;i0&gt;/glossary&lt;/i0&gt; directory after creating the project. (See &lt;a1&gt;here&lt;/a1&gt; for glossary file formats.) OmegaT automatically detects glossary files in this directory when a project is opened. Terms in the active segment which OmegaT finds in the glossary file(s) are displayed in the Match and Glossary Viewer window.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>グロッサリ機能は自動で働きます。既存のグロッサリを有効にするには&lt;i0&gt;/glossary&lt;/i0&gt;ディレクトリにそれをコピーしてください。(&lt;a1&gt;こちら&lt;/a1&gt;にグロッサリファイルのフォーマットを紹介しています) プロジェクトを開いたときにOmegaTは自動的にグロッサリを検知します。アクティブなセグメントの語彙がグロッサリのものと一致する場合はそれが一致とグロッサリ(Match and Glossary)ウィンドウに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The glossary function only finds exact matches with the glossary entry (i.e. not inflected forms etc.).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>グロッサリ機能は完全一致のみ表示します。(活用形を含まない、など)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>New terms can be added manually to the glossary file(s) during translation (for example in a text editor), but newly added terms will not be recognized until the project is next opened.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳中にグロッサリファイルを(テキストエディタなどで)直接編集し、エントリを追加することは可能です。しかし追加分は次にプロジェクトを開くまで有効になりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Important</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>重要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Installation and Configuration</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;インストールと設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Getting started</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;はじめてみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT is a robust application. It is not prone to crashing or to loss or corruption of data. However, you should take precautions against data loss when using OmegaT, just as with any other application.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTは堅実なアプリケーションなので、クラッシュやデータ喪失は起こりにくくなっています。それでも使用の際には他のアプリを使うときと同じようにちゃんと気をつけてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Use OmegaT on short texts until you are familiar with it.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>慣れるまではOmegaTで小さいファイルを扱ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Read &lt;a0&gt;Saving, revising and compiling your translation&lt;/a0&gt; carefully.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;a0&gt;訳の保存、改訂、コンパイル&lt;/a0&gt; を注意して読んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Most users will be able to get started with the aid of these Help texts. Should you run into problems, post a message in the OmegaT user forum located at &lt;a0&gt;http://groups.yahoo.com/group/omegat&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ヘルプマニュアルによって多くの人がOmegaTを問題なく使えると思います。解決しない問題が発生した際にはOmegaTユーザーフォーラムに報告してください。&lt;a0&gt;http://groups.yahoo.com/group/omegat&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Remember also that OmegaT creates a backup of project&apos;s translation memory to &lt;i0&gt;project_save.tmx.bak&lt;/i0&gt; file in the project&apos;s &lt;i1&gt;/omegat&lt;/i1&gt; subdirectory every time when a project is saved or compiled.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトが保存、またはコンパイルされる際にOmegaTは毎回翻訳メモリのバックアップを &lt;i1&gt;/omegat&lt;/i1&gt;ディレクトリの&lt;i0&gt;project_save.tmx.bak&lt;/i0&gt; に作成していることも忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Installation and configuration</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>インストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;System requirements</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;システム要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Important</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;重要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Installation</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>インストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Installation involves three stages. One, install the J2RE (if it isn&apos;t already installed). Two, install OmegaT. Three, configure (only necessary for Linux). You can install the J2RE and OmegaT in either order. Configuration isn&apos;t essential, but makes launching the application more user-friendly.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>インストールは3つの段階に分かれます。1つめはJava実行環境(J2RE)のインストール(必要な場合)、2つめはOmegaTのインストール、3つめは設定(Linuxでのみ必要)です。J2REとOmegaTはどちらを先にインストールしてもかまいません。設定は必須ではありませんが、起動がより簡便になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>About the Java Runtime Environment</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Java実行環境について</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Java Runtime Environment (J2RE) enables you to run any Java program on your system. It is available both as a standalone product, and as part of the Java developer&apos;s kit.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Java実行環境 (J2RE) はシステムでのJavaアプリケーション実行に必要です。スタンドアローン版と開発環境キット付の2つの形で配布されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Java is also available as a plug-in for web browsers. This form of Java will &lt;b0&gt;not&lt;/b0&gt; enable you to run OmegaT.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Javaはブラウザへのプラグインとしても配布されています。しかしこのタイプのJavaではOmegaTは実行&lt;b0&gt;できません&lt;/b0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>JavaScript is a different product altogether and is not related technically to Java at all.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>JavaScript別の製品で、技術的にはJavaと関係ありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you want to use OmegaT, the J2RE &lt;b0&gt;must&lt;/b0&gt; be installed on your system. OmegaT will not work without it. Please do not try getting OmegaT to work without the J2RE. You will only be wasting your time!</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTを使うにはJ2REが必要です。J2RE無しでOmegaTを動かそうとしないでください。時間の無駄です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you are not sure whether the J2RE is installed on your system, simply try installing OmegaT to see whether it works (see below for installation of OmegaT). If nothing happens, or you receive error messages, the Java Runtime Environment is almost certainly not installed. In this case, please obtain it and install it.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>J2REがインストールされているかわからない場合は、OmegaTをインストールして動くかどうか試してみてください。 (OmegaTのインストールについては下を参照)　なにも起こらないか、エラーメッセージが出た場合はJ2REがインストールされていないと思われます。その際にはJ2REをダウンロード・インストールしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(Note: in order to confuse its customers, Sun regularly changes the names of its products. So, all versions of the JRE above 1 are known as “Java 2”, hence the Java Runtime Environment is now the J2RE. The Java Runtime Environment may also be known as the Java Virtual Machine, or JVM, and on Macintosh, it may be known as the MRJ. The developer&apos;s kit has been known as the Java Developer&apos;s Kit (JDK), Software Developer&apos;s Kit (SDK), and now also J2SE, J2EE and J2ME, according to the version. At least, I think so. But I&apos;m among the confused.)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>（注意：顧客を混乱させるためにSunは定期的に製品名を変えます。バージョン1以降のJREは「Java2」と呼ばれており、そのため現在はJ2REとなっています。Java実行環境にはJava仮想マシン、あるいはJVMという名前があり、MRJとも呼ばれています。開発者用キットはバージョンによってJava Developer&apos;s Kit (JDK)、Software Developer&apos;s Kit (SDK)、またはJ2SE、J2EE、J2MEなどと呼ばれています。ような気がします。私も混乱しています）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Installing the Java Runtime Environment</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Java実行環境のインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The only platform that does not require a Java Runtime Environment install is MacOSX. On MacOSX, JRE comes pre-installed and preconfigured.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>MacOSXではJava実行環境のインストールが必要ありません。プレインストール・設定済みで出荷されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Windows users: you can check which version of the Java Runtime Environment, if any, is installed with Start button/Windows key &gt; &lt;i0&gt;Settings&lt;/i0&gt; &gt; &lt;i1&gt;Control Panel&lt;/i1&gt;. If the J2RE is already installed, you will see a control panel labelled “Java(TM)2 Runtime Environment, Standard Edition 1.3.0_01” or similar.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Windowsユーザー：「スタート」ボタンまたは「Windows」キーを押して&lt;i0&gt;設定&lt;/i0&gt; &gt; &lt;i1&gt;コントロールパネル&lt;/i1&gt;に行きます。J2REがインストールされている場合は「Java(TM)2 Runtime Environment, Standard Edition 1.3.0_01」などのラベルが見つかるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Linux users: simply type &lt;i0&gt;Java -version&lt;/i0&gt; at the command line. The version installed will be returned (assuming of course that it is installed at system level).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Linux ユーザー：コマンドラインで&lt;i0&gt;Java -version&lt;/i0&gt;してください。インストールされているバージョンが表示されます。 (システムレベルでインストールされている場合ですが)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can download the J2RE from the links below. It is free (note the licence conditions), but the naming conventions may make finding the right version a little confusing. You will need the version for your platform (Linux, Windows, etc.). The size of the J2RE is around 14 MB.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>J2REは以下のリンクからダウンロード可能です。無料(ライセンスは読んでください)ですがどれが正しいバージョンなのか分かりにくいかもしれません。自分のプラットホーム(Linux, Windows, など)にあわせてダウンロードしてください。ファイルの大きさは14M程度です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT 1.4.0 should work with any version of the J2RE from 1.2 upwards. However, we recommend that you obtain the latest version of the J2RE, since older versions of Java may not support certain features.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaT 1.4.0はJ2RE1.2以上で動作するはずですが、なるべく新しいバージョンをお勧めします。古いバージョンではいくつかの機能が整っていない可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>As an alternative to the J2RE, you can install the developer&apos;s kit. The developer&apos;s kit contains its own copy of the J2RE, and also enables you to modify OmegaT.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>J2REのかわりに開発者用キットも使えます。中にはJ2REが含まれており、OmegaTを修正できるツールも入っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Windows and Linux users can download the Java Runtime Environment from:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>WindowsとLinuxのユーザーは以下のサイトからJava実行環境をダウンロードできます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Sun&lt;/a0&gt; (all platforms)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Sun&lt;/a0&gt; (すべてのプラットホーム)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Earlier versions of OmegaT are known to run on the MRJ for Macintosh OS 9. Version 1.4.0 &lt;i0&gt;may&lt;/i0&gt; work but has not been tested on this platform. You can download the MRJ from the Apple site.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>古いバージョンのOmegaTはMacintoshOS9のMRJで動作しましたが、新しいバージョンはテストされていません。MRJはアップル社のサイトからダウンロードできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Install the J2RE by following the accompanying instructions.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>J2REのインストールは付属のインストラクションにしたがってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Installing OmegaT</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>All platforms</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>すべてのプラットホーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Simply extract the contents of the archive into a directory of your choice. The archive may be in *.zip or *.tar.gzip form. Linux and Mac (Stuffit) users should have no problems with either; Windows users may not necessarily have a utility for the latter.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>圧縮ファイルを好きな場所に解凍してください。圧縮形式は.zipか.tar.gzipです。LinuxやMac(Stuffit)ユーザーは問題ないはずですが、Windowsユーザーは解凍に特定のツールが必要かも知れません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Windows only</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Windowsユーザーのみ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Windows users can download a Windows binary installer OmegaT_1.4.4_setup.exe and just run it. In this case, the installer creates a shortcut to launch OmegaT in the &lt;i0&gt;Start &gt; Programs&lt;/i0&gt; menu.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Windowsユーザーはインストーラ形式のOmegaT_1.4.4_setup.exeをダウンロードして実行できます。この場合だとインストーラは起動用ショートカットアイコンを&lt;i0&gt;スタート &gt; プログラム&lt;/i0&gt; メニューに配置します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Configuration (Linux only)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>設定(Linuxユーザーのみ)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you are using Linux but are not very familiar with it, this is how to make launching of OmegaT more user-friendly:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Linuxを使っていてもあまり詳しくない場合は、この方法でOmegaTの起動を簡略化してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Create a shell script by creating a text file with the following content:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次の内容のテキストファイルを作成してシェルスクリプトを作ってください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>where &lt;i0&gt;&lt;OmegaT&gt;&lt;/i0&gt; is the directory containing the file &lt;i1&gt;OmegaT.jar&lt;/i1&gt; and &lt;i2&gt;&lt;java&gt;&lt;/i2&gt; is the directory containing the J2RE binary (the file named &lt;i3&gt;java&lt;/i3&gt;). If you have set the Java path variable, you don&apos;t need to specify this directory, and &lt;i4&gt;java -jar OmegaT.jar&lt;/i4&gt; is sufficient. Specifying the directory is necessary if you have not set the Java path variable, and also if your system has more than one version of Java installed and you need to ensure that OmegaT is launched by the correct version.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;&lt;OmegaT&gt;&lt;/i0&gt; は&lt;i1&gt;OmegaT.jar&lt;/i1&gt;を含んだディレクトリパスで、&lt;i2&gt;&lt;java&gt;&lt;/i2&gt;はJ2REバイナリ (ファイル名&lt;i3&gt;java&lt;/i3&gt;)のディレクトリです。Javaにパスを設定している場合にはディレクトリを特定する必要なく、&lt;i4&gt;java -jar OmegaT.jar&lt;/i4&gt;で十分です。パスが設定されていない場合はディレクトリの指定が必要です。複数のJavaがインストールされている場合も、OmegaTが正しいバージョンで実行されるよう注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Save the text file as &lt;i0&gt;OmegaT&lt;/i0&gt;, and set the permissions to executable (e.g. in Konqueror, context menu &gt; &lt;i1&gt;Properties&lt;/i1&gt; &gt; &lt;i2&gt;Permissions&lt;/i2&gt; &gt; &lt;i3&gt;Exec&lt;/i3&gt;). You can now launch OmegaT simply by typing &lt;i4&gt;OmegaT&lt;/i4&gt; at the command line. If you want to put an icon on your desktop, set it to execute the shell script file.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ファイル名を&lt;i0&gt;OmegaT&lt;/i0&gt;としてパーミッションを実行可能にしてください。(Konquerorならcontext menu &gt; &lt;i1&gt;Properties&lt;/i1&gt; &gt; &lt;i2&gt;Permissions&lt;/i2&gt; &gt; &lt;i3&gt;Exec&lt;/i3&gt;). これで、コマンドライン上で&lt;i4&gt;OmegaT&lt;/i4&gt; とタイプするだけでOmegaTが起動されるようになりました。アイコンがデスクトップに必要な場合は今回のシェルスクリプトを実行するアイコンを置いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Launching the application</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>アプリケーションの起動</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Click on the file &lt;i0&gt;OmegaT.jar&lt;/i0&gt; in the file manager.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ファイルマネジャで&lt;i0&gt;OmegaT.jar&lt;/i0&gt; をクリック。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If OmegaT has been installed with the help of the Windows installer (see above), it can be launched by clicking on the OmegaT 1.4.4 shortcut from the &lt;i0&gt;Start &gt; Programs &gt; OmegaT&lt;/i0&gt; menu. You can also click on either of the files &lt;i1&gt;OmegaT.exe&lt;/i1&gt;, &lt;i2&gt;OmegaT.bat&lt;/i2&gt; or &lt;i3&gt;OmegaT.jar&lt;/i3&gt; in the file manager.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTがインストーラでインストールされたなら、&lt;i0&gt;スタート &gt; プログラム &gt; OmegaT&lt;/i0&gt;で起動できます。エクスプローラで&lt;i1&gt;OmegaT.exe&lt;/i1&gt;, &lt;i2&gt;OmegaT.bat&lt;/i2&gt; か &lt;i3&gt;OmegaT.jar&lt;/i3&gt; をクリックしても同じです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Execute &lt;i0&gt;java -jar OmegaT.jar&lt;/i0&gt; from the command line. Observe the typography of OmegaT - the capitals are important.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;java -jar OmegaT.jar&lt;/i0&gt;をコマンドラインで実行してください。OmegaT をちゃんとタイプしてください - 大文字小文字も区別されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you have not configured Java to detect the location of your OmegaT files, you must first change directories to the directory containing the file OmegaT.jar.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>JavaがOmegaTの場所を検知するように設定していない場合、まずOmegaT.jarが含まれているディレクトリに移動する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you have not set the Java path variable, you must specify the full path. If you have done neither of the above, your launch routine might therefore look something like this:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Javaにパスを設定していない場合にはフルパスを指定する必要があります。上記の設定を何もしていない場合は、起動方法は以下のようになるかと思います：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Table of contents</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+前: &lt;a0&gt;目次</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;System requirements</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+次: &lt;a0&gt;システム要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT is the work of &lt;b0&gt;Keith Godfrey&lt;/b0&gt; now continued by a number of people.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+OmegaT は&lt;b0&gt;Keith Godfrey&lt;/b0&gt; の作品で、現在は他のメンバーに引き継がれています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Project coordinator: &lt;b0&gt;Marc Prior&lt;/b0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+プロジェクトコーディネイター: &lt;b0&gt;Marc Prior&lt;/b0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Code contributors: &lt;b0&gt;Maxym Mykhalchuk &lt;i1&gt;(lead developer at the time of this release)&lt;/i1&gt;, Benjamin Siband, Sacha Chua, Henry Pijffers&lt;/b0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+コード提供者: &lt;b0&gt;Maxym Mykhalchuk &lt;i1&gt;(現リリース時のリードデベロッパー)&lt;/i1&gt;, Benjamin Siband, Sacha Chua, Henry Pijffers&lt;/b0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Other contributors: &lt;b0&gt;Marc Prior, Jean-Christophe Helary, Samuel Murray, Dmitri Gabinski &lt;i1&gt;(coodrinator of user manual writing at the time of this release)&lt;/i1&gt;&lt;/b0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+その他貢献者: &lt;b0&gt;Marc Prior, Jean-Christophe Helary, Samuel Murray, Dmitri Gabinski &lt;i1&gt;(現リリースのユーザーマニュアル作者)&lt;/i1&gt;&lt;/b0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT localization: &lt;b0&gt;Jean-Christophe Helary &lt;i1&gt;(French UI and help)&lt;/i1&gt;, Sabine Cretella &lt;i2&gt;(German UI and help)&lt;/i2&gt;, Dmitri Gabinski &lt;i3&gt;(Belarusian UI and help, Esperanto UI, Russian UI and help)&lt;/i3&gt;, Juan Salcines and Cesar Escribano Esteban &lt;i4&gt;(Spanish UI and help)&lt;/i4&gt;&lt;/b0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+OmegaTローカリゼーション: &lt;b0&gt;Jean-Christophe Helary &lt;i1&gt;(フランス語UIとヘルプ)&lt;/i1&gt;, Sabine Cretella &lt;i2&gt;(ドイツ語UIとヘルプ)&lt;/i2&gt;, Dmitri Gabinski &lt;i3&gt;(ベラルーシ語UIとヘルプ, エスペラントUI, ロシア語UIとヘルプ)&lt;/i3&gt;, Juan Salcines and Cesar Escribano Esteban &lt;i4&gt;(スペイン語UIとヘルプ)&lt;/i4&gt;&lt;/b0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Thanks to all other people whose contrubutions have made OmegaT what it is now!</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+OmegaTを築き上げてきたその他貢献者の皆さんに感謝</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>About this manual</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>このマニュアルについて</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This manual is a work in progress. For further information about OmegaT, please visit the &lt;a0&gt;OmegaT home page&lt;/a0&gt;. Should you have any questions or comments on the manual, positive or negative, please send them to the &lt;a1&gt;author&lt;/a1&gt;. Feedback is welcome!</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+このマニュアルはまだ改定中です。OmegaTのより詳しい情報については&lt;a0&gt;OmegaT home page&lt;/a0&gt;を参照してください。肯定的でも否定的でも、このマニュアルについて意見や疑問がある場合は&lt;a1&gt;作者&lt;/a1&gt;に連絡してください。フィードバック大歓迎です</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT was developed on the Linux platform, and the development/documentation team does not use Windows. Although this documentation is intended for OmegaT users on all platforms, some terminology may therefore be a little unfamiliar. So, when you see the Linux forward slash /, think “\”, and do a mental translation to “folder”; whenever you read “directory”.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+OmegaTはLinuxで開発されてます。開発/ドキュメンテーションチームはWindowsを使ってません。このマニュアルはすべてのプラットホームを意識して編集されていますが、いくつかの技術は馴染み無いものかも知れません。なのでもしLinuxの「/」を見かけたら「\」だと思ってください。「ディレクトリ」という言葉も「フォルダ」と思って読んでください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>What is translation memory?</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+翻訳メモリってなんですか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Translation memory is used during the translation of documents from one language to another. It assists you by storing pieces of text in a database (the “translation memory”) so that when you next encounter the same piece of text (a “segment”), or part of it, you can see immediately how you translated it in the past. For translation memory to be really useful, you must use it for long enough to build up a database of segments and their corresponding translations.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+翻訳メモリは翻訳の際に使われます。訳したテキストをデータベース(「翻訳メモリ」)に保存することで次回同じような文(「セグメント」)やその部分を見かけた際に以前の訳を即座に参照できます。翻訳メモリを有効に活用するには、データベースを整備するため相応の期間使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>What&apos;s special about OmegaT?</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTの特徴って？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>There are many translation memory programs on the market. OmegaT&apos;s particular features are:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>市場には多くの翻訳メモリソフトがあります。OmegaTの特徴は:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it runs on the Java Runtime Environment, and can therefore be used on a number of platforms, including Windows, Linux, and Mac OS X;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Java実行環境で動作するため、Windows,Linux,Mac OS Xなど多くのプラットホームで使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it is free;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>無料です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it is open-source, meaning that users are free to distribute and modify it;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>オープンソースなので自由に改変と再配布が行えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it is designed with speed in mind, rather than support for complex data formatting and multiple file formats;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>複雑な書式や多くのファイル形式のサポートよりも動作速度にフォーカスして開発されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it supports the OpenOffice.org file format directly.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.orgのファイル形式を直接サポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Full and fuzzy matches</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>完全とファジーマッチについて</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Navigating text</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;テキストのナビゲーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Keyword and exact searches</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;キーワードと完全一致検索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>When a segment is opened, OmegaT scans both the current project, and any translation memories in the &lt;i0&gt;/tm&lt;/i0&gt; directory for matches. A 100% match, if found and exactly, line-by-line equal to the translated text, is inserted automatically into the target text field of the active segment (this means, that although “Hi!” and “Hi” are in fact 100% matches, there will be no automatic insert, as the strings are not the same). Any fuzzy matches are displayed in the Match and Glossary Viewer window.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>セグメントを開くとOmegaTは現在のプロジェクトと&lt;i0&gt;/tm&lt;/i0&gt;内の翻訳メモリから類似文を検索します。100%の完全一致が見つかると訳文は自動的にターゲットフィールドに挿入されます。(&quot;Hi!&quot; と&quot;Hi&quot;は100%マッチですが、ストリングが異なるため自動挿入されません) ファジーマッチのリストは随時マッチ＆グロッサリ表示ウィンドウに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Up to five full and/or fuzzy matches may be displayed in the Match and Glossary Viewer window. Hit &lt;i0&gt;Ctrl+1&lt;/i0&gt;, to select the first match, &lt;i1&gt;Ctrl+2 &lt;/i1&gt;to select the second, etc. The selected match is displayed in bold. The name of the translation memory file containing the match shown is also displayed (unless the match is part of the current project).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>最大5つの完全/ファジーマッチがマッチ＆グロッサリ表示ウィンドウに表示されます。&lt;i0&gt;Ctrl+1&lt;/i0&gt;でリストの1番目、&lt;i1&gt;Ctrl+2 &lt;/i1&gt;で2番目が選択されます。選択された一致テキストは太字で表示されます。一致部分がそのプロジェクト以外から提示されている場合、その一致を含んでいるファイル名も表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Once a match has been selected, it can be pasted into the active segment. &lt;i0&gt;Ctrl-I&lt;/i0&gt; inserts the match at the cursor position, &lt;i1&gt;Ctrl-R&lt;/i1&gt; substitutes it for the active segment text.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>一致が選択されたら、&lt;i0&gt;Ctrl-I&lt;/i0&gt;でアクティブセグメントに挿入できます。&lt;i1&gt;Ctrl-R&lt;/i1&gt; だと全文の置き換えになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The percentage match indicated OmegaT is of technical interest only. It does not pretend to indicate how much work has already been done for you!</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>表示されているパーセンテージはただの技術的好奇心です。作業がどれだけ完了したかを表示しているわけではありません！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The differences between the active source segment and the fuzzy match are not indicated.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>アクティブセグメントの原文とファジーマッチ原文の違いは表示されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Navigating text</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>テキストのナビゲーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Editing functions</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;編集機能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Full and fuzzy matches</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;完全とファジーマッチについて</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To move to:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>移動</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>the next segment, hit &lt;i0&gt;Enter&lt;/i0&gt;, &lt;i1&gt;Ctrl+N&lt;/i1&gt; or &lt;i2&gt;Tab&lt;/i2&gt; as selected in the &lt;i3&gt;configuration&lt;/i3&gt; menu</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次のセグメントへの移動は、&lt;i0&gt;Enter&lt;/i0&gt;か&lt;i1&gt;Ctrl+N&lt;/i1&gt;また&lt;i3&gt;configuration&lt;/i3&gt;設定によっては&lt;i2&gt;Tab&lt;/i2&gt;キーとなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>the previous segment, hit &lt;i0&gt;Ctrl+P</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前のセグメントへの移動は&lt;i0&gt;Ctrl+P&lt;/i0&gt;です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>the next untranslated segment, hit &lt;i0&gt;Ctrl-U.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次の未翻訳セグメントへの移動は&lt;i0&gt;Ctrl-U&lt;/i0&gt;です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To move to a different segment within the same file, drag the vertical slider bar up or down, then click in the desired segment.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>同じファイル内の違うセグメントへの移動は該当セグメントをダブルクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To move to a different file within the same project, call up the Project Files window (&lt;i0&gt;File&lt;/i0&gt; &gt; &lt;i1&gt;Show File List&lt;/i1&gt;) to display a list of the files. Click on the name of the desired file to move to the beginning of that file.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>同じプロジェクト内の違うファイルに移るにはプロジェクトファイルウィンドウを開いて (&lt;i0&gt;File&lt;/i0&gt; &gt; &lt;i1&gt;ファイルリストを開く&lt;/i1&gt;) リストを表示し、該当ファイルのファイル名をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>See also &lt;a0&gt;General hints and tips&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;a0&gt;ヒントとTIP&lt;/a0&gt;も参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The OmegaT User Manual</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaT ユーザーマニュアル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Introduction</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Documentation is the work of Marc Prior with contributions of Jean-Christophe Helary and Dmitri Gabinski</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ドキュメンテーションはMarc PriorとJean-Christophe Helary、Dmitri Gabinskiの貢献によるものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Original English Version</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>英語版オリジナル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Last edited: December 20, 2004 by Dmitri Gabinski</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>最終更新: December 20, 2004 by Dmitri Gabinski</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT is the work of Keith Godfrey</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaT はKeith Godfreyの作品です</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Code has been contributed by Benjamin Siband, Maxym Mykhalchuk, Sacha Chua and Henry Pijffers</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>コード提供者：Benjamin Siband, Maxym Mykhalchuk, Sacha Chua and Henry Pijffers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>What&apos;s new in 1.4.4</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>1.4.4新機能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Easy Help system localization (and Belarusian, French, Russian and Spanish l10ns)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ヘルプシステムのローカリゼーションの簡易化(と、ベラルーシ語、ロシア語、フランス語、スペイン語のローカリゼーション）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Separate source distribution of OmegaT</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTソース配布の分離</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Ability to jump to next not yet translated segment (for details look at &lt;a0&gt;The translation process&lt;/a0&gt;)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>「次の未翻訳セグメントへ」機能 (詳しくは&lt;a0&gt;翻訳プロセス&lt;/a0&gt;へ)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>New Fuzzy Matching Engine:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>新しいファジーマッチングエンジン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>enhanced matching for Japanese</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>日本語のマッチング強化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>increased number of fuzzy matches</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ファジーマッチ数の増加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Refactored HTML and XML file handlers to improve speed and stability</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>HTMLとXMLファイル操作の再構成でスピードと安定性アップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Some refactorings of file handlers</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>いくつかのファイル操作機能の再構築</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Support for glossaries in UTF-8 encoding (for details look at &lt;a0&gt;Translation memory and glossary file formats&lt;/a0&gt;)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>UTF-8エンコードのグロッサリに対応 (詳しくは&lt;a0&gt;翻訳メモリとグロッサリファイル形式&lt;/a0&gt;へ)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Better HTML handling, including better encoding recognition and meta-data transfer to target files</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>エンコード認識の向上やメタデータをターゲットファイルに転送するなどHTML操作面の改善</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>No more multiple help file viewers</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ヘルプビューアの多重化バグの修正</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Empty segments are not displayed</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>空セグメントが非表示に</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Reliable font change</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>フォント替えの安定化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Contents</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>目次</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Before starting</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>はじめるまえに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>System requirements</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>システム要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Your first steps into OmegaT</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTへのはじめのステップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The user interface</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ユーザーインターフェイス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Segmentation</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>セグメント化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The translation process</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳プロセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>A little further</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>もっと使ってみる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Keyword and exact searches</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>キーワードと完全一致検索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Saving, revising and compiling your translation</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>訳の保存、改訂、コンパイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Glossaries, translation memories and project structure</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトの構造とグロッサリ、翻訳メモリについて</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Translation file formats</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳ファイルの形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Translation memory and glossary file formats</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳メモリとグロッサリファイルの形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Slightly advanced usage</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ハイレベルな使い方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Keyboard shortcuts</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>キーボードショートカット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Editing tagged (formatted) texts</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグ入り(フォーマット済み) テキストの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Working with OpenOffice.org and StarOffice files</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.org、StarOfficeファイルの扱い</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>General hints and tips</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ヒントとTIP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Keyword and exact searches</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;キーワードと完全一致検索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Glossary</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;グロッサリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Saving</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>保存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To save your work at any time, Select &lt;i0&gt;File&lt;/i0&gt; &gt; &lt;i1&gt;Save&lt;/i1&gt;, or simply hit &lt;i2&gt;Ctrl+S&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>作業の保存は、&lt;i0&gt;File&lt;/i0&gt; &gt; &lt;i1&gt;保存&lt;/i1&gt;もしくは&lt;i2&gt;Ctrl+S&lt;/i2&gt;で可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This saves your translation not as a document, but as an intermediate translation memory, in the file &lt;i0&gt;/omegat/project_save.tmx&lt;/i0&gt;. .</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>この保存では訳文をドキュメント（完成品）としてでなく「中間ファイル」として&lt;i0&gt;/omegat/project_save.tmx&lt;/i0&gt;に保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Revising</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>改訂</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To revise your text by comparing your translation against the original, simply walk through it segment by segment with &lt;i0&gt;Enter&lt;/i0&gt;. Translators familiar with other translation memory applications will appreciate this convenient method of revising drafts.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>訳の改訂、見直しを行うためには&lt;i0&gt;Enter&lt;/i0&gt;キーでセグメントを切り替えながら原文と訳文を比較してください。他の翻訳メモリアプリケーションを使っている方には馴染みある方法かと思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Compiling</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>コンパイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Don&apos;t be intimidated by the the computerese!</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>専門用語で驚かないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>As you translate in OmegaT, you are not overwriting the original text, but producing translations of each paragraph in a separate file. Compiling is simply the process whereby OmegaT replaces the segments in the original text with the translations in this file. It also generates a translation memory in its final, reusable form. You needn&apos;t wait until the translation is finished to compile; you can compile as many times as you like.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTでの翻訳中、訳文は原文を置き換えているのではなく別のファイルに保存されています。ここでの「コンパイル」とは訳文ファイルで原文のセグメントを置き換える作業を指します。同時に再利用可能な形での翻訳メモリファイルも作られます。作業の途中でも、何度でもコンパイルを行うことが可能です＝全て完了させるまで待つ必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Avoiding disasters</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>最悪の事態を避けよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Make regular copies of the file &lt;i0&gt;/omegat/project_save.tmx&lt;/i0&gt;. Add a serial number or the date to the copy, e.g. &lt;i1&gt;/omegat/project_save.tmx-01&lt;/i1&gt; or &lt;i2&gt;/omegat/project_save.tmx-04-05-04&lt;/i2&gt;. This file can also be transferred to other media such as a diskette as a convenient way of making quick backups. When you are translating formatted (StarOffice/OpenOffice.org, XHTML or HTML) files, in particular, you are likely to find that the file &lt;i3&gt;project_save.tmx&lt;/i3&gt; is much smaller than the original or final texts.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;/omegat/project_save.tmx&lt;/i0&gt;は定期的にバックアップしましょう。例えば、&lt;i1&gt;/omegat/project_save.tmx-01&lt;/i1&gt;や&lt;i2&gt;/omegat/project_save.tmx-04-05-04&lt;/i2&gt;のように番号や日付をつけて管理しましょう。別のメディアに保存しておくことも大切です。フォーマット済みテキスト(StarOffice/OpenOffice.org, XHTML, HTML) を扱う際には&lt;i3&gt;project_save.tmx&lt;/i3&gt;ファイルは元ファイルより小さくなっているはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Until you are familiar with OmegaT, compile at regular intervals and check that the compiled file contains the latest version of your translation.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTに慣れるまでは、頻繁にコンパイルを行って結果ファイルをチェックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Take particular care when making any changes to the files in &lt;i0&gt;/source&lt;/i0&gt; whilst in the middle of a project. Sometimes, you will want to make changes to source files, for example to remove hard line breaks from the middle of sentences. However, if the source file is modified after you have begun translating, OmegaT may be unable to find a segment that you have already translated. Always back up either the source file itself, or the whole project, before making any changes to the source file(s).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳作業の途中で&lt;i0&gt;/source&lt;/i0&gt;ディレクトリの中身に変更を加える際には特に注意してください。段落途中の不適切な切れ目などを修正した後に、OmegaTが新しいセグメントの翻訳済みテキストを見つけられない場合があります。ソースファイルに変更を加える前には必ずソースファイルやプロジェクト全体をバックアップするように心がけてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Don&apos;t try to create a new project or open another project whilst a project is open. Close the open project, and if necessary relaunch OmegaT, before opening another project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ひとつのプロジェクトが開かれた状態で新しいプロジェクトの作成したり他プロジェクトを開こうとしたりしないでください。開いているプロジェクトを閉じて、必要ならアプリケーションを再起動してから違うプロジェクトを開きましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Full and fuzzy matches</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;完全とファジーマッチについて</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Saving, revising and compiling</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;訳の保存、改訂、コンパイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT provides a powerful range of search functions.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTはパワフルな検索機能を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Call up the Search function with &lt;i0&gt;Ctrl+F&lt;/i0&gt; and enter the word or phrase you wish to search for in the “Search for” box.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;Ctrl+F&lt;/i0&gt; で検索機能を呼び出します。検索したい語句を&quot;Search for&quot; ボックスに入力してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Alternatively, mark a word or phrase in the editing field (target text of the active segment) and hit &lt;i0&gt;Ctrl+F&lt;/i0&gt;. The word or phrase is entered in the “Search for” box automatically in this case.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>もしくは、アクティブセグメントの語句を選択（ハイライト）し&lt;i0&gt;Ctrl+F&lt;/i0&gt;を押してもOKです。選択された語句が&quot;Search for&quot; ボックスに現れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Select the type of search using the radio buttons (keyword and exact searches) and check boxes (search TMs/search files).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>完全一致かキーワード検索かを選択し、翻訳メモリを検索するか、ファイルを検索するかのチェックを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>All types of search are non-case-sensitive, i.e. a search for “abc” finds instances of abc, ABC, Abc, etc.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>検索は大文字小文字を区別しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Keyword searches</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>キーワード検索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Select “Keyword search” and enter any number of individual words, in any order, and OmegaT displays a list of all segments in which all the words occur. Keyword searches are similar to a search “with all of the words” in an Internet search engine such as Google (AND logic).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>キーワード検索は、入力されたいくつかのキーワードをすべて含むセグメントを検索します。普通のgoogle検索と同じようなロジックです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Keyword searches can only find whole words, not parts of words or incomplete words.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>キーワード検索は語句の部分一致を認識しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Exact searches</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>完全一致検索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>An exact search looks for a phrase, i.e. if several words are entered, they are found only if they occur in exactly the same sequence. Exact searches are similar to an “exact phrase” search in an Internet search engine such as Google.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>完全一致検索はフレーズを検索します。つまり、複数の語句が入力された際に、それと全く同じ並びのフレーズを含むセグメントを検索します。googleのフレーズ検索と同じようなロジックです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Exact searches can search for the search term:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>完全一致検索の検索範囲は：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>in source and target segments in the current project;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトの原文、訳文セグメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>in source and target segments in the current project and in translation memories (files in &lt;i0&gt;/tm&lt;/i0&gt;);</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトの原文、訳文セグメントと翻訳メモリ(&lt;i0&gt;/tm&lt;/i0&gt;ディレクトリ内);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>in any files in a format which OmegaT can read (.txt, .html, .xhtml or .sxw), in any selected directory and (if desired) subdirectories.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>選択されたフォルダに含まれた、OmegaTが読めるすべてのファイル形式 (.txt, .html, .xhtml or .sxw)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The wildcard search characters &apos;*&apos; and &apos;?&apos; can be used in exact searches.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg> &apos;*&apos;  や &apos;?&apos; などのワイルドカードも使えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The character &apos;?&apos; matches any single character,i.e. &apos;b?d&apos; finds instances of &apos;bad&apos; and &apos;bid&apos;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&apos;?&apos; は任意の一文字を表します。例えば、 &apos;b?d&apos; では &apos;bad&apos; や &apos;bid&apos; がヒットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The character &apos;*&apos; matches any character or number of characters, i.e. &apos;b*d&apos; finds instances of &apos;bad&apos;, &apos;bid&apos;, &apos;bold&apos; and &apos;band&apos;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&apos;*&apos; は任意の文字または文字列を表します。例えば、&apos;b*d&apos; では&apos;bad&apos;, &apos;bid&apos;, &apos;bold&apos; や &apos;band&apos; がヒットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;The user interface</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;ユーザーインターフェイス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;The translation process</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次t: &lt;a0&gt;翻訳プロセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT segments texts for translation by the paragraph.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTは翻訳テキストを段落ごとにセグメント化(細分化)します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT presegments the text when the project is opened. You cannot move segment boundaries from within OmegaT. If you suspect that your text might contain manual line breaks in inconvenient places, it is therefore worth editing it before opening the project. If you are confronted with bad segmenting (e.g. a line break in the middle of a sentence) whilst you are working in OmegaT, you can remove the break from the source text (for example in a text editor or word processor). You will not see the change in OmegaT until you reload the project, however.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTはプロジェクトを開いた際にテキストをセグメント化します。OmegaT内ではセグメントの切り方を動かせません。不適切な位置に切れ目があると感じた場合には、プロジェクトを開く前に他のアプリケーションで修正してください。修正は、再度プロジェクトを開くときまで反映されませんので注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To use sentence-level segmentation in OmegaT, use the OpenOffice.org conversion macros. These macros convert sentences in OpenOffice.org files to paragraphs so that when the file is opened in OmegaT, it is segmented by the sentence rather than by the paragraph. The macros can be downloaded from the OmegaT web site.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>文単位でのセグメント化を使いたい場合には、OpenOffice.orgのマクロを使用してください。このマクロは文を段落に変換するため、OmegaTで作業する際に文単位でセグメント化されるようになります。マクロはOmegaTサイトでダウンロードできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Project files and directories</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;プロジェクトのファイルとディレクトリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Editing tagged texts</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;タグ入りテキストの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Open existing project</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>既存プロジェクトを開く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Save translation memory</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳メモリの保存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Exit OmegaT</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTの終了</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Jump to next segment</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次のセグメントへ移動</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Jump to previous segment</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前のセグメントに移動</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Search translation memory</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳メモリから検索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Overwrite translation (replace text in active segment with selected fuzzy match)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>訳文の上書き (選択中のファジーマッチの提示で置き換え)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Insert translation (insert selected fuzzy match into active segment at cursor position)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>訳文の挿入 (カーソル位置に選択中のファジーマッチの提示を挿入)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Select fuzzy match #1, fuzzy match #2, etc.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ファジーマッチ提示の1番目、2番目、、、を選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Display list of project source files</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトのソースファイル一覧を表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Jump to next untranslated segment</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次の未翻訳テキストに移動</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*Using &lt;i0&gt;Tab&lt;/i0&gt; is an option that should be activated by clicking on the &lt;i1&gt;Preferences&lt;/i1&gt; &gt; &lt;i2&gt;Use TAB to advance&lt;/i2&gt; menu item.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>*&lt;i0&gt;Tab&lt;/i0&gt;でのセグメント移動はオプションです。&lt;i1&gt;Preferences&lt;/i1&gt; &gt; &lt;i2&gt;タブで次に移動&lt;/i2&gt; にチェックを入れてください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Using different fonts and alphabets</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;フォントの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;General hints and tips</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;ヒントとTIP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>See also &lt;a0&gt;Editing tagged (formatted) texts</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;a0&gt;タグ入りテキストの編集&lt;/a0&gt;も参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OpenOffice.org and StarOffice: the difference</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.orgとStarOfficeの違い</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OpenOffice.org and StarOffice are, broadly speaking, the same program. OpenOffice.org is open-source, meaning essentially that it is free, and can be copied freely. StarOffice is a commercial product: you must buy a licence for each system on which you intend to use it. StarOffice contains certain components which are not present in OpenOffice.org; purchasing a licence also entitles you to technical support. For the purpose of this manual, all references to OpenOffice.org apply equally to StarOffice.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.orgとStarOfficeは、広い意味では同じプログラムです。Openoffice.orgはオープンソースで、よって無料であり、自由に複製できます。StarOfficeは商用ソフトなので使用したいシステムごとにその権利を購入しなくてはいけません。StarOfficeにはOpenoffice.orgにないいくつかの機能も含まれています。ライセンスを購入すると技術サポートも受けられます。このマニュアルが関わる限りでは2つのプログラムへの操作は全く同じです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OpenOffice.org and OmegaT</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.orgとOmegaT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT is a standalone application. It does not require OpenOffice.org or StarOffice, MS Word, or any other word processor.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTはスタンドアローンのアプリケーションであり、OpenOffice.orgやStarOffice、MS Wordなどいかなるワードプロセッサーも必要ありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OpenOffice.org/StarOffice do however extend OmegaT&apos;s functionality considerably, as they enable it to handle files in formats which it does not support directly. In particular, these include MS Word, MS Excel, MS Powerpoint and RTF. To prepare files in these formats for processing in OmegaT, simply open them in OpenOffice.org and save them in the native OpenOffice.org format. When you have finished your translation, open them in OpenOffice.org again and save them in the original format.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.org/StarOfficeはしかし、OmegaTの機能性を大きく拡張してくれます。それはMS Word, MS Excel, MS Powerpoint, RTFなど、OmegaTが直接サポートしないファイルを変換してくれるからです。それらのファイル形式のファイルをOmegaT上で扱うには、まずOpenOffice.orgで開いてOpenoffice.org形式で保存しなおしてください。翻訳が終わったら、再度Openoffice.orgで開いて元のフォーマットに保存しなおします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OpenOffice.org/StarOffice also add further functionality to the core functions of OmegaT. Spellchecking and sentence-level rather than paragraph-level segmenting are two functions not provided in OmegaT itself but made possible with OpenOffice.org.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.org/StarOfficeは他にも重要な点でOmegaTの機能を拡張してくれます。スペルチェックや、段落単位でなく文単位でのセグメント化などはOpenOffice.orgによって可能となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Use OpenOffice.org 1.0/StarOffice 6.0 or later in conjunction with OmegaT. Earlier builds/versions (e.g. the OpenOffice.org Beta) may not work. StarOffice 5.2 will certainly &lt;b0&gt;not&lt;/b0&gt; work.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.org 1.0/StarOffice 6.0またはそれ以上を使用してください。それ以前のバージョンは動かないかも知れません。StarOffice 5.2 は確実に動きません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Hints and tips</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ヒントとTIP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Make sure that MS Word files have not been saved with the “Fast Save” option, or OpenOffice.org will probably be unable to read them.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>MS Wordのファイルは「Fast Save」で保存されていないことを確認してください。でないとOpenOffice.orgはファイルを読み込めません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Don&apos;t attempt to load OpenOffice.org files saved with the “Revision” function (i.e. “Record changes”) active into OmegaT. Disable the function and accept all the changes first. This problem is most likely to occur when you receive MS Word files which have been saved with the “Revision” function enabled, and you are not aware of the fact. OpenOffice.org supports this function (which is in fact very useful), but it should not be used in conjunction with OmegaT.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>(「変更を記録」など)「Revision」機能付で保存されたOpenOffice.orgファイルを OmegaTで開かないでください。このケースは元のMS Wordファイルが「Revision」機能付で保存されているときによく起こります。OpenOffice.orgはこの機能をサポートしています(実際、有用な機能です)が、OmegaTと一緒には使わないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Obtain and install the spellcheck tools OpenOffice.org for your target language(s). Then, before loading a project containing OpenOffice.org files for the first time, open these files in OpenOffice.org and change the language of the text to your target language by marking the whole text with &lt;i0&gt;Ctrl-A&lt;/i0&gt;, then &lt;i1&gt;Format&lt;/i1&gt; &gt; &lt;i2&gt;Character&lt;/i2&gt; &gt; &lt;i3&gt;Language&lt;/i3&gt;. You can then use OpenOffice.org to spellcheck your finished translation after compilation. You can change the language after compiling, but if you compile more than once the language will revert to that of the source text file each time.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>使用する言語用のOpenOffice.orgのスペルチェックツールをインストールしてください。次に、OpenOffice.orgのファイルを含むプロジェクトを開く前にそれらをOpenOffice.orgで開き、&lt;i0&gt;Ctrl-A&lt;/i0&gt;と&lt;i1&gt;Format&lt;/i1&gt; &gt; &lt;i2&gt;Character&lt;/i2&gt; &gt; &lt;i3&gt;言語&lt;/i3&gt;でテキストの言語を翻訳先言語に変更してください。そうするとコンパイル後に訳文をスペルチェックできます。コンパイル後に言語を変更することもできますが、再コンパイル後にまた元のソース言語が上書きされてしまいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>After compiling an OpenOffice.org-format text for the last time, check that everything has been translated. You will probably want to open the file in OpenOffice.org in any case, in order to spell-check it. You may also find however that OmegaT may miss parts of the text, such as headers and footers.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.orgを最後にコンパイルした後、全てちゃんと翻訳されているかチェックしてください。OpenOffice.orgで開いてスペルチェックを通すことをおすすめします。ヘッダやフッタなどの部分が消失してしまう可能性もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Should OpenOffice.org fail to open a translated file and return an error, you have probably damaged tags by mistake during the translation process. In this case, open the project again and use the Validate tags function to locate the affected segment(s).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.orgが訳後のファイルを開けなかったりエラーが出たりする場合、作業中にタグを欠損した恐れがあります。 その際には再度プロジェクトを開いてタグの検証を行い、壊れたセグメントを検索できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Introduction</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Installation and configuration</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;インストールと設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT requires the Java Runtime Environment. Essentially, if your system will run the Java Runtime Environment (also known as the J2RE), it will run OmegaT. The Java Runtime Environment is available for the following platforms: Windows 95/98/2000/ME/XP, UNIX, Linux, Solaris (both x86 and Sun SPARC) and Mac OS 9. It comes pre-installed on Macintosh OS X.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTを使うにはJava実行環境(Java Runtime Environment)が必要です。基本的にJava実行環境(J2REとも呼ばれています)が動いているならOmegaTを使用できます。Java実行環境はWindows 95/98/2000/ME/XP, UNIX, Linux, Solaris (x86とSun SPARC), Mac OS 9用に提供されています。Macintosh OS Xではプレインストールされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>As far as we are aware, OmegaT does &lt;b0&gt;not&lt;/b0&gt; run on Windows NT owing to a bug in the NT Java implementation.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>知っている限りでは、OmegaTはWindows NT上では&lt;b0&gt;動かない&lt;/b0&gt; ようです。NT側のJavaインプリメンテーションに問題があるようです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Keyboard shortcuts</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;キーボードショートカット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Using different fonts and alphabets</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;フォントの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Working with tags</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグ入りテキストでの作業</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT displays the in-line formatting information of supported formats (at present HTML, XHTML and OpenOffice.org/StarOffice) as tags. The tags you see in OmegaT are not the same as those used by the original applications; OmegaT converts them internally, and converts them back at compilation.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTはサポートするファイル形式(現在ではHTML, XHTMLとOpenOffice.org/StarOfficeファイル)のインラインフォーマット情報をタグで表示します。  タグの見た目はソースファイルのものと異なります。OmegaTは内部で表示の変更を行い、コンパイル時に元に戻します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Care must be taken with tags. If they are changed accidentally, the formatting of the final file may be corrupted. In worst cases, the file may refuse to open altogether: this is particularly the case with OpenOffice.org files.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグの扱いには気をつけてください。最終の完成ファイルのフォーマットに影響を及ぼすこともあります。最悪の場合ではアプリケーションがそのファイルを開けなくなる場合もありえます。(特にOpenoffice.orgの場合)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Although you cannot add formatting of your own in OmegaT, you do have some degree of control over the existing formatting.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaT上でフォーマットを追加ることはできませんが、既存のフォーマットに一定のコントロールを加えることはできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Tag manipulation in OpenOffice.org files</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.orgファイル上のタグ操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OpenOffice.org tags must be retained unchanged. You cannot delete these tags, duplicate them, or change the sequence. You can &lt;i0&gt;move&lt;/i0&gt; or &lt;i1&gt;cancel&lt;/i1&gt; the tags</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.orgのタグは変更しないでください。タグを削除、複製、順序の変更などはしないでください。タグの&lt;i0&gt;移動&lt;/i0&gt; や &lt;i1&gt;キャンセル&lt;/i1&gt;は可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Moving the tags</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグの移動</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can move the tags to a different part of the segment; they must, however, remain in the same order;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグは同じセグメント内で移動できます。ただし、順番は元の順番を守ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Cancelling the tags</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグのキャンセル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>By placing the tags next to each other you effectively cancel them.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグを隣り合わせることでそれらをキャンセルできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For instance, if you change:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>例えば、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This text is in &lt;f0&gt;italics&lt;/f0&gt;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>このテキストを&lt;f0&gt;イタリック&lt;/f0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>to</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>から</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This text is in &lt;f0&gt;&lt;/f0&gt;italics</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>このテキスト&lt;f0&gt;&lt;/f0&gt;イタリック…に変えれば</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>you effectively remove the italic formatting.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>イタリックのフォーマットを簡単にキャンセルできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Tag manipulation in HTML files</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>HTMLファイルでのタグ操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The start of formatting is marked by an opening tag of the form &lt;&lt;i0&gt;xx&lt;/i0&gt;&gt;, and the end of formatting by a corresponding closing tag &lt;/&lt;i1&gt;xx&lt;/i1&gt;&gt;. Any changes made to formatting tags must be made to both tags in the pair.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>フォーマットの記号はxxxで始まり/xxxで終わります。フォーマットへの変更はペアになるタグ両方に成されなくてはなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can &lt;i0&gt;delete&lt;/i0&gt;, &lt;i1&gt;duplicate&lt;/i1&gt;, &lt;i2&gt;change the order&lt;/i2&gt; or &lt;i3&gt;nest&lt;/i3&gt; the tags.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグの&lt;i0&gt;削除&lt;/i0&gt;、&lt;i1&gt;複製&lt;/i1&gt;、&lt;i2&gt;順序の変更&lt;/i2&gt;、&lt;i3&gt;ネスト&lt;/i3&gt;が可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Deleting the tags</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグの削除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, to remove the italics from</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>例えば、イタリックのフォーマットを取り除くには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>simply delete the tags &lt;f0&gt; and &lt;/f0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>単純に&lt;f0&gt; と&lt;/f0&gt;を削除してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Duplicating the tags</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグの複製</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example,</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>例えば：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This text is in &lt;f0&gt;italics&lt;/f0&gt;, and so is &lt;f0&gt;this&lt;/f0&gt;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>このテキストはイタリックなので、これもイタリック</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>applies the formatting of the word “italics”; to the word “this”.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>フォーマットは「イタリック」と「これも」に適用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Changing the order of tags</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグの順序を変更</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This text is in &lt;f0&gt;italics&lt;/f0&gt;, this text is &lt;f1&gt;underlined&lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>このテキストはイタリックで、このテキストはアンダーライン付</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>can be changed to</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>を以下のように変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This text is &lt;f1&gt;underlined&lt;/f1&gt;, this text is in &lt;f0&gt;italics&lt;/f0&gt;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>このテキストはアンダーライン付で、このテキストはイタリック</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Nesting tags</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグのネスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>例えば：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This text is in &lt;f0&gt;italics and &lt;f1&gt;this text is also underlined&lt;/f1&gt;&lt;/f0&gt;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>このテキストはイタリックで、かつこの部分はアンダーライン付</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You must &lt;b0&gt;not&lt;/b0&gt; &lt;i1&gt;overlap&lt;/i1&gt; tags.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグを&lt;i1&gt;オーバーラップ&lt;/i1&gt;させることはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This text is in &lt;f0&gt;italics, this text is also &lt;f1&gt;underlined&lt;/f0&gt;, this text is underlined but not in italics&lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>このテキストはイタリックで、ここからアンダーライン付、それでここはアンダーライン付でイタリックなし</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>is not permitted and will corrupt your file if you try it. If you insert an opening tag and then open a second opening tag, you must insert the closing tag of the &lt;b0&gt;second&lt;/b0&gt; opening tag &lt;b1&gt;before&lt;/b1&gt; the closing tag of the first.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>は許されず、ファイルが破損してしまいます。1番目のタグを閉じずに2番目を入れた場合は、必ず2番目のタグを先に閉じてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Validating tags</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグの検証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The validate tags function (&lt;i0&gt;Tools&lt;/i0&gt; &gt; &lt;i1&gt;Validate tags&lt;/i1&gt;) detects tags to which changes have been made (whether deliberately or by accident), and indicates the affected segments.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグの検証機能 (&lt;i0&gt;Tools&lt;/i0&gt; &gt; &lt;i1&gt;Validate tags&lt;/i1&gt;) はタグへの変更を(故意とアクシデントに関わらず)検知し、該当セグメントをリストします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Working with OpenOffice.org</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;OpenOffice.orgとの連携</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Microsoft Office files</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Microsoft Officeファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>When handling MS Office files, remember to convert to OpenOffice.org format and place the converted file in &lt;i0&gt;/source&lt;/i0&gt;. Do not, however, place the original MS Office file in &lt;i1&gt;/source&lt;/i1&gt;. If necessary, create a new directory for it such as &lt;i2&gt;/original&lt;/i2&gt;. When the translation is over, convert the files you have in the &lt;i3&gt;/target&lt;/i3&gt; directory back to MS office file format with OpenOffice.org. (To work with OpenOffice.org and StarOffice, see &lt;a4&gt;Working with OpenOffice.org&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>MS Officeのファイルを扱う際には必ずOpenOffice.orgファイル形式に保存しなおしてから&lt;i0&gt;/source&lt;/i0&gt;ディレクトリに置いてください。オリジナルのMS Officeファイルを&lt;i1&gt;/source&lt;/i1&gt;ディレクトリに置かないでください。必要な場合は&lt;i2&gt;/original&lt;/i2&gt;などのファイルを作成してください。翻訳が完了した後、&lt;i3&gt;/target&lt;/i3&gt;ディレクトリ内のファイルを再度Openoffice.orgを使ってMS officeファイルに戻します。 (&lt;a4&gt;OpenOffice.orgとの連携&lt;/a4&gt;を参照)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Empty project ? (Microsoft Office files II)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>空っぽのプロジェクト？(Microsoft Officeファイル2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you have created a new project and copied the files for translation into the &lt;i0&gt;/source&lt;/i0&gt; directory, but OmegaT tells you that the project is empty, then the files are probably MS Word files and you have forgotten to convert them to OpenOffice.org format.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>新しいプロジェクトで、ファイルを&lt;i0&gt;/source&lt;/i0&gt;ディレクトリに保存したのにOmegaTが「空のプロジェクト」と言う場合には、ファイルがMS Wordファイルのままだと思われます。Openoffice.orgファイルに変換してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Displaying the layout while you translate</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳中のレイアウト表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you feel the need to see the layout of your text whilst you translate, simply keep a copy of the original file open in a word processor in a separate window.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳中にテキストのレイアウトを表示したい際には、別のコピーをワードプロセッサーで開いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>One project at once !</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>一度に開けるプロジェクトはひとつだけ！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Don&apos;t try to create a new project or open an existing project from within an open OmegaT project. This can cause the internal translation memory of the active project to be transferred to the &apos;new&apos; project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ひとつのプロジェクトが開かれた状態で新しいプロジェクトの作成したり他プロジェクトを開こうとしたりしないでください。アクティブセグメントの翻訳メモリが新しいファイルに適用される可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Can&apos;t open translation memory</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳メモリが開けない</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you can&apos;t open a translation memory sent to you by a colleague or customer, it may be in an unsupported format. If it is a &lt;i0&gt;*.tmx&lt;/i0&gt; file, it is probably a higher level of TMX. OmegaT version 1.4.0 only supports TMX Level 1.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>顧客や同僚から送られた翻訳メモリを開けない場合、ファイル形式がサポートされていない可能性があります。&lt;i0&gt;*.tmx&lt;/i0&gt; ファイルでも、レベル1より上なのかも知れません。OmegaT のバージョン1.4.0ではTMXレベル1のみサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Lost segment...</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>セグメントを見失いました</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You may find that after moving to a segment in a different part of a large project, you are unable to locate the segment in which you were working in order to return to it. To enable you to find your place again, enter a marker (such as &apos;###&apos;) in the segment, then hit &lt;i0&gt;Enter&lt;/i0&gt; (to confirm the the change to the segment) before moving to a different part of the project. Better still, add the segment number to the marker, since if your segment is one of several identical segments, you may otherwise find when you try to find your place again that your marker is now found in several segments.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>大きなプロジェクトの作業中で場所を移った際によく起こります。作業していたファイルにちゃんと戻るには、前もってマーカー (&apos;###&apos;など)をセグメントに入れて、&lt;i0&gt;Enter&lt;/i0&gt; を押してください。(セグメントへの変更を保存するため) 他の場所に移る前には、マーカーにセグメント番号を含めるのも有効です。同じ内容のセグメントが複数あった場合にも、セグメントの番号から元のファイルを特定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Inserting a marker</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>マーカーの挿入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you wish to insert a marker in your translation, for example to indicate an unresolved query, don&apos;t use &apos;?&apos; or &apos;*&apos;. These characters are used as search wildcards and are therefore impossible to find with &lt;i0&gt;Ctrl-F&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳中の不確かな部分などにマーカーを挿入する際、&apos;?&apos; や &apos;*&apos;の文字を使わないでください。これらは検索用ワイルドカードとして使われており、&lt;i0&gt;Ctrl-F&lt;/i0&gt;で検索できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Translation file formats</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;ファイル形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Project files and directories</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;プロジェクトのファイルとディレクトリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Translation memory files imported, exported and used internally by OmegaT are in the industry-standard TMX format (Level 1). This enables the translation memories produced by OmegaT to be read by other CAT tools that support the standard. OmegaT can also import and read memories produced by these applications, provided they are first saved in TMX format (Level 1).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTによって使用され、且つインポート/エクスポート可能な翻訳メモリのフォーマットは産業標準のTMXフォーマット (Level 1)となっています。そのためOmegaTで作成された翻訳メモリファイルはその標準をサポートする他のCATツールでも使用できます。TMXフォーマット(Level 1)をサポートする他のCATツールの翻訳メモリをインポートすることも可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT cannot read translation memories in proprietary formats used by other CAT tools.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTは他のCATツールのプロプライエタリな翻訳メモリ形式は読み込めません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Glossary files are simply plain text files containing three-column, tab-delimited lists with the source and target terms in the first and second columns respectively. The third column can be used for additional information.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>グロッサリファイルは3コラムのtab区切りファイルでできています。1番目のコラムが原文の語句、2番目が訳語となっています。3番目のコラムは任意にコメント、追加情報欄として使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Glossary files can be either in system default encoding (in that case, the files must have &lt;i0&gt;.tab&lt;/i0&gt; name extensions) or in UTF-8 (in that case, they must have &lt;i1&gt;.utf8&lt;/i1&gt; name extensions).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>グロッサリファイルはシステムデフォルトのエンコード(拡張子が.tabの場合のみ)かUTF-8(拡張子が.utf8の場合のみ)が使えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Glossaries created using Trados Multiterm&apos;s text export function can be used as OmegaT glossaries without further modification, provided they are given the file extension &lt;i0&gt;*.tab&lt;/i0&gt; and the source and target term fields are the first two fields respectively.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Trados MultitermでテキストエクスポートされたファイルもOmegaTで使用可能です。拡張子が.tabであることと、1番目と2番目のコラムが原文と訳語になるように気をつけてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Segmentation</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;セグメント化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Editing functions</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;編集機能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Open a project and translate by overwriting the text in the active segment.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトを開いて、アクティブセグメントの原文を訳文で置き換えていってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Hit &lt;i0&gt;Enter&lt;/i0&gt; or &lt;i1&gt;Ctrl+N&lt;/i1&gt; to confirm your translation and proceed to the next segment. If you need to keep &lt;i2&gt;Enter&lt;/i2&gt; for other use, for example, to engage it in a tool for input of complex characters, you can alternatively use &lt;i3&gt;Tab&lt;/i3&gt;. Using &lt;i4&gt;Tab&lt;/i4&gt; is an option that should be activated by clicking on the &lt;i5&gt;Preferences&lt;/i5&gt; &gt; &lt;i6&gt;Use TAB to advance&lt;/i6&gt; menu item.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;Enter&lt;/i0&gt; または &lt;i1&gt;Ctrl+N&lt;/i1&gt; で訳を完了して次のセグメントに移ります。（漢字変換など）&lt;i2&gt;Enter&lt;/i2&gt; を別の用途に使いたい場合にはその代わりに&lt;i3&gt;Tab&lt;/i3&gt;キーが使えます。&lt;i4&gt;Tab&lt;/i4&gt;を使うには&lt;i5&gt;Preferences&lt;/i5&gt; &gt; &lt;i6&gt;TABで次に移動&lt;/i6&gt; にチェックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Upon opening a project, the first segment of it automatically becomes active. To quickly jump to the next untranslated segment of the project, hit &lt;i0&gt;Ctrl+U&lt;/i0&gt; or choose &lt;i1&gt;Edit &gt; Next untranslated&lt;/i1&gt; menu item.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトを開くとすぐに最初のセグメントがアクティブになります。次の未翻訳セグメントにすぐ移動するには、&lt;i0&gt;Ctrl+U&lt;/i0&gt; かメニューから&lt;i1&gt;Edit &gt; 次の未翻訳テキストに&lt;/i1&gt;をクリックしてください。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>After translating all the segments, compile the project by choosing the &lt;i0&gt;File&lt;/i0&gt; &gt; &lt;i1&gt;Compile translation&lt;/i1&gt; menu item.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>セグメントを翻訳した後にプロジェクトをコンパイルするにはメニュー&lt;i0&gt;File&lt;/i0&gt; &gt; &lt;i1&gt;コンパイル&lt;/i1&gt;を選んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>After compilation, you can review the results checking the files in the &lt;i0&gt;/target&lt;/i0&gt; subdirectory of your project (for details on files and directories see &lt;a1&gt;Project files and directories&lt;/a1&gt;). If you are not satisfied with the results, just renew translation according to the described procedure (see also &lt;a2&gt;Saving, revising and compiling your translation&lt;/a2&gt;, &lt;a3&gt;General hints and tips&lt;/a3&gt; and &lt;a4&gt;Keyboard shortcuts&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;/target&lt;/i0&gt;ディレクトリにコンパイル後の完成ファイルがあります。(ファイルとディレクトリについての詳細は&lt;a1&gt;プロジェクトファイルとディレクトリ&lt;/a1&gt;を参照) 結果のファイルに不満がある場合には同様に修正してください。 (&lt;a2&gt;訳の保存、改訂、コンパイル&lt;/a2&gt;、&lt;a3&gt;ヒントとTIP&lt;/a3&gt; または&lt;a4&gt;キーボートショートカット&lt;/a4&gt;を参照)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Getting started</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;はじめてみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Segmentation</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;セグメント化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The user interface of OmegaT consists chiefly of the main OmegaT window and the Match and Glossary Viewer window.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTのインターフェイスは主にメインOmegaTウィンドウとマッチ＆グロッサリ表示ウィンドウで成りたっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The main OmegaT window displays the text currently being translated. The target or source texts of each segment are displayed, depending upon whether they have been translated or not. The exception is the active segment, of which both source and target text is displayed: the source text in bold, the target text bracketed by &lt;segment number&gt; and &lt;end segment&gt; tags.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>メインOmegaTウィンドウは翻訳中のテキストを表示します。セグメントの原文が表示されます。アクティブ（翻訳中）のセグメントは原文と訳文が同時に表示されます。ソースは太字で、訳文は&lt;segmentナンバー&gt;と&lt;end segment&gt;タグにはさまれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Match and Glossary Viewer window is divided into two panes. The Match pane displays fuzzy matches (previously translated segments with a certain degree of similarity to the active segment). The Glossary pane displays information from the glossary file, if there is one.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>マッチ＆グロッサリ表示ウィンドウは2つのペインに分かれています。マッチペインではファジーマッチ (以前の訳文から一定以上の類似テキスト)を表示し、グロッサリペインはグロッサリファイルからの情報を表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>No other windows need normally be open. The Project Files window, which contains a list of files for translation within the current project together with the number of segments in each file, can be left open if desired.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>仕事には上の2つのウィンドウで事足りますが、必要な場合はプロジェクトファイルウィンドウを開けます。プロジェクトファイルのリストが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>All functions are available through the menu bar at the top of the main OmegaT window. Most functions are also available through keyboard shortcuts.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>すべての機能はメインOmegaTウィンドウのメニューからアクセスできます。多くの機能はキーボードショートカットでも使えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous: &lt;a0&gt;Glossary</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前: &lt;a0&gt;グロッサリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next: &lt;a0&gt;Translation memory and glossary file formats</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次: &lt;a0&gt;翻訳メモリとグロッサリファイルの形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT supports the following formats of files for translation:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTは以下のファイル形式をサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Java Resource Bundles (with &lt;i0&gt;.properties&lt;/i0&gt; file name extension);</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Java Resource Bundles ( &lt;i0&gt;.properties&lt;/i0&gt; 拡張子のもの);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OpenOffice.org 1.0/StarOffice 6.0 or higher.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.org 1.0/StarOffice 6.0 とそれ以上</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT detects the file format automatically based upon the file&apos;s extension, so make sure that your files have the extensions &lt;i0&gt;.txt&lt;/i0&gt;, &lt;i1&gt;.html&lt;/i1&gt; and &lt;i2&gt;.sxw&lt;/i2&gt; for plain text, html and OpenOffice.org/StarOffice respectively. Extension mappings to respective formats are described in the &lt;i3&gt;omegat.prefs&lt;/i3&gt; file in the OmegaT installation directory. By editing that file, you can force OmegaT to recognize files with different extensions (but not formats!).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaT はファイル形式を拡張子によって自動的に検知します。そのためプレインテキストでは&lt;i0&gt;.txt&lt;/i0&gt;、HTMLなら&lt;i1&gt;.html&lt;/i1&gt;、Openoffice.org/StarOfficeなら&lt;i2&gt;.sxw&lt;/i2&gt; など正しい拡張子になっているかを確認してください。拡張子の扱いはインストール先ディレクトリの&lt;i3&gt;omegat.pref&lt;/i3&gt;で定義されています。そのファイルを編集することでOmegaTの拡張子の扱いを変更できます。(ファイル形式の扱いは変えられません！）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OpenOffice.org has excellent import/export filters for conversion of other file formats, including MS Word, Excel and Powerpoint. Files in these formats can therefore be processed by conversion in OpenOffice.org to the latter&apos;s native format, translation in OmegaT, and conversion back again following translation.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.orgは非常に優れた外部フォーマット、例えばMS Word, Excel, Powerpointなどのインポート/エクスポート機能を備えています。それらのファイルはOpenoffice.org上でOpenoffice.orgのファイル形式に変換でき、後にOmegaT上で翻訳できます。翻訳完了後にOpenoffice.orgを使って元のフォーマットに変換してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>User Manual for OmegaT version 1.4.4. </seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaT version 1.4.4　ユーザーマニュアル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Open the file en_OmegaT.html in your browser.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>en_OmegaT.htmlをブラウザで開いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>previous:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>前:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>next:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>次:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Assuming that there are fuzzy matches for the current segment you can:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ファジーマッチがある場合には以下の操作が行えます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>insert the selected fuzzy match in the editor field with &lt;i0&gt;Ctrl-I</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>選択されているファジーマッチを&lt;i0&gt;Ctrl-I&lt;/i0&gt;で編集フィールドに挿入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>rewrite the whole field with the selected fuzzy match with &lt;i0&gt;Ctrl-R</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;Ctrl-R&lt;/i0&gt;で編集フィールドを選択されているファジーマッチで置き換え</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(Refer to &lt;a0&gt;Full and fuzzy matches&lt;/a0&gt; for details.)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>( 詳しくは&lt;a0&gt;完全とファジーマッチについて&lt;/a0&gt; を参照)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In the case you work on a formatted file, the editor field will contain OmegaT specific tags that refer to the file&apos;s internal formatting.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>フォーマット済みファイルを扱う場合には、編集フィールドにOmegaT特有の内部フォーマットタグが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You cannot &lt;b0&gt;add&lt;/b0&gt; any formatting from within OmegaT to the text you are translating. The formatting of a formatted file (at present, StarOffice/OpenOffice.org and X-HTML are the supported formats), is retained, and you have a limited degree of control over it. (Refer to &lt;a1&gt;Editing tagged (formatted) texts&lt;/a1&gt; for details.)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳中のテキストに書式（フォーマット）を&lt;b0&gt;追加&lt;/b0&gt; することはできません。原文の書式(現時点ではStarOffice/OpenOffice.orgとHTML がサポートされています)はそのまま保存され、翻訳時には書式関連の編集権限は制限されます。 ( &lt;a1&gt;タグ&lt;/a1&gt; の項目を参照してください) </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To add formatting, insert a marker such as &quot;##&quot; and format the text in another application such as OpenOffice.org after compiling.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>書式を追加するには、自分で &quot;##&quot; などマーカーを置いてコンパイル後に OpenOffice.orgなどを使って編集してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This file can be edited in any text editor to modify some project parameters. &lt;b0&gt;Never&lt;/b0&gt; modify anything unless you know what you are doing.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>このファイルはテキストエディタでプロジェクトパラメータを編集できます。よほどのことがない限り直接編集はしないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Directory &lt;i0&gt;/source&lt;/i0&gt;. Place any files or directories including files you wish to translate in this directory after creating your project and before opening it. Any files in this directory and subdirectories below it are imported in the project for translation, provided their format is supported and they have the corresponding file extension.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;/source&lt;/i0&gt;ディレクトリ。プロジェクトの作成後、それを開くまえに翻訳したいファイルをこの中に置いてください。このディレクトリ下のサポートされるファイル形式と拡張子のファイルがプロジェクトに含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>project_save.tmx:&lt;/i0&gt; this file is created when the project is saved for the first time, and is updated each time the project is saved. It is in TMX format and is the working translation memory for the project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>project_save.tmx:&lt;/i0&gt; 最初にプロジェクトが保存されたときに作成されます。プロジェクト作業中の翻訳メモリファイルで、TMXフォーマットで保存されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>project_save.tmx.bak:&lt;/i0&gt; this file is created the first time a project is re-opened, and is updated each time you open the project, before any possible change has taken place.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>project_save.tmx.bak:&lt;/i0&gt; プロジェクトが2度目に開かれたときに作られ、プロジェクトが再度開かれ変更が加えられる前にバックアップとして保存されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>word_counts: &lt;/i0&gt;this file contains two word counts of the complete project: one including and one excluding 100% matches (this function has been disabled, it will come back in newer versions of OmegaT).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>word_counts: &lt;/i0&gt; このファイルには完全一致を含む/含まないの2つのワードカウントが入っています。（この機能は現在無効になっており、後のバージョンで再度利用可能になる予定です）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Editing tagged texts</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>タグ入りテキストの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Working with OpenOffice.org</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.orgでの作業</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If no single font contains the characters of both alphabets, you can select a virtual Java font (such as &quot;Serif&quot;), and define this font such that it uses multiple real fonts. Refer to the instructions on the OmegaT web site for customizing and modifying OmegaT in this case.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>適切なフォントが見つからない場合はJava仮想フォント(「Serif」など)を選択し、それが複数のフォントを使い分けるように設定してください。OmegaTへのそれらカスタマイズ、修正についてはウェブサイトを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Create a new project</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>新規プロジェクトの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Create a new project by selecting&lt;i0&gt;File&lt;/i0&gt;&gt; &lt;i1&gt;Create New Project&lt;/i1&gt; from the menu bar.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;ファイル&lt;/i0&gt;&gt; &lt;i1&gt;新しいプロジェクト&lt;/i1&gt; をクリックして新しいプロジェクトを作ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Another dialog is called up, this time indicating the directories for the project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>するとまた別のダイアログが表示されます。今回はプロジェクトのディレクトリを選択するものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>As you can see from the dialog, OmegaT is proposing to create a new directory with the name you selected (e.g. &lt;i0&gt;ABC&lt;/i0&gt;), and below that a further five subdirectories.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>見てわかるとおり、OmegaTは設定されたディレクトリを作成します。 (例えば ABCなど) その下には5つのサブディレクトリがあるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can modify the locations of these default directories, but for the sake of the example, confirm the defaults.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>それらのデフォルトディレクトリは変更可能です。説明のために、ここではデフォルトのままにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(The project files and directories are explained in detail in &lt;a0&gt;Project files and directories&lt;/a0&gt;.)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg> (プロジェクトとディレクトリについては&lt;a0&gt;プロジェクトファイルとディレクトリ&lt;/a0&gt;を参照してください)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Enter the language and locale codes for your source and target languages, e.g. DE-CH for German (Switzerland), EN-UK for English (United Kingdom).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ソース言語欄とターゲット言語欄に言語とロケールコードを入力します。例えば、ドイツ語だとDE-CH (スイス)、英語だとEN-UK (英国)となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The actual codes are important if you intend to exchange translation memories with customers or colleagues, in which case you should be careful to follow the standard required (usually ISO).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳メモリを同僚や顧客と共有しない限り、それらは重要ではありません。必要な際は適切な基準に従ってください。(基本的にはISOコード。日本語はjaとなります)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT now creates a main directory (also referred to as the &quot;project root directory&quot;) with the name you selected previously (e.g. &lt;i0&gt;ABC&lt;/i0&gt;).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTはプロジェクトメインディレクトリを作成しました。(プロジェクトのルートディレクトリとも呼ばれます)名前は先ほど入力したものになっているはずです。 ( &lt;i0&gt;ABC&lt;/i0&gt;など) </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Below the project root directory are five subdirectories: &lt;i0&gt;/glossary&lt;/i0&gt;, &lt;i1&gt;/source&lt;/i1&gt;, &lt;i2&gt;/omegat&lt;/i2&gt;, &lt;i3&gt;/target&lt;/i3&gt; and &lt;i4&gt;/tm&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>その下にはプロジェクト用の5つのサブディレクトリが作成されます:(&lt;i1&gt;/glossary&lt;/i1&gt;, &lt;i2&gt;/source&lt;/i2&gt;, &lt;i3&gt;/omegat&lt;/i3&gt;, &lt;i4&gt;/target&lt;/i4&gt; and &lt;i5&gt;/tm&lt;/i5&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Translate your file</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Find a file to translate. If it is a plain text file save it as a text file with the extension &lt;i0&gt;*.txt&lt;/i0&gt;, and place it in &lt;i1&gt;/source&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳するファイルを用意して、テキスト形式(&lt;i0&gt;.txt&lt;/i0&gt;)で&lt;i1&gt;/source&lt;/i1&gt;ディレクトリに保存してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If the file is saved in Unicode encoding (utf-8) replace &lt;i0&gt;.txt&lt;/i0&gt; by &lt;i1&gt;.utf8&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Unicodeで保存されている場合は、ファイルの拡張子を&lt;i0&gt;.txt&lt;/i0&gt;から&lt;i1&gt;.utf8&lt;/i1&gt;に直してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Open the project you have just created with &lt;i0&gt;File&lt;/i0&gt; &gt; &lt;i1&gt;Open&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;ファイル&lt;/i0&gt; &gt; &lt;i1&gt;開く&lt;/i1&gt;から先ほど作成したプロジェクトを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT automatically looks in the directory you last opened.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTは自動的に最後に開かれたディレクトリを検索します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Your project root directory is displayed with the OmegaT icon, indicating that it is a project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトのルートディレクトリはOmegaTアイコンで表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Open the project by selecting first the project directory marked with the icon (double-click or select and confirm with &quot;Open&quot;), then the file &lt;i0&gt;omegat.project&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTアイコンのプロジェクトディレクトリを開いて(ダブルクリック、または選択して「開く」)、ファイル名omegat.projectというファイルを選択してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Do not try to open any other file, such as your source text file — it won&apos;t work!</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>他のファイルは選択しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Place the cursor in the target field of the first segment, between the tags &lt;segment 0001&gt; and &lt;end segment&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ひとつめのセグメントにカーソルをあわせてください。&lt;segment 0001&gt;と&lt;end segment&gt;の間です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Type in your translation and delete the original text.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>訳を入力して元の文を削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Hit &lt;i0&gt;Enter&lt;/i0&gt; to confirm.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Enterを押して次へ進みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Create the final translated file</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳後の完了ファイルを作る</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now select &lt;i0&gt;File&lt;/i0&gt; &gt; &lt;i1&gt;Save&lt;/i1&gt;, then &lt;i2&gt;File&lt;/i2&gt; &gt; &lt;i3&gt;Compile&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>最後にファイル &gt; 保存して ファイル &gt; コンパイルします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can then close OmegaT&lt;i0&gt;(File&lt;/i0&gt; &gt; &lt;i1&gt;Quit&lt;/i1&gt;)&lt;i2&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>終了するにはファイル &gt; 終了をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Saving, revising and compiling</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>訳の保存・改訂・コンパイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The glossary function is automatic. To use an existing glossary, simply place it in the &lt;i0&gt;/glossary&lt;/i0&gt; directory after creating the project. (See &lt;a1&gt;Translation memory and glossary file formats&lt;/a1&gt; for glossary file formats.) OmegaT automatically detects glossary files in this directory when a project is opened. Terms in the active segment which OmegaT finds in the glossary file(s) are displayed in the Match and Glossary Viewer window.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>グロッサリ機能は自動で働きます。既存のグロッサリを有効にするには&lt;i0&gt;/glossary&lt;/i0&gt;ディレクトリにそれをコピーしてください。(&lt;a1&gt;こちら&lt;/a1&gt;にグロッサリファイルのフォーマットを紹介しています) プロジェクトを開いたときにOmegaTは自動的にグロッサリを検知します。アクティブなセグメントの語彙がグロッサリのものと一致する場合はそれが一致とグロッサリ(Match and Glossary)ウィンドウに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Installation and Configuration</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>インストールと設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Getting started</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>はじめてみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT is a robust application. However, you should take precautions against data loss when using OmegaT, just as with any other application.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTは堅実なアプリケーションなので、クラッシュやデータ喪失は起こりにくくなっています。それでも使用の際には他のアプリを使うときと同じようにちゃんと気をつけてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Remember also that OmegaT creates a backup of project&apos;s translation memory to &lt;i0&gt;project_save.tmx.bak&lt;/i0&gt; file in the project&apos;s &lt;i1&gt;/omegat&lt;/i1&gt; subdirectory every time when a project is opened, before you can modify anything.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>プロジェクトが開かれて、変更が加えられる前にOmegaTが毎回翻訳メモリのバックアップを &lt;i1&gt;/omegat&lt;/i1&gt;ディレクトリの&lt;i0&gt;project_save.tmx.bak&lt;/i0&gt; に作成していることも忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Most users will be able to get started with the aid of these Help texts.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ヘルプマニュアルによって多くの人がOmegaTを問題なく使えると思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Should you run into problems, post a message in the OmegaT user forum located at &lt;a0&gt;http://groups.yahoo.com/group/omegat&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>解決しない問題が発生した際にはOmegaTユーザーフォーラムに報告してください。&lt;a0&gt;http://groups.yahoo.com/group/omegat&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Do not hesitate to post in the language you feel the most familiar with.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>使い慣れた言語でポストしていただいて結構です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Installation involves three stages.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>インストールは3つのステージに分かれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Check whether the J2RE is installed on your system</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>J2REがシステムにインストールされているかチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Install the J2RE (if it isn&apos;t already installed).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>J2REのインストール (されてない場合)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Install OmegaT.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Configure (only necessary for Linux).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>設定 (リナックスのみ)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can install the J2RE and OmegaT in either order.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>J2REとOmegaTのどちらを先にインストールしてもかまいません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Configuration on the linux platform isn&apos;t essential, but makes launching the application more user-friendly.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>linuxでの設定は必須ではありませんが、起動がより簡便になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(Note: in order to confuse its customers, Sun regularly changes the names of its products. So, all versions of the JRE above 1 are known as &quot;Java 2&quot;, hence the Java Runtime Environment is now the J2RE. The Java Runtime Environment may also be known as the Java Virtual Machine, or JVM. The developer&apos;s kit has been known as the Java Developer&apos;s Kit (JDK), Software Developer&apos;s Kit (SDK), and now also J2SE, J2EE and J2ME, according to the version. At least, I think so. But I&apos;m among the confused.)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>（注意：顧客を混乱させるためにSunは定期的に製品名を変えます。バージョン1以降のJREは「Java2」と呼ばれており、そのため現在はJ2REとなっています。Java実行環境にはJava仮想マシン、あるいはJVMという名前があり、MacではMRJとも呼ばれています。開発者用キットはバージョンによってJava Developer&apos;s Kit (JDK)、Software Developer&apos;s Kit (SDK)、またはJ2SE、J2EE、J2MEなどと呼ばれています。ような気がします。私も混乱しています）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Mac OSX users:&lt;/b0&gt; the only platform that does not require a Java Runtime Environment install is MacOSX. On MacOSX, JRE comes pre-installed and is preconfigured.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Mac OSXユーザー：&lt;/b0&gt; MacOSXではJava実行環境のインストールが必要ありません。プレインストール・設定済みで出荷されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Earlier versions of OmegaT are known to run on the MRJ for Macintosh OS 9. Version 1.4 will &lt;b0&gt;not&lt;/b0&gt; work on this platform. If you want to use an early version of OmegaT, you can download the MRJ for Mac OS9 from the Apple site.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>古いバージョンのOmegaTはMacintoshOS9のMRJで動作しましたが、新しいバージョンは動きません。古いバージョンを使いたい場合は、アップル社のサイトでMRJをダウンロードできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Windows users:&lt;/b0&gt; you can check which version of the Java Runtime Environment, if any, is installed with Start button/Windows key &gt; &lt;i1&gt;Settings&lt;/i1&gt; &gt; &lt;i2&gt;Control Panel&lt;/i2&gt;. If the J2RE is already installed, you will see a control panel labelled &quot;Java(TM)2 Runtime Environment, Standard Edition 1.3.0_01&quot; or similar.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Windowsユーザー：&lt;/b0&gt;「スタート」ボタンまたは「Windows」キーを押して&lt;i0&gt;設定&lt;/i0&gt; &gt; &lt;i1&gt;コントロールパネル&lt;/i1&gt;に行きます。J2REがインストールされている場合は「Java(TM)2 Runtime Environment, Standard Edition 1.3.0_01」などのラベルが見つかるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Linux users:&lt;/b0&gt; simply type &lt;i1&gt;Java -version&lt;/i1&gt; at the command line. The version installed will be returned (assuming of course that it is installed at system level).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Linux ユーザー：&lt;/b0&gt;コマンドラインで&lt;i0&gt;Java -version&lt;/i0&gt;してください。インストールされているバージョンが表示されます。 (システムレベルでインストールされている場合ですが)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Mac OSX users can get the latest version available on their platform by running &quot;Software Update&quot; in the Apple Menu.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Mac OSX ユーザーは「ソフトウェアアップデート」で最新のJ2REを入手できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Simply extract the contents of the archive into a directory of your choice. The archive may be in *.zip or *.tar.gzip form. Linux and Mac OSX users should have no problems with either; Windows users may not necessarily have a utility for the latter.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>圧縮ファイルを好きな場所に解凍してください。圧縮形式は.zipか.tar.gzipです。LinuxやMac(Stuffit)ユーザーは問題ないはずですが、Windowsユーザーは解凍に特定のツールが必要かも知れません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Mac OSX only</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Mac OSXのみ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Mac OSX users can download a Mac OSX package that automatically installs a Mac OSX bundle of OmegaT into &lt;i0&gt;/Applications/&lt;/i0&gt;. You can of course modify the final install directory.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Mac OSXユーザーはOmagaTを/Applications/に自動インストールMac OSX用パッケージをダウンロードできます。もちろん自分でディレクトリを選ぶこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Windows users can download a Windows binary installer: OmegaT_1.4.4_setup.exe and just run it. In this case, the installer creates a shortcut to launch OmegaT in the &lt;i0&gt;Start &gt; Programs&lt;/i0&gt; menu.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>WindowsユーザーはバイナリインストーラーOmegaT_1.4.4_setup.exeをダウンロードして実行すればOKです。この場合だとインストーラーは&lt;i0&gt;スタート &gt; プログラム&lt;/i0&gt;からOmegaTを起動するショートカットを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you have installed the Mac OSX bundle, simply click on the OmegaT icon located in the install directory you selected. In case you have only downloaded the &quot;standard&quot; Java files, simply click on the file &lt;i0&gt;OmegaT.jar&lt;/i0&gt; in a &lt;i1&gt;Finder&lt;/i1&gt; window. You can also launch OmegaT from the &lt;i2&gt;Terminal&lt;/i2&gt;, in a way similar to the one described for Linux (see &quot;Configuration&quot; above and the launching procedures for Linux below).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Mac OSXバンドルをインストールした場合にはインストールディレクトリのOmegaTアイコンをクリックすればOKです。スタンダードJavasファイルをダウンロードした場合には、&lt;i1&gt;Finder&lt;/i1&gt;ウィンドウで&lt;i0&gt;OmegaT.jar&lt;/i0&gt;をクリックすればOKです。Linuxのようにターミナルから起動することも可能です。（上の「設定」と下のLinuxでの起動方法を参照してください）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT is the work of Keith Godfrey now continued by a number of people.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaT はKeith Godfreyの作品で、現在は他のメンバーに引き継がれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Project coordinator: Marc Prior.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+プロジェクトコーディネイター: Marc Prior</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Code contributors: Maxym Mykhalchuk &lt;i0&gt;(lead developer at the time of this release)&lt;/i0&gt;, Benjamin Siband, Sacha Chua, Henry Pijffers.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>コード提供者: &lt;b0&gt;Maxym Mykhalchuk &lt;i1&gt;(現リリース時のリードデベロッパー)&lt;/i1&gt;, Benjamin Siband, Sacha Chua, Henry Pijffers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Other contributors: Marc Prior, Jean-Christophe Helary, Samuel Murray, Dmitri Gabinski &lt;i0&gt;(coordinator for the user manual at the time of this release)&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>その他貢献者: Marc Prior, Jean-Christophe Helary, Samuel Murray, Dmitri Gabinski &lt;i0&gt;(現リリースのユーザーマニュアル作者)&lt;/i0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT localizations: Jean-Christophe Helary &lt;i0&gt;(French UI and help, Japanese UI)&lt;/i0&gt;,</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTローカリゼーション: Jean-Christophe Helary &lt;i0&gt;(フランス語UIとヘルプ、日本語UI)&lt;/i0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Dmitri Gabinski &lt;i0&gt;(Belarusian UI and help, Esperanto UI, Russian UI and help)&lt;/i0&gt;, Juan Salcines and Cesar Escribano Esteban &lt;i1&gt;(Spanish UI and help)&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Dmitri Gabinski &lt;i0&gt;(ベラルーシ語UIとヘルプ, エスペラントUI, ロシア語UIとヘルプ)&lt;/i0&gt;, Juan SalcinesとCesar Escribano Esteban &lt;i1&gt;(スペイン語UIとヘルプ)&lt;/i1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Thanks to all other people whose contributions have made OmegaT what it is now!</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTを築き上げてきたその他貢献者の皆さんに感謝！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Translation memory is used during the translation of documents from one language to another. It assists you by storing pieces of text in a database (the &quot;translation memory&quot;) so that when you next encounter the same piece of text (a &quot;segment&quot;), or part of it, you can see immediately how you translated it in the past. For translation memory to be really useful, you must use it for long enough to build up a database of segments and their corresponding translations.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>翻訳メモリは翻訳の際に使われます。訳したテキストをデータベース(「翻訳メモリ」)に保存することで次回同じような文(「セグメント」)やその部分を見かけた際に以前の訳を即座に参照できます。翻訳メモリを有効に活用するには、データベースを整備するため相応の期間使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it supports the OpenOffice.org file format directly and thus gives also access to the Microsoft Office suite files you need to translate;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.orgのファイル形式を直接サポートします。そのためMSオフィスのファイルも間接的にサポートすることになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it runs on the Java Runtime Environment, and can therefore be used on a number of platforms, including Windows, Linux, and of course Mac OS X;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Java実行環境で動作するため、Windows,Linux,Mac OS Xなど多くのプラットホームで使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it is open-source, meaning that you are free to modify and distribute it;</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>オープンソースなので自由に改変と再配布が行えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it is free, meaning you don&apos;t have to pay anything to be allowed to use it.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>無料です。使用に際してまったくコストがかかりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Easy Help system localization (including Belarusian, French, Russian and Spanish l10ns)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ヘルプシステムのローカリゼーションの簡易化(と、ベラルーシ語、ロシア語、フランス語、スペイン語のローカリゼーション）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Version 1.4.4.02 (the current version at the time of this writing) is a bug-fix version and does not add any feature.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>バージョン1.4.4.02 (現時点での最新バージョン) はバグ修正バージョンのため、新機能はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>When a segment is opened, OmegaT scans both the current project, and any translation memories in the &lt;i0&gt;/tm&lt;/i0&gt; directory for matches.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>セグメントを開くとOmegaTは現在のプロジェクトと&lt;i0&gt;/tm&lt;/i0&gt;内の翻訳メモリから類似文を検索します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Matches are strings that are considered similar to the string being translated. They are the base of your translation memory. Once OmegaT has found a match it displays it into the &lt;i0&gt;Fuzzy match window&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>「マッチ（一致）」とは翻訳されている文に似た文を指し、翻訳メモリの基礎となるものです。一致が見つかるとOmegaTはファジーマッチウィンドウに表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT has 2 ways of looking for matches, and 3 types of matches.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTには2種類の一致照会方法と3タイプの一致があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT has an engine that looks for matches in texts with words separated by spaces (English, French for exemple), and another one that looks for matches in texts without spaces (specifically Japanese in the case of OmegaT 1.4.4).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTはスペースごとに区切られた語で類似を探していくエンジン(英語やフランス語など用)と、スペースなしの語を照会していくエンジン(日本語など用、バージョン1.4.4以降)の2つをもっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The 3 types of matches are the following:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>3タイプの一致とは以下のとおりです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>100% exact matches.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>100%完全一致</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Such matches are automatically copied into the segments they are identical to without you having to select them. This happens if the match belongs to the project translation memory (the file &lt;i0&gt;project_save.tmx&lt;/i0&gt; located in the project&apos;s &lt;i1&gt;/omegat/&lt;/i1&gt; directory). Any exact match found in translation memory files located in the &lt;i2&gt;/tm/&lt;/i2&gt; will &lt;b3&gt;not&lt;/b3&gt; be automatically inserted.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>100%の完全一致が見つかると訳文は自動的にターゲットフィールドに挿入されます。これは一致がプロジェクト内の翻訳メモリから見つかったときのみ起こります。(プロジェクトディレクトリ内の&lt;i0&gt;project_save.tmx&lt;/i0&gt;ファイル)&lt;i2&gt;/tm/&lt;/i2&gt;内で見つかった完全一致は自動挿入されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>100% fuzzy matches.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>100%ファジーマッチ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Such matches are different by a punctuation mark, a number or a similar mark. They are not automatically inserted.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>句読点や番号が違っている一致は自動挿入されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Less than 100% matches are indicated for your review.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>100%以下の一致は参考として提示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Up to five matches may be displayed in the Match and Glossary Viewer window.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>最大5つの完全/ファジーマッチがマッチ＆グロッサリ表示ウィンドウに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Hit &lt;i0&gt;Ctrl+1&lt;/i0&gt;, to select the first match, &lt;i1&gt;Ctrl+2 &lt;/i1&gt;to select the second, etc.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;Ctrl+1&lt;/i0&gt;でリストの1番目、&lt;i1&gt;Ctrl+2&lt;/i1&gt;で2番目が選択されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The selected match is displayed in bold. The name of the translation memory file containing the match shown is also displayed (unless the match is part of the current project).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>選択された一致テキストは太字で表示されます。一致部分がそのプロジェクト以外から提示されている場合、その一致を含んでいるファイル名も表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The exact differences between the active source segment and the fuzzy match are not indicated but colors are used to give you an idea of what is similar and what differs. Blue strings are not included in the source segment, green strings are.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>アクティブセグメントの原文とファジーマッチ原文の違いは表示されませんが、色わけによって類似性を概観できます。青の文字はソースセグメントに含まれていない文字で、緑は含まれている文字です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To move within the segment, keyboard shortcuts specific to the Operating System you use are generally available.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>セグメント内の移動では一般的なOS特有のキーボードショートカットが使えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To mark a segment to which you want to come back later, insert a marker including the segment number.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>後で再度編集したいセグメントにマークを残したい場合にはセグメント番号を含んだマーカーを挿入してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT was developed on the Linux platform, and the development/documentation team does not use Windows. Although this documentation is intended for OmegaT users on all platforms, some terminology may therefore be a little unfamiliar. So, when you see the Linux forward slash /, think &quot;\&quot;, and do a mental translation to &quot;folder&quot;; whenever you read &quot;directory&quot;.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>
+OmegaTはLinuxで開発されてます。開発/ドキュメンテーションチームはWindowsを使ってません。このマニュアルはすべてのプラットホームを意識して編集されていますが、いくつかの技術は馴染み無いものかも知れません。なのでもしLinuxの「/」を見かけたら「\」だと思ってください。「ディレクトリ」という言葉も「フォルダ」と思って読んでください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Call up the Search function with &lt;i0&gt;Ctrl+F&lt;/i0&gt; and enter the word or phrase you wish to search for in the &quot;Search for&quot; box.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;Ctrl+F&lt;/i0&gt; で検索機能を呼び出します。検索したい語句を&quot;Search for&quot; ボックスに入力してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Alternatively, mark a word or phrase in the editing field (target text of the active segment) and hit &lt;i0&gt;Ctrl+F&lt;/i0&gt;. The word or phrase is entered in the &quot;Search for&quot; box automatically in this case.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>もしくは、アクティブセグメントの語句を選択（ハイライト）し&lt;i0&gt;Ctrl+F&lt;/i0&gt;を押してもOKです。選択された語句が&quot;Search for&quot; ボックスに現れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>All types of search are non-case-sensitive, i.e. a search for &quot;abc&quot; finds instances of abc, ABC, Abc, etc.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>検索は大文字小文字を区別しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Calling up the Search function will always create a new instance of the Search window. You may end up with a number of Search windows if you forget to close them.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>検索機能を呼び出すと常に新しいサーチウィンドウを開きます。毎回ちゃんと閉じないと一杯起動してしまいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Select &quot;Keyword search&quot; and enter any number of individual words, in any order, and OmegaT displays a list of all segments in which all the words occur. Keyword searches are similar to a search &quot;with all of the words&quot; in an Internet search engine such as Google (AND logic).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>キーワード検索は、入力されたいくつかのキーワードをすべて含むセグメントを検索します。普通のgoogle検索と同じようなロジックです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>An exact search looks for a phrase, i.e. if several words are entered, they are found only if they occur in exactly the same sequence. Exact searches are similar to an &quot;exact phrase&quot; search in an Internet search engine such as Google.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>完全一致検索はフレーズを検索します。つまり、複数の語句が入力された際に、それと全く同じ並びのフレーズを含むセグメントを検索します。googleのフレーズ検索と同じようなロジックです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT presegments the text when the project is opened. You cannot move segment boundaries from within OmegaT.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTはプロジェクトを開いた際にテキストをセグメント化します。OmegaT内ではセグメントの切り方を動かせません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you are confronted with bad segmenting, you need to close the project, modify the file and re-open the project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>不適切な位置に切れ目があると感じた場合には、プロジェクトを開く前に他のアプリケーションで修正してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Segmenting in OmegaT depends on the type of file you have in your project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTでのセグメント方法は翻訳されるファイルタイプによって違います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Text files</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>テキストファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT segments text files at the line breaks.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTはテキストファイルをその改行によってセグメント化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Line breaks are sometimes found at the end of sentences, sometimes at the end of paragraphs.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>改行は文の最後や、段落の最後で使われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT will create paragraph-level segments, sentence-level segments or segments that include sentence parts depending on how your text file is formated.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>テキストのフォーマットによってOmegaTは段落ごと、または文ごとにセグメント化を行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can therefore force segmenting at any level you want by inserting line breaks in your file before starting to work on the project.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>つまり、作業の前にソースの改行を調整すればセグメント化の結果を調整できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you suspect that your text might contain manual line breaks in inconvenient places, it is therefore worth editing it before opening the project. If you are confronted with bad segmenting (e.g. a line break in the middle of a sentence) whilst you are working in OmegaT, you can remove the break from the source text (for example in a text editor or word processor). You will not see the change in OmegaT until you reload the project, however.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>不適切な位置に切れ目があると感じた場合には、プロジェクトを開く前に他のアプリケーションで修正してください。修正は、再度プロジェクトを開くときまで反映されませんので注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Formatted files</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>フォーマット済みファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>By &quot;formatted&quot; files we mean &lt;i0&gt;(x)html&lt;/i0&gt; files as well as &lt;i1&gt;OpenOffice.org/StarOffice format&lt;/i1&gt; files.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ここで「フォーマット済み」とは&lt;i0&gt;(x)html&lt;/i0&gt; ファイルや&lt;i1&gt;OpenOffice.org/StarOffice&lt;/i1&gt;フォーマットファイルを指します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Formatted files generally include 2 types of tags: &lt;i0&gt;block&lt;/i0&gt; level tags and &lt;i1&gt;inline&lt;/i1&gt; tags.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>フォーマット済みファイルは2タイプのタグを持っています：&lt;i0&gt;ブロック&lt;/i0&gt;レベルタグと&lt;i1&gt;インライン&lt;/i1&gt;タグです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Inline tags generally define the style of the text while block level tags generally describe its logical structure.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>インラインタグとはテキストのスタイル（書式など）を定義するもので、もう一方のブロックタグとは文章の論理構造を反映しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT segments formatted files at the block level tags.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTのセグメント化方法は、ブロックタグに沿っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To modify a formatted file segmenting, you can use OpenOffice.org conversion macros. These macros convert sentences (a stylistic unit) to paragraphs (a logical unit) so that when the file is opened in OmegaT, its segments include sentences rather than whole paragraphs. The macros can be downloaded from the OmegaT web site.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>セグメント化の方式を変更したい場合には、OpenOffice.orgの変換用マクロを使用できます。このマクロは文（スタイル要素）を段落（論理要素）に変換するため、OmegaTで作業する際に文単位でセグメント化されるようになります。マクロはOmegaTサイトでダウンロードできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Other files</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>その他ファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Besides for text files and tagged files, OmegaT 1.4.4 supports Java &lt;i0&gt;properties&lt;/i0&gt; files.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>テキストファイルとタグ入りファイルに加えて、OmegaT 1.4.4はJava&lt;i0&gt;properties&lt;/i0&gt;ファイルをサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Java properties files use one line for each data to be translated. Their segmenting is thus very similar to text files except that there is no need to modify the file&apos;s formatting.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Javaプロパティファイルは行ごとにセグメント化されます。その意味テキストファイルに似ていますが、こちらではファイルのフォーマットを変更する必要がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Conclusion</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>結論</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It is sometimes said that OmegaT does paragraph segmenting. It is not true.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTは段落によってセグメント化する、とよく言われますがあまり正確ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT considers that segments must not be delimited by the usual ponctuation marks (. ! ; etc) but by marks that show the logical structure of the file.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTはセグメントを句読点(&quot;.&quot;、&quot;!&quot;、&quot;;&quot;など)で区切るのではなく、論理構造で切るべきだと考えています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Talking in terms of &quot;paragraph segmenting&quot; in a spreadsheet/table context has little meaning. Similarly, &quot;paragraphs&quot; in a visual presentation do not carry the same meaning as in a literary text. Technical manuals usually group textual data in short paragraphs (or long sentences) and the difference between &quot;paragraph&quot; or &quot;sentence&quot; segmenting does not mean much anymore then.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>「段落ごとのセグメント化」は、スプレッドシートやテーブルの内容を論じるときに意味を成します。似たように、プレゼンテーションファイルでの「段落」は通常の文章とは違う意味を持っています。技術的なマニュアルは多くのテキストデータを短い/長い段落にまとめてしまいますが、そのとき「段落」と「文」の違いはなくなってきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT allows for segmenting modifications &lt;b0&gt;before&lt;/b0&gt; you start working on a project. If you are not satisfied with your segments you can always fine-tune them outside of OmegaT.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>セグメントの切れ目の変更は、プロジェクトを開く前に&lt;b0&gt;のみ&lt;/b0&gt;行えます。セグメントの区切りを変更したいときは、OmegaT以外のアプリケーションで調整してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Make sure that MS Word files have not been saved with the &quot;Fast Save&quot; option, or OpenOffice.org will probably be unable to read them.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>MS Wordのファイルは「Fast Save」で保存されていないことを確認してください。でないとOpenOffice.orgはファイルを読み込めません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Don&apos;t attempt to load OpenOffice.org files saved with the &quot;Revision&quot; function (i.e. &quot;Record changes&quot;) active into OmegaT. Disable the function and accept all the changes first. This problem is most likely to occur when you receive MS Word files which have been saved with the &quot;Revision&quot; function enabled, and you are not aware of the fact. OpenOffice.org supports this function (which is in fact very useful), but it should not be used in conjunction with OmegaT.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>(「変更を記録」など)「Revision」機能付で保存されたOpenOffice.orgファイルを OmegaTで開かないでください。このケースは元のMS Wordファイルが「Revision」機能付で保存されているときによく起こります。OpenOffice.orgはこの機能をサポートしています(実際、有用な機能です)が、OmegaTと一緒には使わないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT requires the Java Runtime Environment.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaTの実行にはJava実行環境が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT 1.4 (including the 1.4.4 series) should work with any version of the J2RE from 1.2 upwards. However, we recommend that you obtain the latest version of the J2RE, since older versions of Java may not support certain features.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaT 1.4.（1.4.4シリーズを含む）はJ2RE1.2以上で動作するはずですが、なるべく新しいバージョンをお勧めします。古いバージョンではいくつかの機能が整っていない可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Essentially, if your system will run the Java Runtime Environment (also known as the J2RE), it will run OmegaT.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>基本的にJava実行環境(J2REとも呼ばれています)が動いているならOmegaTを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Java Runtime Environment comes pre-installed on Macintosh OSX.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Macintosh OS XではJava実行環境がプレインストールされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It is available for install on the following platforms: Windows 95/98/2000/ME/XP, UNIX, Linux, Solaris (both x86 and Sun SPARC).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Windows 95/98/2000/ME/XP, UNIX, Linux, Solaris (x86とSun SPARC), Mac OS 9だとダウンロードで入手できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It does &lt;b0&gt;not&lt;/b0&gt; run on Macintosh OS9 either since the only Java Runtime Environment available for Mac OS9 (called MRJ) does not offer the necessary functionality.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Mac OS9上ではMRJ（Mac用Java実行環境）の機能が不足しているためOmegaTが動かないようです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Hit &lt;i0&gt;Enter&lt;/i0&gt; or &lt;i1&gt;Ctrl+N&lt;/i1&gt; to confirm your translation and proceed to the next segment. If you need to keep &lt;i2&gt;Enter&lt;/i2&gt; for other use, for example, to engage it in a tool for input of complex characters (Japanese character input confirmation for exemple) , you can alternatively use &lt;i3&gt;Tab&lt;/i3&gt;. Using &lt;i4&gt;Tab&lt;/i4&gt; is an option that should be activated by clicking on the &lt;i5&gt;Preferences&lt;/i5&gt; &gt; &lt;i6&gt;Use TAB to advance&lt;/i6&gt; menu item.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>&lt;i0&gt;Enter&lt;/i0&gt; または &lt;i1&gt;Ctrl+N&lt;/i1&gt; で訳を完了して次のセグメントに移ります。（漢字変換など）&lt;i2&gt;Enter&lt;/i2&gt; を別の用途に使いたい場合にはその代わりに&lt;i3&gt;Tab&lt;/i3&gt;キーが使えます。&lt;i4&gt;Tab&lt;/i4&gt;を使うには&lt;i5&gt;Preferences&lt;/i5&gt; &gt; &lt;i6&gt;TABで次に移動&lt;/i6&gt; にチェックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The main OmegaT window displays the text currently being translated. The target or source texts of each segment are displayed, depending upon whether they have been translated or not.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>メインOmegaTウィンドウは翻訳中のテキストを表示します。セグメントがアクティブかによって訳文または原文が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The exception is the active segment, of which both source and target text is displayed: the source text in bold, the target text bracketed by &lt;segment number&gt; and &lt;end segment&gt; tags.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>アクティブセグメントでは原文と訳文が両方表示されます。原文は太字で、訳文は＜segment番号＞と＜end segment＞タグにはさまれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Match and Glossary Viewer window is divided into two panes:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>マッチ＆グロッサリ表示ウィンドウは2つのペインに分かれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Match pane displays fuzzy matches (previously translated segments with a certain degree of similarity to the active segment).</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>マッチペインではファジーマッチ (以前の訳文から一定以上の類似テキスト)を表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Glossary pane displays information from the glossary file, if there is one.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>グロッサリペインは一致があったときのみグロッサリファイルからの情報を表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>All functions are available through the menu bar at the top of the main OmegaT window. Most functions are also available through keyboard shortcuts when the main OmegaT window is on the foreground.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>すべての機能はメインOmegaTウィンドウのメニューからアクセスできます。OmegaTウィンドウが最前面にあるとき、多くの機能はキーボードショートカットでも使えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OpenOffice.org 2.0/StarOffice 8.0 (OASIS document file format, basically the OOo 1.0 format with a different name.)</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OpenOffice.org 2.0/StarOffice 8.0 (OASISドキュメントファイルフォーマットは基本的にOOo 1.0のフォーマットの別名です)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT detects the file format automatically based upon the file&apos;s extension, so make sure that your files have the extensions &lt;i0&gt;.txt&lt;/i0&gt;, &lt;i1&gt;.html&lt;/i1&gt; and &lt;i2&gt;.sxw&lt;/i2&gt; for plain text, html and OpenOffice.org/StarOffice respectively. Extension mappings to respective formats are described in the</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaT はファイル形式を拡張子によって自動的に検知します。そのためプレインテキストでは&lt;i0&gt;.txt&lt;/i0&gt;、HTMLなら&lt;i1&gt;.html&lt;/i1&gt;、Openoffice.org/StarOfficeなら&lt;i2&gt;.sxw&lt;/i2&gt; など正しい拡張子になっているかを確認してください。拡張子の扱いはインストール先ディレクトリ（Mac OSXならOmegaT.appバンドル）の</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>file in the OmegaT installation directory (within the OmegaT.app bundle for MacOSX). By editing that file, you can force OmegaT to recognize files with different extensions as long as their formats are compatible with formats supported by OmegaT. Modifications of the preference file will generally not able OmegaT to support other file formats !</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Omegat.prefで定義されています。そのファイルを編集することでOmegaTの拡張子の扱いを変更できます。（フォーマットが互換の場合のみ）この方法でサポートするファイル形式を増やすことできません！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>OmegaT 1.4.4 does not yet recognizes automatically the new OASIS format. For automatic recognition, edit the &lt;i0&gt;omegat.prefs&lt;/i0&gt; file to have the following contents:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>OmegaT 1.4.4はまだ自動的にOASISフォーマットを認識することができません。自動認識させるには&lt;i0&gt;omegat.prefs&lt;/i0&gt;に以下の行を追加してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This will be corrected in newer versions.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>これは後のバージョンで追加されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The user manual is currently available in the following languages:</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>マニュアルは今以下の言語で提供されてます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
