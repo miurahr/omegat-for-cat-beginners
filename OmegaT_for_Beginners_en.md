@@ -31,16 +31,22 @@ Screenshots from OmegaT version 5.4.0 on Windows 10 Enterprise(Build 19041)
 Please note that owing to the pace at which OmegaT is being developed, the appearance of the screenshots and possibly
 some other information may have changed slightly.
 
-       
-# Introduction
+# Preface
 
-## Intended readership
+This tutorial ducument consist ***Chapter 1. Introduction*** to ***Chapter 7. OmegaT user group*** and ***Appendix.1 Further challenge***. A tutorial is intended to read first to end step by step, and try with your hand.
+When you reach ***Chapter 7. OmegaT user group***, all the basics are done.
+
+When you look for next steps after finishing, Appendix.1 is for you.
+       
+# 1. Introduction
+
+## 1.1. Intended readership
 
 This document is intended for translators who are not experienced with Computer Assisted Translation (CAT) tools,
 and discusses only the basics.
 Another useful source of information is ***[OmegaT website - Documentation](omegat.org/en/documentation.php)***.
 
-## What is a CAT tool and why are they useful?
+## 1.2. What is a CAT tool and why are they useful?
 
 A CAT tool, as the term is generally used by translators, refers to a software program
 that creates a “translation memory” (TM) of a translated document, which can then be used to facilitate
@@ -65,7 +71,7 @@ e.g., to the current Microsoft Office file formats.
 See the following for more information on CAT tools, including on the many varieties available: [Wikipedia - Computer-assisted Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation)
 
 
-# Downloading OmegaT
+# 2. Downloading OmegaT
 
 Download OmegaT (the OmegaT site tells you the various options; “beta” versions are stable,
 but may have a bug or two and do not have up-to-date documentation).
@@ -78,7 +84,7 @@ a Windows operating system. If you are using another system, and run into proble
 at Yahoo can help you (see Step 8).
 
 
-# Installing OmegaT
+# 3. Installing OmegaT
 
 When/after downloading the zip file, place it in a suitable folder, e.g., for Windows,  C:\Program Files.
 Unpack (extract, unzip) the zip archive.
@@ -86,7 +92,7 @@ After downloading OmegaT (Windows version), launch the .exe file and follow the 
 which should be self-explanatory.
 
 
-# The OmegaT user interface
+# 4. The OmegaT user interface
 
 After launching OmegaT, the main OmegaT window should appear with three main panes: the Editing pane,
 the Fuzzy Matches pane, and the Glossary pane; and five optional panes: Machine Translation,
@@ -109,7 +115,7 @@ For some languages, it is quite a bit out of date. Volunteers to translate the c
 Please contact the Yahoo user group.
 
 
-## Installing a spelling dictionary
+## 4.1. Installing a spelling dictionary
 
 You will need a place to store your dictionary or dictionaries for your target language’s spell checker
 (this is not the place for bilingual dictionaries). An example is to create a “dictionaries” folder
@@ -138,7 +144,7 @@ or the spellchecker will not work properly (e.g., British English or American En
 
 
 
-# Creating a project
+# 5. Creating a project
 
 Most CAT tools use the term “project” to refer to a collection of folders and files associated with a translation.
 A “project” is usually synonymous with a translation job.
@@ -189,7 +195,7 @@ put them into those respective folders; the ***/dictionary*** folder is where yo
 if you wish, in the appropriate format (see User’s Manual)..
 
 
-# Translating
+# 6. Translating
 
 We provide here two projects for self-training. 
 
@@ -208,7 +214,7 @@ of translation memory software. References to OmegaT’s more advanced or obscur
 been omitted or kept to a minimum, since a description of them would almost certainly lead to you,
 as a new user, being unable to see the forest for the trees. Consult the User’s Manual for further information.
 
-## Project 1: A simple MS Word file
+## 6.A. Project 1: A simple MS Word file
 
 Launch LibreOffice Writer and create a new text document. Then use File > Open to Choose open any short MS Word document (.docx format) document in the source language. It should include at least some formatting, such as title, subheads, font changes. (For the purposes of this tutorial, you may use .docx files according to this procedure, although in fact .docx files do not require the mediation of LibreOffice Writer. See User‘s Manual when you are ready for the fine points.) [File] > [Save As], name the file, and close it in .odt format. Click and drag the newly created .odt file to the ***/source*** folder of your ***My Project-1*** folder, which you created in Step **5**.
 
@@ -222,7 +228,7 @@ The basic idea is that the text is presented to you one segment at a time. A seg
 By default, the source text is pasted into the target text segment for you. This is convenient with heavily tagged (formatted) text, since it is easier to retain the tags undamaged by simply replacing the text between them. With less heavily tagged text, you can delete the content of the target text field and simply type in the translation, or you can instruct OmegaT to leave it blank by default (refer to the User’s Manual for details).
 
 
-### Handling tags
+### 6.A.2. Handling tags
 
 Handling tags takes some practice. The general principle is that you translate the text between tags and leave the tags untouched. For example, this text in English:
 
@@ -240,131 +246,116 @@ which then appears like this in the final text:
 
 > Schau dir **das** an!
 
-In this case, <a0> and </a0> are the opening and closing tags for bold text respectively. “<a0>“ and “</a0>“ do not necessarily indicate the beginning and end of bold text, however; if the word “that” were in italics in the source text rather than bold, the tags would be the same. Only by looking at the source text can you ascertain the actual function of the tags in a particular case.
+In this case, <a0> and </a0> are the opening and closing tags for bold text respectively.
+“<a0>“ and “</a0>“ do not necessarily indicate the beginning and end of bold text, however;
+if the word “that” were in italics in the source text rather than bold, the tags would
+be the same. Only by looking at the source text can you ascertain the actual function of
+the tags in a particular case.
 
-The current Microsoft Office file formats (.docx, .xlsx, .pptx) can generate a large number of unnecessary tags, making translation cumbersome. One solution to this problem is [Codezapper](http://asap-traduction.com/CodeZapper), which can eliminate these, while keeping the tags you actually need; or you can use the Remove Tags feature of OmegaT itself to remove all tags. See the User’s Manual (F1).
+The current Microsoft Office file formats (.docx, .xlsx, .pptx) can generate
+a large number of unnecessary tags, making translation cumbersome. One solution
+to this problem is [Codezapper](http://asap-traduction.com/CodeZapper), which can eliminate
+these, while keeping the tags you actually need; or you can use the Remove Tags feature of
+OmegaT itself to remove all tags. See the User’s Manual (F1).
 
-Until you are familiar with tag handling, it is best to retain all the tags and to keep them in the same order if at all possible. OmegaT does allow you to delete tags and to change their order, but only if certain rules are carefully followed. Otherwise, you may risk corrupting your final document and preventing it from being opened. For details of the tag handling rules, refer to the User’s Manual.
+Until you are familiar with tag handling, it is best to retain all the tags and to keep them
+in the same order if at all possible. OmegaT does allow you to delete tags and to change their
+order, but only if certain rules are carefully followed. Otherwise, you may risk corrupting
+your final document and preventing it from being opened.
+For details of the tag handling rules, refer to the User’s Manual.
 
 
-## Checking your translation
+## 6.A.3. Checking your translation
 
-Eventually, you will reach the end of the file you are translating. If your project contains more than one file for translation, confirming the last segment in the first file will take you to the topmost segment in the second file.
-An advantage probably common to all translation memory applications is that they simplify checking: once you have completed the first draft of your translation, you can “walk” through it with the source and target versions of each sentence displayed next to each other. In the case of OmegaT, the source is displayed above the target text of the active segment, facilitating comparison:
+Eventually, you will reach the end of the file you are translating. If your project contains
+more than one file for translation, confirming the last segment in the first file will take
+you to the topmost segment in the second file.
+
+An advantage probably common to all translation memory applications is that they simplify
+checking: once you have completed the first draft of your translation, you can “walk” through
+it with the source and target versions of each sentence displayed next to each other. In the
+case of OmegaT, the source is displayed above the target text of the active segment,
+facilitating comparison:
 
 
-### Validating tags, creating target documents
+### 6.A.4. Validating tags, creating target documents
 
-After you have checked and saved ing your translation, newer versions of OmegaT will check automatically that you have not damaged any tags during the translation process, or you can do it manually yourself: Tools > Validate Tags. Note: Damaged or missing tags in XML file formats, such as LibreOffice, are likely to result in the output file failing to open at all.
-Create the target documents by selecting Project > Create Translated Documents. The translated documents are automatically generated in their original format in the /target folder. If your project consists of multiple source files, possibly in multiple sub-folders and with accompanying graphics files, etc., as is the case with the examples in our second, HTML, project, the entire structure of the files in /source is reproduced in /target.
+After you have checked and saved ing your translation, newer versions of OmegaT
+will check automatically that you have not damaged any tags during the translation
+process, or you can do it manually yourself: Tools > Validate Tags.
+Note: Damaged or missing tags in XML file formats, such as LibreOffice, are likely
+to result in the output file failing to open at all.
 
-### Final checking, correction, and delivery
+Create the target documents by selecting Project > Create Translated Documents.
+The translated documents are automatically generated in their original format
+in the /target folder. If your project consists of multiple source files,
+possibly in multiple sub-folders and with accompanying graphics files, etc.,
+as is the case with the examples in our second, HTML, project, the entire
+structure of the files in ***/source*** is reproduced in ***/target***.
 
-If you prefer to check your translation on paper, print out the target document. Don’t, however, make corrections in the LibreOffice Writer or MS Word file: find the relevant segments in OmegaT (using the text search function, to be discussed below, Step 6.B.4) and make them there.
-After revising the text and making any corrections, create the translated documents again and close the project.
-You are now ready to deliver the job. If the client requires MS Office format, simply save the target file in LibreOffice in the relevant MS format (.doc, etc.)
+### 6.A.5. Final checking, correction, and delivery
+
+If you prefer to check your translation on paper, print out the target document.
+Don’t, however, make corrections in the LibreOffice Writer or MS Word file: find
+the relevant segments in OmegaT (using the text search function,
+to be discussed below, Step 6.B.4) and make them there.
+
+After revising the text and making any corrections, create the translated documents
+again and close the project.
+You are now ready to deliver the job. If the client requires MS Office format,
+simply save the target file in LibreOffice in the relevant MS format (.doc, etc.)
+
 
 ## Project 2: An HTML document
 
-###  Downloading the supplementary materials
+### 6.B.1. Downloading the supplementary materials
 
-Launch OmegaT and create a new project. Let’s call it My Project-2. Set it up just as you did with My Project-1. The procedures described in Project 1, Steps 6.A.1-6.A.4, all apply here too, for HTML files.
+Launch OmegaT and create a new project. Let’s call it ***My Project-2***. Set it up just as you did with ***My Project-1***
+in Step ***5***.
+The procedures described in ***Project 1***, Steps ***6.A.1-6.A.4***, all apply here too, for HTML files.
 
-All files selected for translation in this tutorial are from Wikipedia; some projects comprise more than one file, to familiarize you with OmegaT’s usefulness for such structured documents.
-The table provides a summary of web pages available, for which our tutorial’s “legacy” files have been constructed:
+All files selected for translation in this tutorial are from OmegaT documentation; some document comprise more than one file, include graphics,
+to familiarize you with OmegaT's usefullness for such structured documents.
 
-Language combination | Subject  | Source
----------------------|----------|---------- 
-English to Chinese   | stocks   | en.wikipedia.org/wiki/Share_%28finance%29  en.wikipedia.org/wiki/Shareholder
-English to Czech     | biocoenosis | en.wikipedia.org/wiki/Biocoenosis en.wikipedia.org/wiki/Phytosociology
-English to Dutch     | stocks   | en.wikipedia.org/wiki/Share_%28finance%29 en.wikipedia.org/wiki/Shareholder
-English to Dutch     | russian-miscellaneous | en.wikipedia.org/wiki/Russian en.wikipedia.org/wiki/Russian_American en.wikipedia.org/wiki/Russian_Canadian en.wikipedia.org/wiki/Russky_Island
-English to French    | swimming | en.wikipedia.org/wiki/Individual_medley en.wikipedia.org/wiki/World_records_in_swimming
-English to French    | dorset   | en.wikipedia.org/wiki/Jurassic_Coast en.wikipedia.org/wiki/Old_Harry_Rocks en.wikipedia.org/wiki/Durdle_Door
-English to French    | medicine | en.wikipedia.org/wiki/Hippocrates
-English to German    | hilton   | en.wikipedia.org/wiki/Hilton_Hotels en.wikipedia.org/wiki/Great_Western_Hotel,_London en.wikipedia.org/wiki/Waldorf_Hilton en.wikipedia.org/wiki/The_London_Hilton_on_Park_Lane
-English to German    | construction | en.wikipedia.org/wiki/Wall en.wikipedia.org/wiki/Panelling
-English to Italian   | russian-miscellaneous | en.wikipedia.org/wiki/Russian en.wikipedia.org/wiki/Russian_American en.wikipedia.org/wiki/Russian_Canadian en.wikipedia.org/wiki/Russky_Island
-English to Italian   | yoga     | en.wikipedia.org/wiki/Karma_yoga en.wikipedia.org/wiki/Jnana_yoga
-English to Italian   | civil-engineering | en.wikipedia.org/wiki/Blind_Jack
-English to Polish    | construction | en.wikipedia.org/wiki/Wall en.wikipedia.org/wiki/Panelling
-English to Polish    | poland   | en.wikipedia.org/wiki/Lubusz_Voivodship en.wikipedia.org/wiki/Podlasie_Voivodship
-English to Polish    | medicine | en.wikipedia.org/wiki/Hippocrates
-English to Polish    | swimming | en.wikipedia.org/wiki/Individual_medley en.wikipedia.org/wiki/World_records_in_swimming
-English to Portuguese| russian-miscellaneous | en.wikipedia.org/wiki/Russian en.wikipedia.org/wiki/Russian_American en.wikipedia.org/wiki/Russian_Canadian en.wikipedia.org/wiki/Russky_Island
-English to Russian   | biocoenosis | en.wikipedia.org/wiki/Biocoenosis en.wikipedia.org/wiki/Phytosociology
-English to Russian   | stocks   | en.wikipedia.org/wiki/Share_%28finance%29 en.wikipedia.org/wiki/Shareholder
-English to Spanish   | dorset   | en.wikipedia.org/wiki/Jurassic_Coast en.wikipedia.org/wiki/Old_Harry_Rocks en.wikipedia.org/wiki/Durdle_Door
-English to Spanish   | appliances  | en.wikipedia.org/wiki/Small_appliance en.wikipedia.org/wiki/Kitchen_appliance en.wikipedia.org/wiki/Major_appliance
-English to Spanish   | cereal   | en.wikipedia.org/wiki/Rye en.wikipedia.org/wiki/Sorghum
-English to Spanish   | skye     | en.wikipedia.org/wiki/Skye
-English to Spanish   | hilton   | en.wikipedia.org/wiki/Hilton_Hotels en.wikipedia.org/wiki/Great_Western_Hotel,_London en.wikipedia.org/wiki/Waldorf_Hilton en.wikipedia.org/wiki/The_London_Hilton_on_Park_Lane
-English to Turkish   | hilton   | en.wikipedia.org/wiki/Hilton_Hotels en.wikipedia.org/wiki/Great_Western_Hotel,_London en.wikipedia.org/wiki/Waldorf_Hilton en.wikipedia.org/wiki/The_London_Hilton_on_Park_Lane
-French to English    | seine-et-marne  | fr.wikipedia.org/wiki/Démographie_de_Seine-et-Marne fr.wikipedia.org/wiki/Seine-et-Marne
-French to English    | esoteric | fr.wikipedia.org/wiki/Augure fr.wikipedia.org/wiki/Divination fr.wikipedia.org/wiki/Effet_Barnum
-French to English    | dancing  | fr.wikipedia.org/wiki/Danse 
-French to English    | cardiology | fr.wikipedia.org/wiki/Cardiologie fr.wikipedia.org/wiki/Tilt-test
-French to English    | linguistics | fr.wikipedia.org/wiki/Romanche fr.wikipedia.org/wiki/Dalmate
-French to English    | ornithology | fr.wikipedia.org/wiki/Moineau fr.wikipedia.org/wiki/Moineau_domestique
-French to English    | wine     | fr.wikipedia.org/wiki/Vin_blanc fr.wikipedia.org/wiki/Vin_rouge
-French to English    | rugby    | fr.wikipedia.org/wiki/Rugby fr.wikipedia.org/wiki/William_Webb_Ellis
-German to English    | canterbury | de.wikipedia.org/wiki/Canterbury de.wikipedia.org/wiki/Canterbury_(Begriffserkl%C3%A4rung)
-German to English    | domestication  | de.wikipedia.org/wiki/Domestizierung
-German to English    | equestrianism  | de.wikipedia.org/wiki/Dressurreiten de.wikipedia.org/wiki/Hohe_Schule_(Reitsport)
-German to English    | railways  | de.wikipedia.org/wiki/Neigetechnik
-German to English    | music     | de.wikipedia.org/wiki/Oberton
-German to English    | psychiatry| de.wikipedia.org/wiki/Psychiatrie
-German to English    | humour    | de.wikipedia.org/wiki/Fawlty_Towers
-German to English    | teaching  | de.wikipedia.org/wiki/Lehrer
-Italian to English   | librarianship  | it.wikipedia.org/wiki/Biblioteca
-Italian to English   | politics  | it.wikipedia.org/wiki/Gianni_De_Michelis it.wikipedia.org/wiki/Mariano_Rumor
-Portuguese to English | chagas   | pt.wikipedia.org/wiki/Doen%C3%A7a_de_Chagas
-Russian to English   | law       | ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%BE
-Spanish to English   | montevideo | es.wikipedia.org/wiki/Montevideo es.wikipedia.org/wiki/Bruno_Mauricio_de_Zabala
-Spanish to English   | unicef    | es.wikipedia.org/wiki/Fondo_de_Naciones_Unidas_para_la_Infancia es.wikipedia.org/wiki/Niño es.wikipedia.org/wiki/Derechos_del_niño
-Spanish to English   | climbing  | es.wikipedia.org/wiki/Escalada_en_hielo
+Now, Let's start ***My Project-2*** for OmegaT webpage localization. At first, download the files from [the Internet, OmegaT top page](https://omegat.org/), navigating so that they go directly into the ***/source*** folder of My Project-2. Make sure you download the entire web page, including graphics.
+(Various browsers have slightly different methods for doing this. Chrome browser, for example, select Save As > Webpage, Complete from context menu shown by clicking mouse's right button; for Microsoft Edge browser, there is no easy way to do so.)
 
 
-Once you have decided on a subject, download the files from the Internet, navigating so that they go directly 
-into the ***/source*** folder of ***My Project-2***. Make sure you download the entire web page, including graphics.  
-(Various browsers have slightly different methods for doing this. For Internet Explorer 7.x, 
-for example, File > Save As> Webpage, Complete; for Firefox 5, File > Save Page as > Web Page, Complete.)
+![OmegaT toppage of downloaded](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/omegat-toppage-download.png)
 
-Your ***/source*** folder will now contain one or more HTML file(s), together with associated files such as graphics files.
-The structure of folders and subfolders must be retained.
-You should be able to open the HTML files in your browser and view them approximately as they appear on the Internet. 
-Next, download the “legacy package” which we have created for use in this tutorial, which is at:
+Your ***/source*** folder will now contain one or more HTML file(s), together with associated files such as graphics files. The structure of folders and subfolders must be retained. You should be able to open the HTML files in your browser and view them approximately as they appear on the Internet. 
 
-www.omegat.org/training/materials/legacy.zip
-	
-Unpack the ***legacy.zip*** archive to any suitable temporary location (such as My Documents or the Desktop).
-It contains a number of translation memory files (with the extension .tmx) and OmegaT glossary files
-(with the extension .txt). Identify the .tmx file and the glossary (.txt) file for your language combination.
-Copy the .tmx file to the ***/tm*** folder and the .txt file to the ***/glossary*** folder of your OmegaT project.
+You can [download zipped OmegaT's website top page](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/omt_website.zip)
+from the tutorial site in the case you cannot find a way to download, for example you use MS Edge browser, or just for your convenience. 
+If you donwlod the zip file, save it in temporary directory, and then extract all files into ***/source*** directory with keeping directory structure.
 
-Some more points to note about the HTML files for translation:
+Next, download the “legacy tmx file” which we have created for the training in various languages at:
 
-- If you view these files in your browser on your PC, they will differ slightly in appearance from the pages on the Internet. This has nothing to do with OmegaT or your browser, but is due to the fact that Wikipedia does not allow all the template information for its pages to be downloaded.
-  
-- Wikipedia is subject to continual change. The pages listed here have been selected as suitable examples (and the “legacy” files have been created to correspond to them), but changes to them may make them less suitable, and they may even disappear or move elsewhere.
+Target language(EN->)| legacy TMX file
+---------------------|-----------------
+Simplified Chinese   |[zh_CN.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/zh_CN.tmx)
+French               | [fr.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/fr.tmx)
+Germany              | [de.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/de.tmx)
+Spanish              | [es.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/es.tmx)
+Russian              | [ru.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/ru.tmx)
+Belarusian           | [be.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/be.tmx) 
+Greece               | [el.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/el.tmx)
+Dutch                | [nl.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/nl.tmx)
+Japanese             | [ja.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/ja.tmx)
+Portuguese           | [pt.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/pt.tmx)
+Polish               | [pl.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/pl.tmx)
+Then copy the .tmx file to the ***/tm*** folder of your project.
 
-- When you are translating from HTML, you will see a lot of codes that do not need to be translated, particularly at the beginning of each file. In many cases, whole segments (“sentences”), such as web links, can be left as they are. Simply click through these by pressing Enter to confirm that the target is to remain the same.
- 
- - HTML is generally very tolerant of corrupted or missing tags; the result is likely to be a file which will open, but with unexpected or undesired formatting results. Review Step 6.A.1 on handling tags.
-
-
- - With heavily tagged HTML text, you may find it convenient to keep the source text open at the same time and to toggle between the two (Alt+tab) in order to be able to see more quickly what text actually has to be translated. As a general rule for the purpose of this tutorial, assume that if something is visible in your browser, it should be translated.
-
-The windows in the above screenshot have been reduced in size in order to show the idea of keeping OmegaT and the source text (in your browser) open at the same time. 
-
-- When you are finished and ready to check your work, you can open the translated files in __/target__ in your browser and read through them, and/or print them out for checking. If you prefer to read through the finished text on the screen, i.e., in your browser, toggle between the browser and OmegaT. When you find errors in the text in the browser window, make the corresponding changes within OmegaT. 
+Now it is ready to start!
 
 
-### Translation memory (fuzzy match function)
+### 6.B.2. Translation memory (fuzzy match function)
 
 Eventually, you will encounter fuzzy matches. Normally, it may be some time before you encounter 
 useful fuzzy matches, but the “legacy” translation memory file has been provided for you 
 in this tutorial to ensure that you will find at least some. 
+
+![Edit pane show source segments and translation memory](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/wikipedia-translation-memory.png)
 
 “Fuzzy matches” are segments with some degree of similarity to the segment you are translating. 
 They may be within the current project (either in the text you are currently translating or, 
@@ -381,17 +372,107 @@ If after looking at the fuzzy match you decide that it is useful, you can paste 
 segment at any point (Ctrl+I), or replace (overwrite) the active segment with it completely (Ctrl+R) 
 and then modify it, or copy and paste parts of it into the active segment (Ctrl+C and Ctrl+V to copy and paste).
 
+
+### 6.B.3. The text search (find) function
+
+Ctrl+F calls up a search dialog with which you can search for any term throughout the project,
+i.e., within the source text and the legacy translation memory files, source segments,
+target segments, and glossary files.
+
+As with the glossary function, you can use keyboard shortcuts to copy and paste content 
+from the Text Search window into the active translation segment. 
+If you wish to change the text in a segment within the current project which is displayed
+in the Text Search window, double-click on it and OmegaT will take you to the segment concerned. 
+
+
+![Search and find function screen](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/wikipedia-find-function.png)
+
+The Text Search window has quite powerful search functions. For details, see the User’s Manual. 
+Note that there is no an automatic “global replace” function available as a “scripting” plugin outside 
+the main program, also described in the User’s Manual., but there are “workarounds” that can be used.
+
+
+### 6.B.4. Handing of HTML tags
+
+Some more points to note about the HTML files for translation:
+
+- If you view these files in your browser on your PC, they will differ slightly in appearance from the pages on the Internet. This has nothing to do with OmegaT or your browser, but is due to the fact that Wikipedia does not allow all the template information for its pages to be downloaded.
+  
+- When you are translating from HTML, you will see a lot of codes that do not need to be translated, particularly at the beginning of each file. In many cases, whole segments (“sentences”), such as web links, can be left as they are. Simply click through these by pressing Enter to confirm that the target is to remain the same.
+ 
+ - HTML is generally very tolerant of corrupted or missing tags; the result is likely to be a file which will open, but with unexpected or undesired formatting results. Review Step ***6.A.1*** on handling tags.
+
+
+![Compare HTML tag and tag handling in OmegaT](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/tag-handling.png)
+
+
+ - With heavily tagged HTML text, you may find it convenient to keep the source text open at the same time and to toggle between the two (Alt+tab) in order to be able to see more quickly what text actually has to be translated. As a general rule for the purpose of this tutorial, assume that if something is visible in your browser, it should be translated.
+
+The windows in the above screenshot have been reduced in size in order to show the idea of keeping OmegaT and the source text (in your browser) open at the same time(To be replaced: current a case of Wikipedia). 
+
+- When you are finished and ready to check your work, you can open the translated files in ***/target*** in your browser and read through them, and/or print them out for checking. If you prefer to read through the finished text on the screen, i.e., in your browser, toggle between the browser and OmegaT. When you find errors in the text in the browser window, make the corresponding changes within OmegaT. 
+
 The legacy material provided for the purpose of this tutorial is intended to demonstrate the functions of OmegaT.
 Under no circumstances should the translations in the translation memory be assumed to be reliable.
 With heavily tagged text, you are likely to find that OmegaT yields numerous spurious fuzzy matches
 in which only the tags are identical, and which are not therefore useful.
 
 
-### The glossary function
+## 6.C. Project 3: An Wiki contents
+
+Launch OmegaT and create a new project. Let's call it ***My project-3***. Set it up just as same as ***My Project-1*** and ***My 
+
+The table provides a summary of web pages available, for which our tutorial’s “legacy” files have been constructed:
+
+Language combination | Subject         | Source
+---------------------|-----------------|---------- 
+English to Chinese   | stocks          | [Share (finance)](https://en.wikipedia.org/wiki/Share_%28finance%29), [Shareholder](https://en.wikipedia.org/wiki/Shareholder)
+English to Czech     | biocoenosis | [Biocoenosis](https://en.wikipedia.org/wiki/Biocoenosis), [Phytosociology](https://en.wikipedia.org/wiki/Phytosociology)
+English to Dutch     | stocks   | [Share (finance)](https://en.wikipedia.org/wiki/Share_%28finance%29), [Shareholder](https://en.wikipedia.org/wiki/Shareholder)
+English to Dutch     | russian-miscellaneous | [Russian](https://en.wikipedia.org/wiki/Russian), [Russian American](https://en.wikipedia.org/wiki/Russian_American), [Russian Canadian](https://en.wikipedia.org/wiki/Russian_Canadian), [Russky Island](https://en.wikipedia.org/wiki/Russky_Island)
+English to French    | swimming | [Individual medley](https://en.wikipedia.org/wiki/Individual_medley), [World records in swimming](https://en.wikipedia.org/wiki/World_records_in_swimming)
+English to French    | dorset   | [Jurassic Coast](https://en.wikipedia.org/wiki/Jurassic_Coast), [Old Harry Rocks](https://en.wikipedia.org/wiki/Old_Harry_Rocks), [Durdle Door](https:/en.wikipedia.org/wiki/Durdle_Door)
+English to French    | medicine | [Hippocrates](https://en.wikipedia.org/wiki/Hippocrates)
+English to German    | hilton   | [Hilton hotels](https://en.wikipedia.org/wiki/Hilton_Hotels), [Great Western Hotel, London](https://en.wikipedia.org/wiki/Great_Western_Hotel,_London), [Waldorf Hilton](https://en.wikipedia.org/wiki/Waldorf_Hilton), [The London Hilton on Park Lane](https://en.wikipedia.org/wiki/The_London_Hilton_on_Park_Lane)
+English to German    | construction | [Wall](https://en.wikipedia.org/wiki/Wall), [Panelling](https://en.wikipedia.org/wiki/Panelling)
+English to Italian   | russian-miscellaneous | [Russian](https://en.wikipedia.org/wiki/Russian), [Russian Amerian](https://en.wikipedia.org/wiki/Russian_American), [Russian Canadian](https://en.wikipedia.org/wiki/Russian_Canadian), [Russky Island](https://en.wikipedia.org/wiki/Russky_Island)
+English to Italian   | yoga     | [Karma yoga](https://en.wikipedia.org/wiki/Karma_yoga), [Jnana yoga](https://en.wikipedia.org/wiki/Jnana_yoga)
+English to Italian   | civil-engineering | [Blind Jack](https://en.wikipedia.org/wiki/Blind_Jack)
+English to Polish    | construction | [Wall](https://en.wikipedia.org/wiki/Wall), [Panelling](https://en.wikipedia.org/wiki/Panelling)
+English to Polish    | poland   | [Lubusz Voivodship](https://en.wikipedia.org/wiki/Lubusz_Voivodship), [Podlasie Voivodship](https://en.wikipedia.org/wiki/Podlasie_Voivodship)
+English to Polish    | medicine | [Hippocrates](https://en.wikipedia.org/wiki/Hippocrates)
+English to Polish    | swimming | [Individual medley](https://en.wikipedia.org/wiki/Individual_medley), [World records in swimming](https://en.wikipedia.org/wiki/World_records_in_swimming)
+English to Portuguese| russian-miscellaneous | [Russian](https://en.wikipedia.org/wiki/Russian),  [Russian American](https://en.wikipedia.org/wiki/Russian_American), [Russian Canadian](https://en.wikipedia.org/wiki/Russian_Canadian), [Russky Island](https://en.wikipedia.org/wiki/Russky_Island)
+English to Russian   | biocoenosis | [Biocoenosis](https://en.wikipedia.org/wiki/Biocoenosis), [Phytosociology](https://en.wikipedia.org/wiki/Phytosociology)
+English to Russian   | stocks   | [Share (finance)](https://en.wikipedia.org/wiki/Share_%28finance%29), [Shareholder](https:/en.wikipedia.org/wiki/Shareholder)
+English to Spanish   | dorset   | [Jurassic Coast](https://en.wikipedia.org/wiki/Jurassic_Coast), [Old Harry Rocks](https://en.wikipedia.org/wiki/Old_Harry_Rocks),  [Durdle Door](https://en.wikipedia.org/wiki/Durdle_Door)
+English to Spanish   | appliances  | [Small appliance](https://en.wikipedia.org/wiki/Small_appliance), [Kitchen appliance](https://en.wikipedia.org/wiki/Kitchen_appliance), [Major appliance](https://en.wikipedia.org/wiki/Major_appliance)
+English to Spanish   | cereal   | [Rye](https://en.wikipedia.org/wiki/Rye), [Sorghum](https://en.wikipedia.org/wiki/Sorghum)
+English to Spanish   | skye     | [Skye](https://en.wikipedia.org/wiki/Skye)
+English to Spanish   | hilton   | [Hilton Hotels](https://en.wikipedia.org/wiki/Hilton_Hotels), [Great Western Hotel, London](https://en.wikipedia.org/wiki/Great_Western_Hotel,_London), [Waldorf Hilton](https://en.wikipedia.org/wiki/Waldorf_Hilton), [The London Hilton on Park Lane](https://en.wikipedia.org/wiki/The_London_Hilton_on_Park_Lane)
+English to Turkish   | hilton   | [Hilton hotels](https://en.wikipedia.org/wiki/Hilton_Hotels), [Great Western Hotel, London](https://en.wikipedia.org/wiki/Great_Western_Hotel,_London), [Waldorf Hilton](https://en.wikipedia.org/wiki/Waldorf_Hilton), [The London Hilton on Park Lane](https://en.wikipedia.org/wiki/The_London_Hilton_on_Park_Lane)
+
+Once you have decided on a subject, we now use ***Mediawiki downloader feature*** of OmegaT, to download contents from Wikipedia page.
+Start your OmegaT and open ***My Project-3*** project.
+Select menu ***File > Download from Mediawiki***, then you will find a dialog to ask ***wikipedia URL***.
+You now copy URL from above table or your browser's address field, then past it onto the dialog input box.
+
+Your ***/source*** folder will now contain one or more Wiki file(s) end with ".UTF8" extension.
+Next, ***[download the “legacy package”](https://omegat.org/training/materials/legacy.zip)*** which we have created for use in this tutorial.
+
+Unpack the ***[legacy.zip](https://omegat.org/training/materials/legacy.zip)*** archive to any suitable temporary location (such as My Documents or the Desktop).
+It contains a number of translation memory files (with the extension .tmx) and OmegaT glossary files
+(with the extension .txt). Identify the .tmx file and the glossary (.txt) file for your language combination.
+Copy the .tmx file to the ***/tm*** folder and the .txt file to the ***/glossary*** folder of your OmegaT project.
+
+
+### 6.C.2. The glossary function
                
 Before beginning translating, you placed a glossary file in the ***/glossary*** folder.
 Glossary files are simply plain-text files containing two or three columns of terms delimited by tabs.
 (See User’s Manual for how to set up a glossary.)
+
+![Edit pane show Wikipedia segments and glossary](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/wikipedia-glossary.png)
 
 OmegaT creates an empty default glossary file for a project when the project is first created.
 You can also add further glossary files of your own. For the purpose of this project, a glossary (.txt) file
@@ -406,29 +487,49 @@ in the column where you put the translation. Thus, if your source document conta
 a glossary that has the source text as ***der Mensch*** will not find it; use ***Mensch*** for the glossary instead. 
 For more on glossaries, including adding new terms, consult the User’s Manual.
 
-For more advanced users, there is a plugin called OmegaT-tokenizers (for use in OmegaT version 2.1.1
-and later versions), which allows OmegaT to recognize inflected forms of a word. Those interested may
-consult the User‘s Manual and the users' group on Yahoo.The more recent versions of OmegaT automatically
-incorporate a “tokenizer” function, which allows the system to recognize inflected forms of a word.
+
+### 6.C.3 Translation Memory
+
+You will find a fuzzy matches for several sentenses as same as Step ***6.B.2***. You can find similarity and difference of tags compare to Step. ***6.B.2*** in ***My Project-2***
+
+- There special tags such as "<a0>...</a0>" and "<s0>" on HTML project in ***My Project-2***.
+- There are wiki tags such as `===Title===`, `[https://some.URL/ | link name]` as-is with its source.
+
+You need to keep Wiki tag with your own response. Otherwise, wiki rendering will be broken.
+There are another caution for translation using translatkion memroy.
+
+- Wikipedia is subject to continual change. The pages listed here have been selected as suitable examples (and the “legacy” files have been created to correspond to them), but changes to them may make them less suitable, and they may even disappear or move elsewhere.
 
 
-### The text search (find) function
+### 6.C.4 Use translated wiki text
 
-Ctrl+F calls up a search dialog with which you can search for any term throughout the project,
-i.e., within the source text and the legacy translation memory files, source segments,
-target segments, and glossary files.
+When you are satisfied to translate it, you are ready to use translated contents. You now want to save your result. Select Menu ***File > Save***, then OmegaT save your translations into ***/omegat*** folder in the project automatically.
+Next, you want to produce trasnlated wiki text to use. Select Menu ***File > Generate translation***.
 
-As with the glossary function, you can use keyboard shortcuts to copy and paste content 
-from the Text Search window into the active translation segment. 
-If you wish to change the text in a segment within the current project which is displayed
-in the Text Search window, double-click on it and OmegaT will take you to the segment concerned. 
+Please open ***Windows File Explorer*** from windows menu, and go to ***My Project-3*** folder ***/target***.
+There will be files which extension is ***.UTF8*** files.
 
-The Text Search window has quite powerful search functions. For details, see the User’s Manual. 
-Note that there is no an automatic “global replace” function available as a “scripting” plugin outside 
-the main program, also described in the User’s Manual., but there are “workarounds” that can be used.
+Let's check its content!
+
+Open ***Notepad*** application from windwos menu, then ***Drag-and-Drop*** the file onto ***notepad***.
+You will find a translated wiki contents on notepad application.
+
+If you want to contribute Wikipedia a bit or check your translation quality, lets go to your local language version of wikipedia and search corresponding page! When click ***EDIT*** button of content on your web browser, you will see ***translated(or original for local) wiki source*** there.
+
+## 6.C.5 (Optional)Wiki contribution
+
+A wiki download feature is not only for wikipedia. There are so many wiki project on the Internet which use Mediawiki engine. If you are volunteer to translate these wiki project, the feature is for you.
+
+Here is an incomplete list of known wiki projcts that use Mediawiki.
+
+- [WikiTravel | a free travel guide book](https://wikitravel.org/)
+- [Gamepedia |a wiki collection for popular games](https://www.gamepedia.com/)
+- [OpenStreetMap wiki](https://wiki.openstreetmap.org/)
+- [Arch Linux documentation](https://wiki.archlinux.org/)
+- etc..
 
 
-# The OmegaT user group
+# 7. The OmegaT user group
 
 OmegaT has a friendly, helpful, and multilingual user group. Once you have joined, you can post questions there regarding OmegaT,
 which is a [recommended support channel](https://sourceforge.net/projects/omegat/lists/omegat-users).
@@ -441,3 +542,68 @@ OmegaT is also present on several SNSs.
 - [Facebook](https://www.facebook.com/OmegaTOfficial)
 - [Twitter](https://twitter.com/OmegaTOfficial)
 - [Telegram](https://telegram.me/joinchat/IswSVw9XMwz0J-w9aoz5iA)
+
+
+# Appendix. Further challenges
+
+After you learn OmegaT basics and have a confidense to use it.
+You may want to go next steps!
+Here is a several example to do for further challenge as your favorite and/or project requirements.
+
+## A.1 Translation platforms
+
+There are several popular translation workflow/assistant services on the web. Here is a list of known services;
+
+- Transifex
+- Crowdin
+- TranslateWiki
+- Pootle
+- Weblate
+
+We picks two popular serices in the tutorial.
+
+### A.1.1 Transifex
+
+A project on transifex allows translator to download source and existing translations as file. Navigate yourself to your translation project resources page, then clicking resource show context menu such as follows:
+
+![Transifex example](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/transifex-download-po-file-menu.png)
+
+A file format is vary to project settings, such as PO file, YAML, Qt translation(.ts), and so on. Thank you for OmegaT's support for various file format, you donwload the file into ***/source*** and  upload resulted translation from ***/target*** to web site.
+
+### A.1.2 Crowdin
+
+Crowdin support offline translation by utilize XLIFF standard format.
+
+![crowdin download example](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/crowdin-download-xliff.png)
+
+Caution: OmegaT 5.4.0 and later support collaboration with crowdin,
+that require handling a XLIFF workflow feature.
+
+As usual, you can download source XLIFF into ***/source*** directory, and after finishing translation, run ***File > generate target file*** then upload resulted XLIFF file in ***/target*** to crowdin.
+
+## A.2 Dictionary
+
+OmegaT has a capability to read electric/machine readable bilingual/monolingual dictionaries
+and show terms automatically from source sentence words.
+You can use free dictionary on the Internet, and/or your favorite
+dictionary (when it is supported).
+
+There is [a list of stardict dictionaries on the Internet](https://sites.google.com/site/gtonguedict/home/stardict-dictionaries). Some may be licensed as free data, some may be a proprietary data.
+
+### A.2.1 Free dictionary data
+
+I'd like to advice you to use dictionary data licensed clearly for you. For your convenience, I put some link which is licensed as free for you
+
+- [JMDict:Japnense-Multilingual dictionary](https://www.edrdg.org/jmdict/j_jmdict.html) ([Wikipedia article](https://en.wikipedia.org/wiki/EDICT))([license](https://www.edrdg.org/edrdg/licence.html))
+- [CC-CEDICT: Chinese-English dictionary](https://cc-cedict.org/editor/editor.php) ([Wikipedia article](https://en.wikipedia.org/wiki/CEDICT))
+- [startdict format](https://simonwiles.net/projects/) of several dictionaries
+    - JMDict
+    - CC-CEDICT
+    - Buddhist Hybrid Sanskrit Dictionary
+    - Kangxi Zidian 康熙字典
+    - HanDeDict
+
+You need to convert these dictionary data into ***startdict*** format to use with OmegaT. It requires some IT knowledge, so it is recommended for you to use pre-converted data.
+
+If you know another good licensed dictionary data to use with OmegaT, please update the list. 
+
