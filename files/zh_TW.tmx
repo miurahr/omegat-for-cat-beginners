@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.4.0_0_1056f9fb5" segtype="sentence" srclang="en-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="en-US">
+        <seg>(Software that does this is called "machine translation", and you will have to look elsewhere for it.)</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004636Z" creationid="miurahr" creationdate="20200914T004636Z">
+        <seg>(此類軟體稱為機械翻譯；請至其他網站尋找)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>...and around 30 other file formats</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004830Z" creationid="miurahr" creationdate="20200914T004830Z">
+        <seg>还有大约 30 种文件格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;a0&gt;Download&lt;/a0&gt; &lt;a1&gt;Get Started&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004348Z" creationid="miurahr" creationdate="20200914T004348Z">
+        <seg>&lt;a0&gt;下载&lt;/a0&gt; &lt;a1&gt;入门&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;s0&gt;OmegaT&lt;/s0&gt; is a free translation memory application that works on Windows, macOS, Linux...</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004405Z" creationid="miurahr" creationdate="20200914T004405Z">
+        <seg>&lt;s0&gt;OmegaT&lt;/s0&gt; 是在 Windows， macOS和 Linux上工作的免费翻译内存应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fuzzy matching</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004708Z" creationid="miurahr" creationdate="20200914T004708Z">
+        <seg>模糊配對</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get Started with OmegaT</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004342Z" creationid="miurahr" creationdate="20200914T004342Z">
+        <seg>OmegaT 入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It does not translate for you!</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004557Z" creationid="miurahr" creationdate="20200914T004557Z">
+        <seg>这不为你翻译!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is a tool intended for professional translators.</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004541Z" creationid="miurahr" creationdate="20200914T004541Z">
+        <seg>它是一种面向专业翻译的工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Match propagation</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004715Z" creationid="miurahr" creationdate="20200914T004715Z">
+        <seg>傳遞配對</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>MediaWiki (Wikipedia)</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004810Z" creationid="miurahr" creationdate="20200914T004810Z">
+        <seg>MediaWiki ( 维基百科)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT is a free open-source translation memory application for professional translators written in Java.</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004454Z" creationid="miurahr" creationdate="20200914T004454Z">
+        <seg>OmegaT 是用 Java 编写的专业翻译的自由开源翻译存储应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Plain text</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004824Z" creationid="miurahr" creationdate="20200914T004824Z">
+        <seg>純文字</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Powerful tools</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004835Z" creationid="miurahr" creationdate="20200914T004835Z">
+        <seg>功能强大的工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Professional features</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004655Z" creationid="miurahr" creationdate="20200914T004655Z">
+        <seg>专业特点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Simultaneous processing of multiple-file projects</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004725Z" creationid="miurahr" creationdate="20200914T004725Z">
+        <seg>同時處理具多重檔案的方案</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Simultaneous use of multiple translation memories</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004731Z" creationid="miurahr" creationdate="20200914T004731Z">
+        <seg>同時使用數個翻譯記憶</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unicode (UTF-8) support: can be used with non-Latin alphabets</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004850Z" creationid="miurahr" creationdate="20200914T004850Z">
+        <seg>Unicode (UTF-8) 支持: 可与非拉丁字母配合使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User glossaries with recognition of inflected forms</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004746Z" creationid="miurahr" creationdate="20200914T004746Z">
+        <seg>具有识别信息的用户词汇表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Work with more than 30 file formats</seg>
+      </tuv>
+      <tuv lang="zh-TW" changeid="miurahr" changedate="20200914T004759Z" creationid="miurahr" creationdate="20200914T004759Z">
+        <seg>使用 30 以上的文件格式</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
