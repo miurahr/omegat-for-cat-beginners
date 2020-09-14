@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.4.0_0_1056f9fb5" segtype="sentence" srclang="en-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="en-US">
+        <seg>(Software that does this is called "machine translation", and you will have to look elsewhere for it.)</seg>
+      </tuv>
+      <tuv lang="sv" changeid="miurahr" changedate="20200914T005337Z" creationid="miurahr" creationdate="20200914T005337Z">
+        <seg>(Programvara som gör det här kallas "maskinöversättning", och du måste leta någon annanstans för den.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;s0&gt;OmegaT&lt;/s0&gt; is a free translation memory application that works on Windows, macOS, Linux...</seg>
+      </tuv>
+      <tuv lang="sv" changeid="miurahr" changedate="20200914T005318Z" creationid="miurahr" creationdate="20200914T005318Z">
+        <seg>&lt;s0&gt;OmegaT&lt;/s0&gt; är ett kostnadsfritt översättningsminne som fungerar på Windows, macOS, Linux ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It does not translate for you!</seg>
+      </tuv>
+      <tuv lang="sv" changeid="miurahr" changedate="20200914T005334Z" creationid="miurahr" creationdate="20200914T005334Z">
+        <seg>Det går inte att översätta åt dig!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is a tool intended for professional translators.</seg>
+      </tuv>
+      <tuv lang="sv" changeid="miurahr" changedate="20200914T005331Z" creationid="miurahr" creationdate="20200914T005331Z">
+        <seg>Det är ett verktyg som är avsett för professionella översättare.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT - The Free Translation Memory Tool</seg>
+      </tuv>
+      <tuv lang="sv" changeid="miurahr" changedate="20200914T005503Z" creationid="miurahr" creationdate="20200914T005503Z">
+        <seg>OmegaT-Det fria översättningsminneverktyget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT is a free open-source translation memory application for professional translators written in Java.</seg>
+      </tuv>
+      <tuv lang="sv" changeid="miurahr" changedate="20200914T005444Z" creationid="miurahr" creationdate="20200914T005444Z">
+        <seg>OmegaT är en öppen översättning av översättningsminne för öppen källkod för professionella översättare skrivna i Java.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT is free software.</seg>
+      </tuv>
+      <tuv lang="sv" changeid="miurahr" changedate="20200914T005509Z" creationid="miurahr" creationdate="20200914T005509Z">
+        <seg>OmegaT är fri mjukvara.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Professional features</seg>
+      </tuv>
+      <tuv lang="sv" changeid="miurahr" changedate="20200914T005340Z" creationid="miurahr" creationdate="20200914T005340Z">
+        <seg>Yrkesmässiga egenskaper</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Simultaneous processing of multiple-file projects</seg>
+      </tuv>
+      <tuv lang="sv" changeid="miurahr" changedate="20200914T005411Z" creationid="miurahr" creationdate="20200914T005411Z">
+        <seg>Samtidig bearbetning av flera-filprojekt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Simultaneous use of multiple translation memories</seg>
+      </tuv>
+      <tuv lang="sv" changeid="miurahr" changedate="20200914T005420Z" creationid="miurahr" creationdate="20200914T005420Z">
+        <seg>Samtidig användning av flera översättningsminnen</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
