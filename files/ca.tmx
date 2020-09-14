@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.4.0_0_1056f9fb5" segtype="sentence" srclang="en-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="en-US">
+        <seg>(Software that does this is called "machine translation", and you will have to look elsewhere for it.)</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T225359Z" creationid="miurahr" creationdate="20200914T225359Z">
+        <seg> (El programari que fa això es coneix com programari de «traducció automàtica» i no el trobareu aquí).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>...and around 30 other file formats</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T224935Z" creationid="miurahr" creationdate="20200914T224935Z">
+        <seg>Uns altres 30 formats de fitxer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Compatible with other translation memory applications (TMX, TTX, TXML, XLIFF, SDLXLIFF)</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T225228Z" creationid="miurahr" creationdate="20200914T225228Z">
+        <seg>Compatibilitat amb altres aplicacions de memòria de traducció (TMX, TTX, TXML, XLIFF, SDLXLIFF)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fuzzy matching</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T224822Z" creationid="miurahr" creationdate="20200914T224822Z">
+        <seg>Cerca de coincidències parcials</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Integral spelling checker</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T225219Z" creationid="miurahr" creationdate="20200914T225219Z">
+        <seg>Verificador ortogràfic integrat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Interface to Google Translate</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T225240Z" creationid="miurahr" creationdate="20200914T225240Z">
+        <seg>Interfície per a utilitzar el Traductor de Google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It does not translate for you!</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T225341Z" creationid="miurahr" creationdate="20200914T225341Z">
+        <seg>No tradueix per l'usuari! </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is a tool intended for professional translators.</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T225337Z" creationid="miurahr" creationdate="20200914T225337Z">
+        <seg>És una eina adreçada als traductors professionals. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Match propagation</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T224836Z" creationid="miurahr" creationdate="20200914T224836Z">
+        <seg>Propagació de coincidències</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Simultaneous processing of multiple-file projects</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T224850Z" creationid="miurahr" creationdate="20200914T224850Z">
+        <seg>Processament simultani de projectes amb diversos fitxers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Simultaneous use of multiple translation memories</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T224904Z" creationid="miurahr" creationdate="20200914T224904Z">
+        <seg>Utilització simultània de diverses memòries de traducció</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Support for right-to-left languages</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T225138Z" creationid="miurahr" creationdate="20200914T225138Z">
+        <seg>Compatibilitat amb idiomes que s'escriuen de dreta a esquerra</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unicode (UTF-8) support: can be used with non-Latin alphabets</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T225103Z" creationid="miurahr" creationdate="20200914T225103Z">
+        <seg>Compatibilitat amb Unicode (UTF-8): es pot utilitzar amb alfabets no llatins</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User glossaries with recognition of inflected forms</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T224916Z" creationid="miurahr" creationdate="20200914T224916Z">
+        <seg>Glossaris d'usuari amb reconeixement de les formes flexionades</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Work with more than 30 file formats</seg>
+      </tuv>
+      <tuv lang="ca" changeid="miurahr" changedate="20200914T225101Z" creationid="miurahr" creationdate="20200914T224929Z">
+        <seg>Funciona amb més de 30 formats de fitxer</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

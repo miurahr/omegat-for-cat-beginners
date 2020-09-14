@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.4.0_0_1056f9fb5" segtype="sentence" srclang="en-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="en-US">
+        <seg>...and around 30 other file formats</seg>
+      </tuv>
+      <tuv lang="id" changeid="miurahr" changedate="20200914T224412Z" creationid="miurahr" creationdate="20200914T224412Z">
+        <seg>...dan sekitar 30 bentuk file lainnya.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Compatible with other translation memory applications (TMX, TTX, TXML, XLIFF, SDLXLIFF)</seg>
+      </tuv>
+      <tuv lang="id" changeid="miurahr" changedate="20200914T224442Z" creationid="miurahr" creationdate="20200914T224442Z">
+        <seg>Kompatibel dengan aplikasi memori terjemahan (TMX, TTX, TXML, XLIFF, SDLXLIFF)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fuzzy matching</seg>
+      </tuv>
+      <tuv lang="id" changeid="miurahr" changedate="20200914T224258Z" creationid="miurahr" creationdate="20200914T224258Z">
+        <seg>Padanan Fuzi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Interface to Google Translate</seg>
+      </tuv>
+      <tuv lang="id" changeid="miurahr" changedate="20200914T224459Z" creationid="miurahr" creationdate="20200914T224459Z">
+        <seg>Antar muka terhubung dengan Google Translatea</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Match propagation</seg>
+      </tuv>
+      <tuv lang="id" changeid="miurahr" changedate="20200914T224309Z" creationid="miurahr" creationdate="20200914T224309Z">
+        <seg>Penyebaran padanan</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Simultaneous processing of multiple-file projects</seg>
+      </tuv>
+      <tuv lang="id" changeid="miurahr" changedate="20200914T224325Z" creationid="miurahr" creationdate="20200914T224325Z">
+        <seg>Memroses proyek-proyek multi-berkas secara bersamaan.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Simultaneous use of multiple translation memories</seg>
+      </tuv>
+      <tuv lang="id" changeid="miurahr" changedate="20200914T224335Z" creationid="miurahr" creationdate="20200914T224335Z">
+        <seg>Penggunaan multi-memori terjemahan secara bersamaan</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unicode (UTF-8) support: can be used with non-Latin alphabets</seg>
+      </tuv>
+      <tuv lang="id" changeid="miurahr" changedate="20200914T224414Z" creationid="miurahr" creationdate="20200914T224414Z">
+        <seg>Mendukung Unicode (UTF-8): dapat digunakan dengan abjad non-Latin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User glossaries with recognition of inflected forms</seg>
+      </tuv>
+      <tuv lang="id" changeid="miurahr" changedate="20200914T224402Z" creationid="miurahr" creationdate="20200914T224402Z">
+        <seg>Glosari pengguna dengan kemampuan mengenal perubahan bentuk kata.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

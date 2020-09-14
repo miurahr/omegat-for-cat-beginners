@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.4.0_0_1056f9fb5" segtype="sentence" srclang="en-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="en-US">
+        <seg>(Software that does this is called "machine translation", and you will have to look elsewhere for it.)</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223221Z" creationid="miurahr" creationdate="20200914T223221Z">
+        <seg>(Sellaista ohjemistoa sanotaan konekääntimeksi, ja sitä sinun on etsittävä muualta.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>...and around 30 other file formats</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223420Z" creationid="miurahr" creationdate="20200914T223420Z">
+        <seg>…sekä kolmisenkymmentä muuta tiedostomuotoa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;a0&gt;Download&lt;/a0&gt; &lt;a1&gt;Get Started&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223101Z" creationid="miurahr" creationdate="20200914T223101Z">
+        <seg>&lt;a0&gt;Lataa&lt;/a0&gt; &lt;a1&gt;Get Started&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;s0&gt;OmegaT&lt;/s0&gt; is a free translation memory application that works on Windows, macOS, Linux...</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223142Z" creationid="miurahr" creationdate="20200914T223142Z">
+        <seg>&lt;s0&gt;OmegaT&lt;/s0&gt; on vapaa käännöstyökalu, joka toimii Windowsissa, macOS-käyttöjärjestelmässä, Linuxissa…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Although many users are aware of this, their reaction is often "But I can't program!".</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223923Z" creationid="miurahr" creationdate="20200914T223923Z">
+        <seg>Vaikka monet tietävät tämän, heidän ensireaktionsa on usein:"Mutta en minä osaa ohjelmoida!"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Compatible with other translation memory applications (TMX, TTX, TXML, XLIFF, SDLXLIFF)</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223508Z" creationid="miurahr" creationdate="20200914T223508Z">
+        <seg>Yhteensopiva muiden käännösmuistimuotojen (TMX, TTX, TXML, XLIFF, SDLXLIFF) kanssa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For advocates of open-source software, this freedom is even more important than the exemption from having to pay anything.</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223842Z" creationid="miurahr" creationdate="20200914T223842Z">
+        <seg>Avoimen lähdekoodin kannattajille tämä käyttäjien vapaus on tärkeämpää kuin se, ettei lähdekoodista tarvitse maksaa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fuzzy matching</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223238Z" creationid="miurahr" creationdate="20200914T223238Z">
+        <seg>Sumeat osumat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Interface to Google Translate</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223637Z" creationid="miurahr" creationdate="20200914T223637Z">
+        <seg>Liittymä Google Kääntäjään</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It does not translate for you!</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223210Z" creationid="miurahr" creationdate="20200914T223210Z">
+        <seg>Ohjelma ei kuitenkaan käännä sinulle! </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is a tool intended for professional translators.</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223159Z" creationid="miurahr" creationdate="20200914T223159Z">
+        <seg>Se on ammattimaisille kääntäjille suunnattu työkalu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Match propagation</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223342Z" creationid="miurahr" creationdate="20200914T223342Z">
+        <seg>Erän eteneminen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT &lt;s0&gt;the free translation memory tool&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223014Z" creationid="miurahr" creationdate="20200914T223014Z">
+        <seg>OmegaT &lt;s0&gt;Vapaa käännöstyökalu&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT is free software.</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223703Z" creationid="miurahr" creationdate="20200914T223703Z">
+        <seg>OmegaT on vapaa ohjelmisto. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT is open-source software.</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223813Z" creationid="miurahr" creationdate="20200914T223813Z">
+        <seg>OmegaT on avoimen lähdekoodin ohjelma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT isn't just a product; it's an exciting project, and you can be part of it.</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223652Z" creationid="miurahr" creationdate="20200914T223652Z">
+        <seg>OmegaT ei ole pelkkä tuote, vaan jännittävä projekti. Sinä voit olla osa sitä.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Powerful tools</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223428Z" creationid="miurahr" creationdate="20200914T223428Z">
+        <seg>Tehokkaat työkalut</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Professional features</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223225Z" creationid="miurahr" creationdate="20200914T223225Z">
+        <seg>Ammatilliset ominaisuudet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Programming is certainly the most important function, and without programming, there is no program.</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223942Z" creationid="miurahr" creationdate="20200914T223942Z">
+        <seg>Ohjelmointi on epäilemättä tärkeää, sillä ilman ohjelmointia ei ohjelmaa ole.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Simultaneous processing of multiple-file projects</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223338Z" creationid="miurahr" creationdate="20200914T223338Z">
+        <seg>Monialaisten projektien samanaikainen käsittely</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Simultaneous use of multiple translation memories</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223314Z" creationid="miurahr" creationdate="20200914T223314Z">
+        <seg>Useiden käännösmuistien käyttö yhtä aikaa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That means that if you feel so inclined, you may modify OmegaT to suit your own requirements.</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223827Z" creationid="miurahr" creationdate="20200914T223827Z">
+        <seg>Se tarkoittaa, että voit halutessasi muokata OmegaT:tä omiin tarpeisiisi sopivaksi. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That means that users like you are free to download and use it with very little in the way of restrictions.</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223728Z" creationid="miurahr" creationdate="20200914T223728Z">
+        <seg>Se tarkoittaa, että kääntäjät kuten sinä voivat ladata sen vapaasti ja käyttää sitä vain pienin rajoituksin.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The OmegaT project and you</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223640Z" creationid="miurahr" creationdate="20200914T223640Z">
+        <seg>OmegaT-projekti ja sinä</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The OmegaT project would benefit from greater support from volunteers in almost all areas.</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223858Z" creationid="miurahr" creationdate="20200914T223858Z">
+        <seg>Vapaaehtoiset voivat auttaa lähes kaikissa OmegaT-projektin osissa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unicode (UTF-8) support: can be used with non-Latin alphabets</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223435Z" creationid="miurahr" creationdate="20200914T223435Z">
+        <seg>Unicode-tuki (UTF-8) toimii muillakin kuin latinalaisilla merkeillä</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User glossaries with recognition of inflected forms</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223335Z" creationid="miurahr" creationdate="20200914T223335Z">
+        <seg>Käyttäjän luomien sanastojen käyttö ja taivutusmuotojen tunnistus</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Work with more than 30 file formats</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223354Z" creationid="miurahr" creationdate="20200914T223354Z">
+        <seg>Tunnistaa yli 30 tiedostomuotoa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You are also free to copy it and pass it on to other people.</seg>
+      </tuv>
+      <tuv lang="fi" changeid="miurahr" changedate="20200914T223741Z" creationid="miurahr" creationdate="20200914T223741Z">
+        <seg>Voit myös kopioida ohjelmaa vapaasti ja jakaa sitä vapaasti muille.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
