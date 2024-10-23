@@ -5,7 +5,7 @@
 ###### tags: `OmegaT`, `Translation`, `Tutorial`
 
 
-![cover](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/title.png)
+![cover](images/title.png)
 
 by Susan Welsh, Marc Prior and Hiroshi Miura
 
@@ -36,7 +36,7 @@ some other information may have changed slightly.
 This tutorial consists of ***Chapter 1. Introduction*** to ***Chapter 7. OmegaT users' group***. A tutorial is intended to read from the beginning to end, step by step, and then tried out.
 When you reach ***Chapter 7. OmegaT users' group***, all the basics are done.
 
-       
+
 # 1. Introduction
 
 ## 1.1. Intended readership
@@ -53,7 +53,7 @@ This aspect makes it especially useful for repetitive material. Also:
 
 - A glossary function allows the user to enter source words and their translations into a glossary, which can be accessed while translating.
 
-- A search function scans previously translated material (either in a document in the present project, or in a translation memory from a previous project), so that the user can see how a word or a phrase was previously translated. 
+- A search function scans previously translated material (either in a document in the present project, or in a translation memory from a previous project), so that the user can see how a word or a phrase was previously translated.
 
 - A segmentation function displays one “segment” of source text at a time (usually a sentence), and the translation is done with the target text on the screen directly below the source text. This is very useful for 1) making sure you don’t skip text; 2) checking your work; and 3) displaying both source and target text in a font and size that are comfortable for you.
 
@@ -64,7 +64,7 @@ and it runs on Macintosh computers and under Linux, as well as Windows.
 
 OmegaT supports the current Microsoft Office file formats (.docx, .xlsx, .pptx). It does not support
 the older Microsoft Office file formats (.doc, .xls, .ppt); these must first be converted,
-e.g. to the current Microsoft Office file formats. 
+e.g. to the current Microsoft Office file formats.
 
 See the following entries for more information on CAT tools, including on the many varieties available:
 
@@ -79,13 +79,14 @@ but may have a bug or two and do not have up-to-date documentation).
 
 [OmegaT download page](https://omegat.org/download)
 
-![](https://i.imgur.com/BwoHHkk.png)
+![](images/BwoHHkk.png)
 
 The on-screen download instructions should be self-explanatory. It is advisable to choose a version that
-includes Java Runtime Environment (JRE) in your download. 
-For the purposes of this tutorial, we assume that you will be using a Windows operating system. 
+includes Java Runtime Environment (JRE) in your download.
+For the purposes of this tutorial, we assume that you will be using a Windows operating system.
 If you are using another system, or want to use on some custom environment, you can try "Download selector" that propose best version for you.
-![](https://i.imgur.com/cQ28dDs.png)
+
+![](images/cQ28dDs.png)
 
 If you have a doubt, and run into problems, the OmegaT Users' group can help you (see Step 7).
 
@@ -108,10 +109,10 @@ the Fuzzy Matches pane, and the Glossary pane; and five optional panes: Machine 
 Multiple Translations, Notes, Comments, and Dictionary. The optional panes are covered
 in the comprehensive User’s Manual.
 
-If you can’t see all the main panes, drag the borders between them across your screen 
+If you can’t see all the main panes, drag the borders between them across your screen
 until they are arranged approximately as shown below.
 The Editing pane displays the “Instant Start” tutorial in English.
-The User’s Manual can be called up with the “Help” menu item or F1. 
+The User’s Manual can be called up with the “Help” menu item or F1.
 
 
 ![Instant Starting tutorial screen capture](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/omegat-startup-screen.png)
@@ -133,7 +134,7 @@ You will need a place to store one or many of your dictionaries for your target 
 in your Program Files (Start > My Computer >  Local Disk (C:) > Program Files > right-click > New Folder,
 name it “dictionaries.”)
 Then from the OmegaT menu, click Options > Spell checking. Click Choose and navigate to the “dictionaries”
-folder (screenshot, ***a***, below). 
+folder (screenshot, ***a***, below).
 
 Click “Install new dictionary” and you will be given a list of many possible dictionaries (***b***).
 (If nothing happens, select a different repository – see [OmegaT Howto - Spellchecking](https://omegat.org/en/howtos/spelling.html))
@@ -162,13 +163,13 @@ A ***“project”*** is usually synonymous with a translation job.
 To create a project in OmegaT, select Project, then click New. The “Create a New Project” dialog appears (not shown here).
 Navigate to a suitable folder in which to create the project, e.g. the main folder you use for your translations,
 or you can place it on the Desktop for temporary ease of access, and later move it to ***My Documents*** folder
-or a similar location for storage. 
+or a similar location for storage.
 
 Enter a suitable name for your project, such as the client’s name and purchase order number, and click Save.
 For purposes of this tutorial, let’s call it ***My Project-1***.
 
-The ***“Create New Project”*** dialog appears. 
-Select the desired source and target languages by clicking on the arrows to the right of these fields. 
+The ***“Create New Project”*** dialog appears.
+Select the desired source and target languages by clicking on the arrows to the right of these fields.
 
 ![Create new project dialog window](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/start-new-project-1.png)
 
@@ -178,17 +179,17 @@ Click on ***“Segmentation”*** to call up the ***Segmentation Setup*** dialog
 of very basic segmentation patterns. Pick the one for the language of your source text (e.g., Italian, “IT.*”),
 and use ***“Move Up”*** to move it to the top of the list. If the language of your source text isn’t listed,
 pick a language that is, double-click on the ***Language Name*** field, and change it to the abbreviation
-for your language. 
+for your language.
 Do the same with the ***Language Pattern*** field.
 If you use OmegaT for any length of time in the future, you will want to customize the segmentation rules.
 It is not worth getting bogged down with fine-tuning the segmentation rules at this stage; the basic rules,
 as supplied, should work adequately for demonstration purposes, even for a different (source) language,
 provided its sentence punctuation rules are broadly similar (i.e. don’t use the Japanese segmentation
-rules if you are translating from Italian). 
+rules if you are translating from Italian).
 
 Confirm the segmentation rules and then creation of the project with OK. ***Do not change any other settings,
-for the purposes of this tutorial. Do not click on “Browse” or otherwise change the default locations of 
-the project folders (directories).*** You have now created an empty project. 
+for the purposes of this tutorial. Do not click on “Browse” or otherwise change the default locations of
+the project folders (directories).*** You have now created an empty project.
 
 The Project Files window is displayed, which is empty since your project does not yet contain any files.
 (Do not use the “Import Source Files” function during this exercise; you can experiment with it later, on your own.)
@@ -199,28 +200,28 @@ You can close this window.
 
 Find your project in your file manager: it is a folder with the name of the project, containing the subfolders
 ***/dictionary, /glossary, /omegat, /source, /target***, and ***/tm***.
-They are all empty. You will put your document to be translated into the ***/source*** folder; 
-the ***/target*** folder will be filled with your translated text; the ***/omegat***  folder need not concern you now; 
+They are all empty. You will put your document to be translated into the ***/source*** folder;
+the ***/target*** folder will be filled with your translated text; the ***/omegat***  folder need not concern you now;
 the ***/tm*** and ***/glossary*** folders will remain empty unless, and until, you create a .tmx file and a glossary and
-put them into those respective folders; the ***/dictionary*** folder is where you can put bilingual dictionaries, 
+put them into those respective folders; the ***/dictionary*** folder is where you can put bilingual dictionaries,
 if you wish, in the appropriate format (see User’s Manual).
 
 
 # 6. Translating
 
-We provide here two projects for self-training. 
+We provide here two projects for self-training.
 
 The first, to get you started, uses a simple MS Word file in the source language. This does not
-demonstrate OmegaT’s full capabilities, but is intended to help the novices grasp 
+demonstrate OmegaT’s full capabilities, but is intended to help the novices grasp
 the most essential procedures. The second project uses an HTML file or set of files,
 downloaded from the Internet, and demonstrates OmegaT’s capability to deal with graphics,
 complex layout, and complex file structure. There you will learn how translation memories, glossaries,
-and the search function work. These capabilities can be used regardless of the file 
+and the search function work. These capabilities can be used regardless of the file
 type (.docx, .xlsx, .odt, .txt, .html, etc.).
 See ***6.B.1-6.B.4***, below. We ignore these in Project 1 only for training purposes.
 ***Please proceed to Project 2 after completing Project 1!***
 
-Important: the purpose of this introduction to OmegaT is to acquaint you with the basic concepts 
+Important: the purpose of this introduction to OmegaT is to acquaint you with the basic concepts
 of translation memory software. References to OmegaT’s more advanced or obscure functions have been deliberately omitted or kept to a minimum, since a description of them would almost certainly lead to you,
 as a new user, being unable to see the forest for the trees. Consult the User’s Manual for further information.
 
@@ -230,7 +231,7 @@ Launch LibreOffice Writer and create a new text document. Then use ***File > Ope
 
 You can find [an example .odt file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/demo.odt) and [.docx file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/demo.docx) at GitHub repository of the tutorial for your convenience.
 
-Launch OmegaT and click ***Project > Open***. Navigate to ***My Project-1*** (it will have the OmegaT icon beside it). Double-click on the file. The Project Files dialog will display your source document. Close the dialog box. Your translation file is now displayed in the Editing pane, and you can begin translating. 
+Launch OmegaT and click ***Project > Open***. Navigate to ***My Project-1*** (it will have the OmegaT icon beside it). Double-click on the file. The Project Files dialog will display your source document. Close the dialog box. Your translation file is now displayed in the Editing pane, and you can begin translating.
 
 ![Edit pane with ODT file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/edit-pane-odt-file.png)
 
@@ -243,7 +244,7 @@ By default, the source text is pasted into the target text segment for you. This
 Handling tags takes some practice. The general principle is that you translate the text between tags and leave the tags untouched. For example, this text in English:
 
 > Look at ***that***!
-	
+
 might appear like this in OmegaT:
 
 > Look at <a0>that</a0>!
@@ -333,17 +334,17 @@ Now, Let's start ***My Project-2*** for OmegaT webpage localization. At first, d
 
 ![OmegaT toppage of downloaded](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/omegat-toppage-download.png)
 
-Your ***/source*** folder will now contain one or more HTML file(s), together with associated files such as graphics files. The structure of folders and subfolders must be retained. You should be able to open the HTML files in your browser and view them approximately as they appear on the Internet. 
+Your ***/source*** folder will now contain one or more HTML file(s), together with associated files such as graphics files. The structure of folders and subfolders must be retained. You should be able to open the HTML files in your browser and view them approximately as they appear on the Internet.
 
 You can [download zipped OmegaT's website top page](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/omt_website.zip)
-from the tutorial site in the case you cannot find a way to download, for example you use MS Edge browser, or just for your convenience. 
+from the tutorial site in the case you cannot find a way to download, for example you use MS Edge browser, or just for your convenience.
 If you download the zip file, save it in temporary directory, and then extract all files into ***/source*** directory with keeping directory structure.
 
 Next, download the “legacy tmx file” which we have created for the training in various languages at:
 
 Target language(EN->)| legacy TMX file
 ---------------------|-----------------
-Belarusian           | [be.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/be.tmx) 
+Belarusian           | [be.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/be.tmx)
 Catala               | [ca.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/ca.tmx)
 Dutch                | [nl.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/nl.tmx)
 French               | [fr.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/fr.tmx)
@@ -371,25 +372,25 @@ Now it is ready to start!
 
 ### 6.B.2. Translation memory (fuzzy match function)
 
-Eventually, you will encounter fuzzy matches. Normally, it may be some time before you encounter 
-useful fuzzy matches, but the “legacy” translation memory file has been provided for you 
-in this tutorial to ensure that you will find at least some. 
+Eventually, you will encounter fuzzy matches. Normally, it may be some time before you encounter
+useful fuzzy matches, but the “legacy” translation memory file has been provided for you
+in this tutorial to ensure that you will find at least some.
 
 ![Edit pane show source segments and translation memory](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/wikipedia-translation-memory.png)
 
-“Fuzzy matches” are segments with some degree of similarity to the segment you are translating. 
-They may be within the current project (either in the text you are currently translating or, 
-where a project comprises more than one source text, in another text within the same project), 
-or they may be in the legacy .tmx file(s) which you placed in the ***/tm*** folder. Since the legacy .tmx files 
-in the ***/tm*** folder are the product of previous translation jobs, you will not normally have 
-any useful legacy .tmx files to call upon until you have completed a few jobs in OmegaT, 
+“Fuzzy matches” are segments with some degree of similarity to the segment you are translating.
+They may be within the current project (either in the text you are currently translating or,
+where a project comprises more than one source text, in another text within the same project),
+or they may be in the legacy .tmx file(s) which you placed in the ***/tm*** folder. Since the legacy .tmx files
+in the ***/tm*** folder are the product of previous translation jobs, you will not normally have
+any useful legacy .tmx files to call upon until you have completed a few jobs in OmegaT,
 and placed them into the ***/tm*** folder of your new job.
 
-Here, the current segment shows a fuzzy match with a segment elsewhere in 
+Here, the current segment shows a fuzzy match with a segment elsewhere in
 the project that has already been translated:
 
-If after looking at the fuzzy match you decide that it is useful, you can paste it into the active 
-segment at any point (Ctrl+I), or replace (overwrite) the active segment with it completely (Ctrl+R) 
+If after looking at the fuzzy match you decide that it is useful, you can paste it into the active
+segment at any point (Ctrl+I), or replace (overwrite) the active segment with it completely (Ctrl+R)
 and then modify it, or copy and paste parts of it into the active segment (Ctrl+C and Ctrl+V to copy and paste).
 
 
@@ -399,16 +400,16 @@ Ctrl+F calls up a search dialog with which you can search for any term throughou
 i.e. within the source text and the legacy translation memory files, source segments,
 target segments, and glossary files.
 
-As with the glossary function, you can use keyboard shortcuts to copy and paste content 
-from the Text Search window into the active translation segment. 
+As with the glossary function, you can use keyboard shortcuts to copy and paste content
+from the Text Search window into the active translation segment.
 If you wish to change the text in a segment within the current project which is displayed
-in the Text Search window, double-click on it and OmegaT will take you to the segment concerned. 
+in the Text Search window, double-click on it and OmegaT will take you to the segment concerned.
 
 
 ![Search and find function screen](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/wikipedia-find-function.png)
 
-The Text Search window has quite powerful search functions. For details, see the User’s Manual. 
-Note that there is no automatic “global replace” function available as a “scripting” plugin outside 
+The Text Search window has quite powerful search functions. For details, see the User’s Manual.
+Note that there is no automatic “global replace” function available as a “scripting” plugin outside
 the main program is also described in the User’s Manual. But there are “workarounds” that can be used.
 
 
@@ -417,9 +418,9 @@ the main program is also described in the User’s Manual. But there are “work
 Some more points to note about the HTML files for translation:
 
 - If you view these files in your browser on your PC, they will differ slightly in appearance from the pages on the Internet. This has nothing to do with OmegaT or your browser, but is due to the fact that Wikipedia does not allow all the template information for its pages to be downloaded.
-  
+
 - When you are translating from HTML, you will see a lot of codes that do not need to be translated, particularly at the beginning of each file. In many cases, whole segments (“sentences”), such as web links, can be left as they are. Simply click through these by pressing Enter to confirm that the target is to remain the same.
- 
+
  - HTML is generally very tolerant of corrupted or missing tags; the result is likely to be a file which will open, but with unexpected or undesired formatting results. Review Step ***6.A.1*** on handling tags.
 
 
@@ -428,9 +429,9 @@ Some more points to note about the HTML files for translation:
 
  - With heavily tagged HTML text, you may find it convenient to keep the source text open at the same time and to toggle between the two programs (Alt+tab) in order to be able to see more quickly what text actually has to be translated. As a general rule for the purpose of this tutorial, assume that if something is visible in your browser, it should be translated.
 
-The windows in the above screenshot have been reduced in size in order to show the idea of keeping OmegaT and the source text (in your browser) open at the same time(To be replaced: current a case of Wikipedia). 
+The windows in the above screenshot have been reduced in size in order to show the idea of keeping OmegaT and the source text (in your browser) open at the same time(To be replaced: current a case of Wikipedia).
 
-- When you are finished and ready to check your work, you can open the translated files in ***/target*** in your browser and read through them, and/or print them out for checking. If you prefer to read through the finished text on the screen, i.e. in your browser, toggle between the browser and OmegaT. When you find errors in the text in the browser window, make the corresponding changes within OmegaT. 
+- When you are finished and ready to check your work, you can open the translated files in ***/target*** in your browser and read through them, and/or print them out for checking. If you prefer to read through the finished text on the screen, i.e. in your browser, toggle between the browser and OmegaT. When you find errors in the text in the browser window, make the corresponding changes within OmegaT.
 
 The legacy material provided for the purpose of this tutorial is intended to demonstrate the functions of OmegaT.
 Under no circumstances should the translations in the translation memory be assumed to be reliable.
@@ -438,7 +439,7 @@ With heavily tagged text, you are likely to find that OmegaT yields numerous spu
 in which only the tags are identical, and which are not therefore useful.
 
 ### 6.B.5. The glossary function
-               
+
 Glossary files are simply plain-text files containing two or three columns of terms delimited by tabs(aka. TSV: Tab Separated Value file) which can be easily created by Office applications' export function.
 (See User’s Manual for how to set up a glossary.)
 
@@ -449,12 +450,12 @@ You can also add further glossary files of your own. For the purpose of this pro
 has been created for you for each language combination. This file will be of limited
 practical help to you during translation, but it serves to show you how the glossary
 terms are displayed to you in OmegaT when they occur: immediately in the OmegaT glossary pane.
-Terms and their translations will appear when you reach a segment containing them. 
+Terms and their translations will appear when you reach a segment containing them.
 
-Wild card characters are not accepted. Do not put an article before the noun in a glossary; 
-if you want to indicate the gender of the noun, put that after the first tab in the glossary, 
-in the column where you put the translation. Thus, if your source document contains the words ***ein Mensch***, 
-a glossary that has the source text as ***der Mensch*** will not find it; use ***Mensch*** for the glossary instead. 
+Wild card characters are not accepted. Do not put an article before the noun in a glossary;
+if you want to indicate the gender of the noun, put that after the first tab in the glossary,
+in the column where you put the translation. Thus, if your source document contains the words ***ein Mensch***,
+a glossary that has the source text as ***der Mensch*** will not find it; use ***Mensch*** for the glossary instead.
 For more on glossaries, including adding new terms, consult the User’s Manual.
 
 
