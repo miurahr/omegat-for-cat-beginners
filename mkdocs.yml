@@ -10,3 +10,7 @@ markdown_extensions:
   - pymdownx.superfences
 theme:
   name: material
+nav:
+  - 'Index': 'index.md'
+  - 'English': 'OmegaT_for_Beginners_en.md'
+  - 'Japanese': 'OmegaT_for_Beginners_ja.md'
