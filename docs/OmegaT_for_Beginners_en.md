@@ -1,7 +1,5 @@
 # OmegaT for CAT Beginners
 
-[![hackmd-github-sync-badge](https://hackmd.io/j9iNkDmYTTufabqW1wmxaw/badge)](https://hackmd.io/j9iNkDmYTTufabqW1wmxaw)
-
 ###### tags: `OmegaT`, `Translation`, `Tutorial`
 
 
@@ -99,7 +97,7 @@ After downloading OmegaT (Windows version), launch the program's executable .exe
 which should be self-explanatory.
 
 
-![Installer on Windows screen capture](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/windows-installer.png)
+![Installer on Windows screen capture](images/en/windows-installer.png)
 
 
 # 4. The OmegaT user interface
@@ -115,7 +113,7 @@ The Editing pane displays the “Instant Start” tutorial in English.
 The User’s Manual can be called up with the “Help” menu item or F1.
 
 
-![Instant Starting tutorial screen capture](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/omegat-startup-screen.png)
+![Instant Starting tutorial screen capture](images/en/omegat-startup-screen.png)
 
 
 If the Editing pane is empty, the language of your Windows installation is probably not English and OmegaT
@@ -145,13 +143,13 @@ You will see that the dictionary or dictionaries appear listed in the “spellch
 Make sure the language variant of your dictionary matches the language variant of your target language,
 or the spellchecker will not work properly (e.g. British English or American English).
 
-![Spellchecker setup screen capture](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/spellchecker-setup.png)  \
+![Spellchecker setup screen capture](images/en/spellchecker-setup.png)  \
 ***a)*** Spellchecker setup screen
 
-![Spellchecker dictionary installer screen capture](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/spellchecker-dictionary-installer.png)  \
+![Spellchecker dictionary installer screen capture](images/en/spellchecker-dictionary-installer.png)  \
 ***b)*** Spellchecker dictionary installer screen
 
-![Spellchecker setup dictionary installed screen capture](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/spellchecker-dictionary-installed.png)  \
+![Spellchecker setup dictionary installed screen capture](images/en/spellchecker-dictionary-installed.png)  \
 ***c)*** Spellchecker setup screen indicate dictionary installed
 
 
@@ -171,7 +169,7 @@ For purposes of this tutorial, let’s call it ***My Project-1***.
 The ***“Create New Project”*** dialog appears.
 Select the desired source and target languages by clicking on the arrows to the right of these fields.
 
-![Create new project dialog window](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/start-new-project-1.png)
+![Create new project dialog window](images/en/start-new-project-1.png)
 
 
 
@@ -195,7 +193,7 @@ The Project Files window is displayed, which is empty since your project does no
 (Do not use the “Import Source Files” function during this exercise; you can experiment with it later, on your own.)
 You can close this window.
 
-![Browse project folder by File Explorer](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/file-manager-browse-project-folder.png)
+![Browse project folder by File Explorer](images/en/file-manager-browse-project-folder.png)
 
 
 Find your project in your file manager: it is a folder with the name of the project, containing the subfolders
@@ -229,11 +227,11 @@ as a new user, being unable to see the forest for the trees. Consult the User’
 
 Launch LibreOffice Writer and create a new text document. Then use ***File > Open*** to Choose open any short MS Word (.docx format) document in the source language. It should include at least some formatting, such as title, subheads, font changes. (For the purposes of this tutorial, you may use ***.docx*** files according to this procedure, although in fact .docx files do not require the mediation of LibreOffice Writer. See User‘s Manual when you are ready for the fine points.) In LibreOffice, select the menu ***File > Save As***, name the file, and close it in ***.odt*** format. Click and drag the newly created .odt file to the ***/source*** folder of your ***My Project-1*** folder, which you created in Step **5**.
 
-You can find [an example .odt file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/demo.odt) and [.docx file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/demo.docx) at GitHub repository of the tutorial for your convenience.
+You can find [an example .odt file](files/demo.odt) and [.docx file](files/demo.docx) at GitHub repository of the tutorial for your convenience.
 
 Launch OmegaT and click ***Project > Open***. Navigate to ***My Project-1*** (it will have the OmegaT icon beside it). Double-click on the file. The Project Files dialog will display your source document. Close the dialog box. Your translation file is now displayed in the Editing pane, and you can begin translating.
 
-![Edit pane with ODT file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/edit-pane-odt-file.png)
+![Edit pane with ODT file](images/en/edit-pane-odt-file.png)
 
 The basic idea is that the text is presented to you one segment at a time. A segment normally corresponds to one sentence. You type your translation into the field provided, confirm by hitting ***Enter***, and so on. OmegaT is an “inline” translation memory application, meaning that you see only one copy of the text; segments which have already been translated appear as such, otherwise the untranslated source text is displayed. Only in the case of the “active” segment, which is highlighted, are both source text and translation displayed.
 By default, the source text is pasted into the target text segment for you. This is convenient with heavily tagged (formatted) text, since it is easier to retain the tags undamaged by simply replacing the text between them. With less heavily tagged text, you can delete the content of the target text field and simply type in the translation, or you can instruct OmegaT to leave it blank by default (refer to the User’s Manual for details).
@@ -332,7 +330,7 @@ Now, Let's start ***My Project-2*** for OmegaT webpage localization. At first, d
 (Various browsers have slightly different methods for doing this. Chrome browser, for example, select Save As > Webpage, Complete from context menu shown by clicking the mouse's right button; for Microsoft Edge browser, there is no easy way to do so.)
 
 
-![OmegaT toppage of downloaded](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/omegat-toppage-download.png)
+![OmegaT toppage of downloaded](images/omegat-toppage-download.png)
 
 Your ***/source*** folder will now contain one or more HTML file(s), together with associated files such as graphics files. The structure of folders and subfolders must be retained. You should be able to open the HTML files in your browser and view them approximately as they appear on the Internet.
 
@@ -344,22 +342,22 @@ Next, download the “legacy tmx file” which we have created for the training 
 
 Target language(EN->)| legacy TMX file
 ---------------------|-----------------
-Belarusian           | [be.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/be.tmx)
-Catala               | [ca.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/ca.tmx)
-Dutch                | [nl.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/nl.tmx)
-French               | [fr.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/fr.tmx)
-German               | [de.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/de.tmx)
-Greek                | [el.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/el.tmx)
-Suomi                | [fi.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/fi.tmx)
-Bahasa Indonesia     | [id.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/id.tmx)
-Japanese             | [ja.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/ja.tmx)
-Polish               | [pl.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/pl.tmx)
-Portuguese           | [pt.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/pt.tmx)
-Russian              | [ru.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/ru.tmx)
-Simplified Chinese   |[zh_CN.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/zh_CN.tmx)
-Spanish              | [es.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/es.tmx)
-Svenska              | [sv.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/sv.tmx)
-Taiwanese Chinese    | [zh_TW.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/zh_TW.tmx)
+Belarusian           | [be.tmx](files/be.tmx)
+Catala               | [ca.tmx](files/ca.tmx)
+Dutch                | [nl.tmx](master/files/nl.tmx)
+French               | [fr.tmx](files/fr.tmx)
+German               | [de.tmx](files/de.tmx)
+Greek                | [el.tmx](files/el.tmx)
+Suomi                | [fi.tmx](files/fi.tmx)
+Bahasa Indonesia     | [id.tmx](files/id.tmx)
+Japanese             | [ja.tmx](files/ja.tmx)
+Polish               | [pl.tmx](files/pl.tmx)
+Portuguese           | [pt.tmx](files/pt.tmx)
+Russian              | [ru.tmx](files/ru.tmx)
+Simplified Chinese   |[zh_CN.tmx](files/zh_CN.tmx)
+Spanish              | [es.tmx](files/es.tmx)
+Svenska              | [sv.tmx](files/sv.tmx)
+Taiwanese Chinese    | [zh_TW.tmx](files/zh_TW.tmx)
 
 
 
@@ -376,7 +374,7 @@ Eventually, you will encounter fuzzy matches. Normally, it may be some time befo
 useful fuzzy matches, but the “legacy” translation memory file has been provided for you
 in this tutorial to ensure that you will find at least some.
 
-![Edit pane show source segments and translation memory](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/wikipedia-translation-memory.png)
+![Edit pane show source segments and translation memory](images/en/wikipedia-translation-memory.png)
 
 “Fuzzy matches” are segments with some degree of similarity to the segment you are translating.
 They may be within the current project (either in the text you are currently translating or,
@@ -406,7 +404,7 @@ If you wish to change the text in a segment within the current project which is 
 in the Text Search window, double-click on it and OmegaT will take you to the segment concerned.
 
 
-![Search and find function screen](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/wikipedia-find-function.png)
+![Search and find function screen](images/en/wikipedia-find-function.png)
 
 The Text Search window has quite powerful search functions. For details, see the User’s Manual.
 Note that there is no automatic “global replace” function available as a “scripting” plugin outside
@@ -424,7 +422,7 @@ Some more points to note about the HTML files for translation:
  - HTML is generally very tolerant of corrupted or missing tags; the result is likely to be a file which will open, but with unexpected or undesired formatting results. Review Step ***6.A.1*** on handling tags.
 
 
-![Compare HTML tag and tag handling in OmegaT](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/tag-handling.png)
+![Compare HTML tag and tag handling in OmegaT](images/en/tag-handling.png)
 
 
  - With heavily tagged HTML text, you may find it convenient to keep the source text open at the same time and to toggle between the two programs (Alt+tab) in order to be able to see more quickly what text actually has to be translated. As a general rule for the purpose of this tutorial, assume that if something is visible in your browser, it should be translated.
@@ -443,7 +441,7 @@ in which only the tags are identical, and which are not therefore useful.
 Glossary files are simply plain-text files containing two or three columns of terms delimited by tabs(aka. TSV: Tab Separated Value file) which can be easily created by Office applications' export function.
 (See User’s Manual for how to set up a glossary.)
 
-![Edit pane show Wikipedia segments and glossary](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/images/en/wikipedia-glossary.png)
+![Edit pane show Wikipedia segments and glossary](images/en/wikipedia-glossary.png)
 
 OmegaT creates an empty default glossary file for a project when the project is first created.
 You can also add further glossary files of your own. For the purpose of this project, a glossary (.txt) file
