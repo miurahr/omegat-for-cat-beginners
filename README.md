@@ -7,10 +7,10 @@ There are versions in various languages.
 
 ## Articles
 
-Language | Read view                                              | Collaborate edits
----------|--------------------------------------------------------|--------------------
-[English Edition source](docs/OmegaT_for_Beginners_en.md) | [read](https://hackmd.io/@omegat/for_cat_beginners)    | [![hackmd-github-sync-badge]( https://hackmd.io/j9iNkDmYTTufabqW1wmxaw/badge)](https://hackmd.io/@omegat/for_cat_beginners/edit)
-[日本語 Edition source](docs/OmegaT_for_Beginners_ja.md) | [read](https://hackmd.io/@omegat/for_cat_beginners_ja) | [![hackmd-github-sync-badge](https://hackmd.io/xL4ee8XjRrmuvRYzBhl08Q/badge)](https://hackmd.io/@omegat/for_cat_beginners_ja/edit)
+Language | Read view                                              |
+---------|--------------------------------------------------------|
+[English Edition source](docs/OmegaT_for_Beginners_en.md) | [read](https://hackmd.io/@omegat/for_cat_beginners)    |
+[日本語 Edition source](docs/OmegaT_for_Beginners_ja.md) | [read](https://hackmd.io/@omegat/for_cat_beginners_ja) |
 
 ## License
 
