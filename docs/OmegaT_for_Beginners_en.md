@@ -230,7 +230,7 @@ as a new user, being unable to see the forest for the trees. Consult the User’
 
 Launch LibreOffice Writer and create a new text document. Then use ***File > Open*** to Choose open any short MS Word (.docx format) document in the source language. It should include at least some formatting, such as title, subheads, font changes. (For the purposes of this tutorial, you may use ***.docx*** files according to this procedure, although in fact .docx files do not require the mediation of LibreOffice Writer. See User‘s Manual when you are ready for the fine points.) In LibreOffice, select the menu ***File > Save As***, name the file, and close it in ***.odt*** format. Click and drag the newly created .odt file to the ***/source*** folder of your ***My Project-1*** folder, which you created in Step **5**.
 
-You can find [an example .odt file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/demo.odt) and [.docx file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/demo.docx) at GitHub repository of the tutorial for your convenience.
+You can find [an example .odt file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/demo.odt) and [.docx file](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/demo.docx) at GitHub repository of the tutorial for your convenience.
 
 Launch OmegaT and click ***Project > Open***. Navigate to ***My Project-1*** (it will have the OmegaT icon beside it). Double-click on the file. The Project Files dialog will display your source document. Close the dialog box. Your translation file is now displayed in the Editing pane, and you can begin translating. 
 
@@ -345,22 +345,22 @@ Next, download the “legacy tmx file” which we have created for the training 
 
 Target language(EN->)| legacy TMX file
 ---------------------|-----------------
-Belarusian           | [be.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/be.tmx) 
-Catala               | [ca.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/ca.tmx)
-Dutch                | [nl.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/nl.tmx)
-French               | [fr.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/fr.tmx)
-German               | [de.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/de.tmx)
-Greek                | [el.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/el.tmx)
-Suomi                | [fi.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/fi.tmx)
-Bahasa Indonesia     | [id.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/id.tmx)
-Japanese             | [ja.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/ja.tmx)
-Polish               | [pl.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/pl.tmx)
-Portuguese           | [pt.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/pt.tmx)
-Russian              | [ru.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/ru.tmx)
-Simplified Chinese   |[zh_CN.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/zh_CN.tmx)
-Spanish              | [es.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/es.tmx)
-Svenska              | [sv.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/sv.tmx)
-Taiwanese Chinese    | [zh_TW.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/files/zh_TW.tmx)
+Belarusian           | [be.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/be.tmx) 
+Catala               | [ca.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/ca.tmx)
+Dutch                | [nl.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/nl.tmx)
+French               | [fr.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/fr.tmx)
+German               | [de.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/de.tmx)
+Greek                | [el.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/el.tmx)
+Suomi                | [fi.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/fi.tmx)
+Bahasa Indonesia     | [id.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/id.tmx)
+Japanese             | [ja.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/ja.tmx)
+Polish               | [pl.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/pl.tmx)
+Portuguese           | [pt.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/pt.tmx)
+Russian              | [ru.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/ru.tmx)
+Simplified Chinese   |[zh_CN.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/zh_CN.tmx)
+Spanish              | [es.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/es.tmx)
+Svenska              | [sv.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/sv.tmx)
+Taiwanese Chinese    | [zh_TW.tmx](https://raw.githubusercontent.com/miurahr/omegat-for-cat-beginners/master/docs/files/zh_TW.tmx)
 
 
 
